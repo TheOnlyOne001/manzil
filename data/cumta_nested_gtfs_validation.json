@@ -1,0 +1,159 @@
+{
+  "file": "data\\derived\\chennai.bus.gtfs.zip",
+  "inspection_date": "2026-11-05",
+  "tables": {
+    "chennai.bus.gtfs/agency.txt": {
+      "columns": [
+        "agency_id",
+        "agency_name",
+        "agency_url",
+        "agency_timezone",
+        "agency_lang",
+        "agency_phone",
+        "agency_fare_url"
+      ],
+      "rows": 1,
+      "field_counts": {
+        "agency_id": {
+          "CUMTA": 1
+        }
+      },
+      "records": [
+        {
+          "agency_id": "CUMTA",
+          "agency_name": "Chennai Unified Metropolitan Transport Authority",
+          "agency_url": "https://cumta.tn.gov.in/",
+          "agency_timezone": "Asia/Kolkata",
+          "agency_lang": "en",
+          "agency_phone": "",
+          "agency_fare_url": ""
+        }
+      ]
+    },
+    "chennai.bus.gtfs/stop_times.txt": {
+      "columns": [
+        "trip_id",
+        "arrival_time",
+        "departure_time",
+        "stop_id",
+        "stop_sequence",
+        "stop_headsign"
+      ],
+      "rows": 1672859,
+      "field_counts": {}
+    },
+    "chennai.bus.gtfs/trips.txt": {
+      "columns": [
+        "route_id",
+        "service_id",
+        "trip_id",
+        "direction_id"
+      ],
+      "rows": 68320,
+      "field_counts": {}
+    },
+    "chennai.bus.gtfs/feed_info.txt": {
+      "columns": [
+        "feed_publisher_name",
+        "feed_publisher_url",
+        "feed_lang",
+        "feed_version",
+        "feed_id",
+        "feed_start_date",
+        "feed_end_date"
+      ],
+      "rows": 1,
+      "field_counts": {},
+      "records": [
+        {
+          "feed_publisher_name": "CUMTA",
+          "feed_publisher_url": "https://cumta.tn.gov.in/",
+          "feed_lang": "en",
+          "feed_version": "1.0",
+          "feed_id": "chennai_bus",
+          "feed_start_date": "20251028",
+          "feed_end_date": "20990101"
+        }
+      ]
+    },
+    "chennai.bus.gtfs/stops.txt": {
+      "columns": [
+        "stop_id",
+        "stop_code",
+        "stop_name",
+        "stop_lat",
+        "stop_lon",
+        "location_type"
+      ],
+      "rows": 7128,
+      "field_counts": {
+        "location_type": {
+          "0": 7128
+        }
+      },
+      "bbox_wgs84": [
+        79.78516,
+        12.549663,
+        80.33591,
+        13.44496
+      ]
+    },
+    "chennai.bus.gtfs/calendar.txt": {
+      "columns": [
+        "service_id",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday",
+        "start_date",
+        "end_date"
+      ],
+      "rows": 1,
+      "field_counts": {
+        "start_date": {
+          "20251028": 1
+        },
+        "end_date": {
+          "20990101": 1
+        }
+      },
+      "records": [
+        {
+          "service_id": "chennai_bus_service_1",
+          "monday": "1",
+          "tuesday": "1",
+          "wednesday": "1",
+          "thursday": "1",
+          "friday": "1",
+          "saturday": "1",
+          "sunday": "1",
+          "start_date": "20251028",
+          "end_date": "20990101"
+        }
+      ]
+    },
+    "chennai.bus.gtfs/routes.txt": {
+      "columns": [
+        "route_id",
+        "agency_id",
+        "route_short_name",
+        "route_long_name",
+        "route_type"
+      ],
+      "rows": 4030,
+      "field_counts": {
+        "route_type": {
+          "3": 4030
+        },
+        "agency_id": {
+          "CUMTA": 4030
+        }
+      }
+    }
+  },
+  "zip_crc_error": null,
+  "uncompressed_bytes": 124852708
+}

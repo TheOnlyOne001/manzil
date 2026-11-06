@@ -1,0 +1,20 @@
+[
+  {
+    "id": "crowd_8e846200",
+    "created_epoch": 1793905641.320767,
+    "coordinates": [
+      80.2215,
+      12.9815
+    ],
+    "depth_level": "KNEE_DEEP",
+    "hazard_type": "WATERLOGGING",
+    "water_depth_estimate_cm": 32,
+    "severity": "HIGH",
+    "color": "#EA580C",
+    "is_passable_pedestrian": false,
+    "is_passable_vehicle": true,
+    "description": "Velachery 100 Feet Road knee-deep water near Vijaya Nagar bus stop",
+    "device_id": "test_redmi_commuter_01",
+    "ttl_seconds": 7200.0
+  }
+]

@@ -1,0 +1,7 @@
+# BuildKit reads <Dockerfile>.dockerignore next to the Dockerfile. Allowlist: send only what the
+# image copies, so .env, .venv, data/, tests and the rest of app/ never leave the machine.
+*
+!cloud/requirements.txt
+!app/cloud_agent.py
+!app/agent_turn.py
+!app/gemini_agent.py

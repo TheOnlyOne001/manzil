@@ -1,0 +1,33 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Android / Gradle build caches & outputs
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+local.properties
+.idea/
+*.iml
+
+# OS / Temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.parts/
+*.parts
+
+# Raw research snapshots are local artifacts; retain manifests/docs if a repo is created.
+data/osm/*.json
+data/transit/*.zip
+data/derived/*.zip
+data/derived/*.geojson
+

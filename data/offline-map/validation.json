@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "tiles": 356,
+  "features": 161198,
+  "searchEntries": 13535,
+  "displayAndSearchBytes": 42206938,
+  "checks": [
+    "all manifest checksums",
+    "tile coordinate bounds",
+    "line geometries nonempty",
+    "search coordinates inside coverage",
+    "declared counts match"
+  ],
+  "note": "Does not establish completeness, routing connectivity, phone rendering performance or current road conditions."
+}

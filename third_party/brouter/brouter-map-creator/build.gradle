@@ -1,0 +1,11 @@
+plugins {
+    id 'brouter.application-conventions'
+}
+
+dependencies {
+    implementation project(':brouter-codec')
+    implementation project(':brouter-util')
+    implementation project(':brouter-expressions')
+
+    implementation 'org.openstreetmap.osmosis:osmosis-osm-binary:0.48.3'
+}

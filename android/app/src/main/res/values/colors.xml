@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mirrors design/tokens.json. Soft tints and teal_deep are derived for text contrast >= 4.5:1. -->
+<resources>
+    <color name="ink">#FF142D4E</color>
+    <color name="paper">#FFF5F7FA</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="primary">#FF2457D6</color>
+    <color name="primary_soft">#FFEAF0FC</color>
+    <color name="teal">#FF087E83</color>
+    <color name="teal_deep">#FF066A6E</color>
+    <color name="teal_soft">#FFE8F4F4</color>
+    <color name="warning">#FF975700</color>
+    <color name="warning_soft">#FFFBF1E3</color>
+    <color name="danger">#FFC04A32</color>
+    <color name="muted">#FF53657A</color>
+    <color name="border">#FFD8E0E9</color>
+    <color name="ic_launcher_background">#FFEAF0FC</color>
+</resources>

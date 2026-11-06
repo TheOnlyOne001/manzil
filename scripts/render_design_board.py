@@ -1,0 +1,62 @@
+"""Offline-companion concept. Reuses drawing helpers from the preserved board."""
+from pathlib import Path
+import runpy
+import fitz
+g=runpy.run_path(str(Path(__file__).with_name('render_departure_board.py')))
+globals().update({k:g[k] for k in ['parts','add','rect','text','line','circle','icon','panda','button','phone','OUT','INK','BLUE','TEAL','PAPER','MUTED','BORDER']})
+parts.clear()
+add('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><title>Original Manzil panda study</title>');panda(40,43,1);add('</svg>')
+(OUT/'assets'/'panda-study.svg').write_text('\n'.join(parts),encoding='utf-8');parts.clear()
+add('<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1010" viewBox="0 0 1240 1010"><title>Manzil offline companion flow</title><desc>Prepare a saved journey, open a conceptual companion over an external map, and use manual saved steps when location is unavailable. Readiness is simulated, not live Google Maps control.</desc>')
+rect(0,0,1240,1010,PAPER);text(40,49,'Manzil',30,INK,700);text(150,49,'Your journey, still with you.',24,INK)
+text(40,76,'Feature 1 · Offline companion · Native Android direction',15,MUTED)
+for x,n,label in [(40,'1','Prepare before leaving'),(440,'2','Keep Panda beside you'),(840,'3','Continue with saved steps')]:phone(x,n,label)
+
+x=40
+panda(x+38,207,.57);text(x+68,213,'Panda',18,INK,700);icon('download',x+302,193,22)
+text(x+24,269,'Ready for',28,INK,700);text(x+24,306,'patchy signal.',28,INK,700)
+text(x+24,340,'Prepare your journey before you leave.',14,MUTED)
+rect(x+24,366,312,87,'#EEF3FC',17);icon('map-pin',x+40,386,22,BLUE)
+text(x+74,390,'Journey to',12,MUTED);text(x+74,418,'Chennai Central',20,INK,700)
+for yy,ic,title,sub,status,sc in [(492,'route','Saved journey steps','Directions and transfer notes','Ready',TEAL),(580,'map-pin','Google Maps offline area','Managed in Google Maps','Check in Maps',BLUE),(668,'mic','Offline AI / voice pack','Download before travelling','Not downloaded',MUTED)]:
+ icon(ic,x+24,yy-16,22,MUTED);text(x+58,yy,title,15,INK,700);text(x+58,yy+23,sub,12,MUTED);text(x+58,yy+48,status,13,sc,700)
+ if yy<668:line(x+58,yy+64,x+336,yy+64)
+text(x+24,774,'You can always read your saved steps.',13,MUTED)
+button(x+24,818,312,'Prepare journey')
+
+x=440
+text(x+24,210,'External map',20,INK,700);text(x+24,236,'Conceptual overlay',13,MUTED)
+rect(x+16,254,328,535,'#EDF2F5',18)
+for yy in [295,348,405,460,516,580,640,711,760]:line(x+24,yy,x+336,yy-25,'white',9)
+for xx in [48,105,178,256]:line(x+xx,265,x+xx+24,775,'white',8)
+add(f'<path d="M{x+53} 675 L{x+112} 610 L{x+112} 405 L{x+265} 340" fill="none" stroke="#A6B7CC" stroke-width="5" stroke-linecap="round"/>')
+circle(x+53,675,6,'white',MUTED,2);circle(x+265,340,6,MUTED)
+circle(x+295,438,34,'white',BORDER,1);panda(x+295,440,.75)
+rect(x+28,478,304,239,'white',20,BORDER)
+icon('wifi-off',x+45,499,18,TEAL);text(x+73,514,'Offline · saved 6:10 pm',13,TEAL,700)
+text(x+45,551,'Next saved step',12,MUTED);text(x+45,580,'Guindy station entrance',19,INK,700)
+text(x+45,609,'Offline voice ready',13,TEAL,700);text(x+45,631,'No live traffic or route updates',12,MUTED)
+button(x+45,649,270,'View saved steps')
+text(x+24,770,'Map position and route are schematic.',12,MUTED)
+rect(x+24,812,312,59,PAPER,16);icon('mic',x+42,829,23,BLUE);text(x+78,839,'Ask about this saved journey',14,INK,700)
+
+x=840
+icon('arrow-left',x+22,194);text(x+62,213,'Saved journey',18,INK,700)
+rect(x+24,244,312,69,'#FFF2E9',14);icon('locate-fixed',x+39,262,21,'#9B431F')
+text(x+74,271,'Location unavailable',16,'#9B431F',700);text(x+74,295,'Choose your current step below.',12,'#9B431F')
+text(x+24,355,'You can still',27,INK,700);text(x+24,390,'follow your plan.',27,INK,700)
+text(x+24,423,'Saved at 6:10 pm · No live updates',13,MUTED)
+line(x+40,476,x+40,722,BORDER,2)
+circle(x+40,479,16,BLUE);text(x+40,484,'1',14,'white',700,'middle')
+text(x+70,479,'Walk to the saved entrance',16,INK,700);text(x+70,506,'Guindy station entrance',14,MUTED)
+rect(x+70,525,232,44,'#EEF3FC',12);text(x+186,553,'I’m at this step',14,BLUE,700,'middle')
+circle(x+40,609,16,PAPER,BORDER);text(x+40,614,'2',14,INK,700,'middle')
+text(x+70,608,'Check the saved train leg',16,INK,700);text(x+70,635,'Follow the platform signs.',14,MUTED);text(x+70,658,'Service times are unverified.',13,'#9B431F',700)
+circle(x+40,714,16,PAPER,BORDER);text(x+40,719,'3',14,INK,700,'middle')
+text(x+70,714,'Continue to Chennai Central',16,INK,700);text(x+70,741,'Read your saved exit instructions.',13,MUTED)
+button(x+24,818,312,'Read saved instructions','volume-2')
+text(40,952,'Offline-first concept · Simulated readiness · No live Google Maps control',15,MUTED)
+text(40,978,'Source icons: Lucide (ISC). Original vector panda study. Map shown is a schematic, not a Google Maps screenshot.',12,MUTED)
+add('</svg>');svg='\n'.join(parts);(OUT/'feature-1-board.svg').write_text(svg,encoding='utf-8')
+doc=fitz.open(stream=svg.encode(),filetype='svg');pdf=fitz.open('pdf',doc.convert_to_pdf());pdf[0].get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(OUT/'feature-1-board.png')
+print(OUT/'feature-1-board.png')

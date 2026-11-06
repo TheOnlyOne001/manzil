@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "response": {
+    "reply": "Planning a walking route to ECR Beach for you.",
+    "action": "plan_route",
+    "destination_query": "ECR Beach, Chennai",
+    "layer": "map",
+    "provider": "gemini"
+  }
+}

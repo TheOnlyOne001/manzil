@@ -1,0 +1,56 @@
+[
+  {
+    "path": "data\\derived\\all_mtc_routes.geojson",
+    "source_archive": "data\\transit\\cumta-static-mtc-gtfs.zip",
+    "member": "static_mtc_gtfs_data/all_mtc_routes.geojson",
+    "bytes": 5413382,
+    "sha256": "4bb237fdec6a10b1befffcc8d03e2a0c5e93f41d487c067efbc9b7cb2a9b5b30"
+  },
+  {
+    "path": "data\\derived\\bus_terminus.geojson",
+    "source_archive": "data\\transit\\cumta-static-mtc-gtfs.zip",
+    "member": "static_mtc_gtfs_data/bus_terminus.geojson",
+    "bytes": 14634,
+    "sha256": "a61ea376e1fbf9209cdde813cbd05ca40a89dc1ee326c96fa2d77f5fb2c44d1f"
+  },
+  {
+    "path": "data\\derived\\chennai.bus.gtfs.zip",
+    "source_archive": "data\\transit\\cumta-static-mtc-gtfs.zip",
+    "member": "static_mtc_gtfs_data/chennai.bus.gtfs.zip",
+    "bytes": 25039548,
+    "sha256": "744ba95b6c07fcd805134b4ba3a0a9881fd9ea3c448b70a1bdec4dae07a16009"
+  },
+  {
+    "path": "data\\derived\\mtc_stops.geojson",
+    "source_archive": "data\\transit\\cumta-static-mtc-gtfs.zip",
+    "member": "static_mtc_gtfs_data/mtc_stops.geojson",
+    "bytes": 4938129,
+    "sha256": "223869e1d692cf4136f2a5ca043a0c2101f110dd738412e60d3b474fa87f59ff"
+  },
+  {
+    "path": "data\\derived\\routes_polyline.geojson",
+    "source_archive": "data\\transit\\cumta-static-mtc-gtfs.zip",
+    "member": "static_mtc_gtfs_data/routes_polyline.geojson",
+    "bytes": 82682534,
+    "sha256": "0a8fa7918a7ff8aa78d213df1d3cf26e3b0a5c47c3144b65bce1e901f1552663"
+  },
+  {
+    "path": "data\\derived\\unified_stops.geojson",
+    "derived_from": [
+      "data/transit/chennai-unified-gtfs.zip:stops.txt"
+    ],
+    "generator": "scripts/inspect_chennai_data.py",
+    "bytes": 2144650,
+    "sha256": "928ad30fa55087368728929f15bd1e6e5840e921b28b815167a04130bc18f5d1"
+  },
+  {
+    "path": "data\\derived\\chennai_data_preview.png",
+    "derived_from": [
+      "data/osm/chennai_transport.json",
+      "data/transit/chennai-unified-gtfs.zip:stops.txt"
+    ],
+    "generator": "scripts/inspect_chennai_data.py",
+    "bytes": 858798,
+    "sha256": "442f852ae7baef6a0028fa935f6af6b4aedb42c2b298a588b90cf2e51f386025"
+  }
+]

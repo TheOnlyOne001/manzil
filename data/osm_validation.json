@@ -1,0 +1,28 @@
+{
+  "bbox_south_west_north_east": [
+    12.65,
+    79.95,
+    13.3,
+    80.35
+  ],
+  "osm_base_timestamp": "2026-11-05T14:26:06Z",
+  "remark": null,
+  "types": {
+    "node": 678805,
+    "way": 150691
+  },
+  "tag_coverage": {
+    "highway": 151049,
+    "railway": 3566,
+    "wheelchair": 148,
+    "lit": 1180,
+    "surface": 9343,
+    "smoothness": 252,
+    "incline": 146,
+    "sidewalk": 334,
+    "tactile_paving": 91,
+    "kerb": 12,
+    "entrance": 208,
+    "public_transport": 2086
+  }
+}

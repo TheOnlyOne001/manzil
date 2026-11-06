@@ -1,0 +1,14 @@
+{
+  "highway_way_count": 148961,
+  "tag_counts": {
+    "lit": 1127,
+    "width": 147,
+    "lanes": 3452,
+    "sidewalk": 334,
+    "foot": 684,
+    "access": 21672,
+    "surface": 9303,
+    "tunnel": 214
+  },
+  "scope": "local bounded transport extract; way counts, not road length; not a general OSM POI dataset"
+}

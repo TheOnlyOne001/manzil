@@ -1,0 +1,106 @@
+[
+  {
+    "query": "Find a pharmacy near me",
+    "expected": "find_nearby",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "Showing pharmacies near you; I can't tell which is nearest or whether they're open.",
+      "action": "find_nearby",
+      "destination_query": "pharmacy",
+      "layer": null,
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "Where is the closest metro station?",
+    "expected": "find_nearby",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "Showing metro stations near you; I can't tell which is nearest or whether they're open.",
+      "action": "find_nearby",
+      "destination_query": "metro station",
+      "layer": null,
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "Brief me before I leave",
+    "expected": "journey_brief",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "Opening your journey brief.",
+      "action": "journey_brief",
+      "destination_query": null,
+      "layer": null,
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "Will this work without internet?",
+    "expected": "journey_brief",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "Opening your journey brief.",
+      "action": "journey_brief",
+      "destination_query": null,
+      "layer": null,
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "Stop navigation",
+    "expected": "stop_guidance",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "Stopping guidance.",
+      "action": "stop_guidance",
+      "destination_query": null,
+      "layer": null,
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "I need emergency help",
+    "expected": "emergency_help",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "If you are in danger, call 112 now; opening SOS options.",
+      "action": "emergency_help",
+      "destination_query": null,
+      "layer": null,
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "Plan a night walk to Marina Beach",
+    "expected": "plan_route",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "Planning a walking route to Marina Beach with the night layer on.",
+      "action": "plan_route",
+      "destination_query": "Marina Beach, Chennai",
+      "layer": "night",
+      "provider": "gemini"
+    }
+  },
+  {
+    "query": "என் அருகில் மருந்தகம் தேடு",
+    "expected": "find_nearby",
+    "status": 200,
+    "passed": true,
+    "response": {
+      "reply": "உங்கள் அருகில் உள்ள மருந்தகங்களைத் தேடுகிறேன். எது அருகில் உள்ளது அல்லது அவை திறந்திருக்கிறதா என்று என்னால் சொல்ல முடியாது.",
+      "action": "find_nearby",
+      "destination_query": "pharmacy",
+      "layer": null,
+      "provider": "gemini"
+    }
+  }
+]

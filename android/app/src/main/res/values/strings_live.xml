@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Live Google Maps observation (backend-owned; separate file so UI string files stay untouched). -->
+<resources>
+    <string name="live_listener_label">Manzil: read Google Maps directions</string>
+
+    <string name="live_label_waiting">LIVE · GOOGLE MAPS</string>
+    <string name="live_label_current">Maps / %1$s</string>
+    <string name="live_label_stale">SAVED OBSERVATION · %1$s</string>
+    <string name="live_label_removed">SAVED OBSERVATION · MAPS ENDED %1$s</string>
+
+    <string name="live_title_waiting">Waiting for Google Maps directions</string>
+
+    <string name="live_status_current">Read from Google Maps\' notification at %1$s. Not a GPS fix.</string>
+    <string name="live_status_saved">Saved observation from %1$s. May be out of date.</string>
+    <string name="live_status_none">No Google Maps directions observed yet.</string>
+
+    <string name="live_feedback_access_off">Notification access is off. To show real directions, allow Manzil in Settings › Notification access. Manzil reads only Google Maps notifications and ignores every other app.</string>
+    <string name="live_feedback_not_connected">Waiting for Android to connect notification access. Shown text is a saved observation, not current directions.</string>
+    <string name="live_feedback_waiting">Start navigation in Google Maps. Directions appear here when Maps shows its navigation notification.</string>
+    <string name="live_feedback_stale">Not updated recently. This is a saved observation, not current directions.</string>
+    <string name="live_feedback_removed">Google Maps removed its notification at %1$s. Navigation may have ended.</string>
+
+    <string name="live_next_unavailable">Next is off in live mode. Steps come only from Google Maps.</string>
+    <string name="live_repeat_nothing">No Google Maps directions observed yet.</string>
+    <string name="live_repeat_saved">Saved observation, may be out of date. %1$s</string>
+</resources>

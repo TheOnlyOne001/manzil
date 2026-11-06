@@ -1,0 +1,66 @@
+{
+  "displayFieldName": "area_name",
+  "fieldAliases": {
+    "road_id": "Road_ID",
+    "road_name": "Road_Name",
+    "first_average_width_of_the_road": "FIRST_Average_width_of_the_road_in_Metre"
+  },
+  "fields": [
+    {
+      "name": "road_id",
+      "type": "esriFieldTypeString",
+      "alias": "Road_ID",
+      "length": 50
+    },
+    {
+      "name": "road_name",
+      "type": "esriFieldTypeString",
+      "alias": "Road_Name",
+      "length": 250
+    },
+    {
+      "name": "first_average_width_of_the_road",
+      "type": "esriFieldTypeString",
+      "alias": "FIRST_Average_width_of_the_road_in_Metre",
+      "length": 50
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "road_id": "92452",
+        "road_name": "Sathiavani Muthu Nagar 15th Cross Street",
+        "first_average_width_of_the_road": "3.77"
+      }
+    },
+    {
+      "attributes": {
+        "road_id": "92451",
+        "road_name": "SVM Nagar 13th Cross Street",
+        "first_average_width_of_the_road": "2.13"
+      }
+    },
+    {
+      "attributes": {
+        "road_id": "92498",
+        "road_name": "Sippai Kumaran Street",
+        "first_average_width_of_the_road": "4.22"
+      }
+    },
+    {
+      "attributes": {
+        "road_id": "92454",
+        "road_name": "Thalankuppam Cross Lanes",
+        "first_average_width_of_the_road": "1.23"
+      }
+    },
+    {
+      "attributes": {
+        "road_id": "92455",
+        "road_name": "Ulaganathapuram 4th Cross Street",
+        "first_average_width_of_the_road": "2.56"
+      }
+    }
+  ],
+  "exceededTransferLimit": true
+}

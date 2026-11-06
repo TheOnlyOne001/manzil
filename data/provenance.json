@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/README.md",
+    "path": "data\\sources\\ChennaiGTFS_README.md",
+    "fetched_at_utc": "2026-11-05T14:28:44.284696+00:00",
+    "license_note": "Community compilation; README claims ODbL/PDDL, root LICENSE differs (MIT). Mirrored agency data has no confirmed open license. Research candidate, not cleared for redistribution/commercial use.",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/README.md",
+    "status": "downloaded",
+    "bytes": 7337,
+    "sha256": "bf12373dfa1260e9c9c87290a7e3275affe83fbafb0b8e39ccbfb93ccc298d32"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/LICENSE",
+    "path": "data\\sources\\ChennaiGTFS_LICENSE",
+    "fetched_at_utc": "2026-11-05T14:28:44.560314+00:00",
+    "license_note": "Community compilation; README claims ODbL/PDDL, root LICENSE differs (MIT). Mirrored agency data has no confirmed open license. Research candidate, not cleared for redistribution/commercial use.",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/LICENSE",
+    "status": "downloaded",
+    "bytes": 1073,
+    "sha256": "23259012e0c8cdac5987dcc39bf64866751d3579fea135a7e0d8e2c58a640db8"
+  },
+  {
+    "url": "https://api.github.com/repos/ungalsoththu/ChennaiGTFS/commits/main",
+    "path": "data\\sources\\ChennaiGTFS_commit.json",
+    "fetched_at_utc": "2026-11-05T14:28:44.932113+00:00",
+    "license_note": "GitHub repository metadata",
+    "http_status": 200,
+    "last_modified": "Sun, 04 Oct 2026 15:23:18 GMT",
+    "final_url": "https://api.github.com/repos/ungalsoththu/ChennaiGTFS/commits/main",
+    "status": "downloaded",
+    "bytes": 4295,
+    "sha256": "58cab16903e2a91558436959b8fbf3896299979d4847cb04caa3cc940e12bd19"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/chennai-unified-gtfs.zip",
+    "path": "data\\transit\\chennai-unified-gtfs.zip",
+    "fetched_at_utc": "2026-11-05T14:28:47.227745+00:00",
+    "license_note": "Community compilation; README claims ODbL/PDDL, root LICENSE differs (MIT). Mirrored agency data has no confirmed open license. Research candidate, not cleared for redistribution/commercial use.",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/chennai-unified-gtfs.zip",
+    "status": "downloaded",
+    "bytes": 9822908,
+    "sha256": "140300f401a236106fbc4094ca73c757c391bc9c731c2605b1df5f30b2260bd9"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/cmrl-gtfs.zip",
+    "path": "data\\transit\\cmrl-gtfs.zip",
+    "fetched_at_utc": "2026-11-05T14:28:58.488570+00:00",
+    "license_note": "Community compilation; README claims ODbL/PDDL, root LICENSE differs (MIT). Mirrored agency data has no confirmed open license. Research candidate, not cleared for redistribution/commercial use.",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/cmrl-gtfs.zip",
+    "status": "downloaded",
+    "bytes": 147537,
+    "sha256": "526deb1bcecbf6328b366a6de13f6cbd77fcb1af4a37d43a344bf49f15983f56"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/srr-gtfs.zip",
+    "path": "data\\transit\\srr-gtfs.zip",
+    "fetched_at_utc": "2026-11-05T14:28:59.214858+00:00",
+    "license_note": "Community compilation; README claims ODbL/PDDL, root LICENSE differs (MIT). Mirrored agency data has no confirmed open license. Research candidate, not cleared for redistribution/commercial use.",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/srr-gtfs.zip",
+    "status": "downloaded",
+    "bytes": 154152,
+    "sha256": "495db53591a0e916be34a8101532927e63aa15a4aecd6c8d528016b283da2f19"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/mtc-gtfs.zip",
+    "path": "data\\transit\\mtc-gtfs.zip",
+    "fetched_at_utc": "2026-11-05T14:28:59.809619+00:00",
+    "license_note": "Community compilation; README claims ODbL/PDDL, root LICENSE differs (MIT). Mirrored agency data has no confirmed open license. Research candidate, not cleared for redistribution/commercial use.",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://raw.githubusercontent.com/ungalsoththu/ChennaiGTFS/main/data/mtc-gtfs.zip",
+    "status": "downloaded",
+    "bytes": 9088141,
+    "sha256": "e4e3d8301b8cf4661c317377f10d3a6c3aa8718fa73580ad97ec22957c7e3539"
+  },
+  {
+    "url": "https://overpass-api.de/api/interpreter",
+    "path": "data\\osm\\chennai_transport.json",
+    "fetched_at_utc": "2026-11-05T14:29:12.857365+00:00",
+    "license_note": "ODbL 1.0; attribution OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+    "request_body": "data=%5Bout%3Ajson%5D%5Btimeout%3A120%5D%5Bmaxsize%3A268435456%5D%3B%0A++++++++%28way%5Bhighway%5D%2812.65%2C79.95%2C13.30%2C80.35%29%3Bway%5Brailway%5D%2812.65%2C79.95%2C13.30%2C80.35%29%3B%0A++++++++node%5Bpublic_transport%5D%2812.65%2C79.95%2C13.30%2C80.35%29%3Bnode%5Bhighway%3Dbus_stop%5D%2812.65%2C79.95%2C13.30%2C80.35%29%3B%0A++++++++node%5Bhighway%3Delevator%5D%2812.65%2C79.95%2C13.30%2C80.35%29%3Bnode%5Bentrance%5D%2812.65%2C79.95%2C13.30%2C80.35%29%3B%29%3B%0A++++++++%28._%3B%3E%3B%29%3Bout+body%3B",
+    "http_status": 200,
+    "last_modified": null,
+    "final_url": "https://overpass-api.de/api/interpreter",
+    "status": "downloaded",
+    "bytes": 92773983,
+    "sha256": "0ef2e33286195501bd215120e62e8f5e0a8c7a8db73d82379fa6a832405ac27b"
+  },
+  {
+    "url": "https://test.cumta.org/static_mtc_gtfs_data.zip",
+    "path": "data\\transit\\cumta-static-mtc-gtfs.zip",
+    "fetched_at_utc": "2026-11-05T14:30:31.740854+00:00",
+    "license_note": "Agency-hosted publicly linked file; no confirmed reuse license. Research only.",
+    "http_status": 200,
+    "last_modified": "Mon, 27 Jul 2026 11:26:49 GMT",
+    "final_url": "https://test.cumta.org/static_mtc_gtfs_data.zip",
+    "status": "downloaded",
+    "bytes": 30796159,
+    "sha256": "c9eaf6010ce0e524c64debb4fb1f7887eb0bb2110c79ad341bd1820be069b7de"
+  }
+]

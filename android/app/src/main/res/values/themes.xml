@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Platform theme only; Compose draws everything. Edge-to-edge is applied in MainActivity. -->
+    <style name="Theme.Manzil" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+</resources>

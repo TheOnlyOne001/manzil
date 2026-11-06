@@ -1,0 +1,9 @@
+# Cloud Run agent image only. Versions pinned to what backend/.venv has installed and the unit
+# tests ran against (read from importlib.metadata, Python 3.13.5).
+fastapi==0.162.0
+starlette==1.10.0
+pydantic==2.14.3
+uvicorn==0.54.0
+httpx==0.28.1
+google-auth[requests]==2.62.1
+requests==2.34.2

@@ -1,0 +1,26 @@
+[
+  {
+    "language": "ta-IN",
+    "status": 200,
+    "seconds": 5.35,
+    "response": {
+      "reply": "மெரினா கடற்கரைக்கு இரவு நேர அடுக்குடன் கூடிய நடைப்பயண வழியைத் திட்டமிடுகிறேன்.",
+      "action": "plan_route",
+      "destination_query": "Marina Beach, Chennai",
+      "layer": "night",
+      "provider": "gemini"
+    }
+  },
+  {
+    "language": "te-IN",
+    "status": 200,
+    "seconds": 1.84,
+    "response": {
+      "reply": "మెరీనా బీచ్‌కు నైట్ లేయర్‌తో నడక మార్గాన్ని ప్లాన్ చేస్తున్నాను.",
+      "action": "plan_route",
+      "destination_query": "Marina Beach, Chennai",
+      "layer": "night",
+      "provider": "gemini"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+plugins {
+    id 'brouter.library-conventions'
+}
+
+dependencies {
+    implementation project(':brouter-util')
+    implementation project(':brouter-codec')
+}

@@ -1,0 +1,3363 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" style="overflow-x:scroll;">
+<head>
+    <meta charset="UTF-8">
+    
+     
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CFM-DSS | AboutUs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="/Content/Ionicons/css/ionicons.min.css" />
+    <!-- DataTable -->
+    
+    
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- jQuery UI JS -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+
+    
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+    <!-- Include Bootstrap Datepicker -->
+    
+
+    
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script src="/Scripts/jquery.validate.js"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <!--Dont Re arrage or comment it will cause pain in Help Document-->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js" integrity="sha512-oVbWSv2O4y1UzvExJMHaHcaib4wsBMS5tEP3/YkMP6GmkwRJAa79Jwsv+Y/w7w2Vb/98/Xhvck10LyJweB8Jsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.2.1/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.2.1/ol.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+
+    <!--crypto-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap.css" />
+    <script src="https://cdn.datatables.net/plug-ins/2.1.8/sorting/datetime-moment.js"></script>
+
+    <style>
+
+        root {
+            overflow-x: scroll;
+        }
+
+
+        body {
+            padding: 0;
+            margin: 0;
+            overflow-x: clip;
+            width: 100%
+        }
+
+
+
+
+
+        .row {
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            background-image: linear-gradient( rgb(61,46,133),rgb(93,52,166) );
+            color: white;
+        }
+
+        .container1 {
+            background-size: contain;
+            width: 100%;
+        }
+
+        #LoginDropdown {
+            position: relative;
+        }
+
+        .container1 > .col > h3 {
+            display: flex;
+            justify-content: center;
+            font-family: system-ui;
+            text-align: center;
+            width: 100%;
+            color: white !important;
+            text-align: center;
+            font-size: 1.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .coller {
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            margin: 0;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .col1 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        .col3 {
+            justify-content: flex-end;
+        }
+
+
+        /*----------------Nav Bar CSS-------------------------------*/
+
+        .nav-link, .dropdowner, .dropdown-toggle {
+            display: flex;
+            /*padding: 0.5vw;*/
+            margin: 0;
+            /*font-size: 15px;*/
+            font-size: 15px;
+            font-family: sans-serif condensed;
+            font-weight: 700;
+            line-height: 1.467;
+            /*text-transform: uppercase;*/
+            /*  padding: 5px 5px 5px 5px;*/
+            display: block;
+           /* padding-top: 1rem;
+            padding-bottom: 1rem;*/
+        }
+
+
+
+        @media screen and (max-width: 992px) {
+            .container1 > .col > h3 {
+                font-size: 0.7rem;
+            }
+            .navbar1-nav {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding-left: 0;
+                margin-bottom: 0;
+                list-style: none;
+                width: 100%;
+                /*align-items: center;*/
+                flex-wrap: inherit;
+                align-content: space-around;
+                font-family: System-Ui;
+            }
+
+            #navbarNav {
+                position: relative;
+                top: 10px;
+                background: #f4f5f8;
+                z-index: 300;
+                width: 300px;
+                margin-left: 40px;
+                border-radius: 12px;
+            }
+
+            #navigationBarrow {
+                position: absolute;
+                top: 5%;
+            }
+        }
+
+        .navbar1-nav > .nav-item {
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+        }
+
+        .navbar1-nav > li {
+            display: inline-block;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+
+
+        .navbar {
+            width: 100%;
+            padding-bottom: 0px;
+        }
+
+        .nav-link1 {
+            display: flex;
+            margin: 0;
+            font-size: 15px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            line-height: 1.467;
+            text-transform: uppercase;
+            padding: 1vw;
+            display: block;
+            color: ghostwhite;
+        }
+
+
+        /*---------------------------Nav Bar Animation------------------------*/
+
+        /*.navbar-nav .nav-item:hover a {
+                                  color: darkorange !important;
+                                  margin: 0;
+                                  font-size: 15px;
+                                  font-family: sans-serif condensed;
+                                  font-weight: 700;
+                                  line-height: 1.467;
+                                  text-transform: uppercase;
+                                  padding: 20px 25px;
+                                  display: block;
+                                  transform: scale(1.1);*/ /*anchor tag popup*/
+        /*}*/
+
+        /*.navbar-nav .nav-item:hover a {
+                                  color: #61656f !important;
+                                  margin: 0rem;
+                                  font-size: 14px;
+                                  font-family: sans-serif;
+                                  font-weight: 600;
+                                  line-height: 1.467;
+                                  text-transform: uppercase;
+                                  padding: 6px 5px;
+                                  display: flex;
+                                  background-color: transparent;*/
+        /*height:35px;*/
+        /* transform: scale(1.1);*/
+        /*}*/
+
+        @media (min-width: 992px) {
+
+
+
+            .navbar {
+                background-color: #f4f5f8;
+            }
+
+
+            .navbar-expand-lg { /*Nav Bar height can be change here*/
+                /*flex-flow: row nowrap;*/
+                justify-content: space-evenly;
+                width: 100%;
+            }
+
+            #navbarNav {
+                flex-shrink: inherit;
+                display: flex !important;
+                justify-content: center;
+                align-content: center;
+                height: 1.5rem;
+                /* flex-basis: auto; */
+            }
+
+            .nav-hover:after {
+                content: "";
+                position: absolute;
+                /* background-color: #727E99; */
+                background: linear-gradient(to top, #e7faca 10%, #b7e07e 100%);
+                height: 3px;
+                /*width: 100%;*/
+                top: 7px;
+                bottom: 0px;
+                top: 29px;
+                left: 0;
+                transition: all 0.5s ease;
+                z-index: 500007;
+                cursor: pointer;
+            }
+
+            /*.navbar-light .navbar-nav .nav-link {*/
+                /*  color:white !important;*/
+            /*}*/
+
+            .nav-hover:after:hover {
+                width: 100%;
+            }
+
+            #navbarNav > ul > li {
+                padding: 0;
+                margin: 0;
+                position: relative;
+               /*  hei: 22px;*/
+               /* height: 0px;
+                top: -21px;*/
+            }
+
+            .nav-toggle-position {
+                position: relative;
+                box-shadow: 5px 7px 18px -2px darkgrey;
+                z-index: 30;
+                /*   margin-bottom: 20px;*/
+            }
+            /*Dropdown sub-menu */
+            .dropdown-menu.dropdown-submenu {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                position: absolute;
+                left: 185px;
+                top: 0px;
+                transition: all 1s ease;
+            }
+
+            @keyframes second-dd-animation {
+                0% {
+                    transform: translateX(100px);
+                    opacity: 0;
+                }
+
+                100% {
+                    transform: translateX(0px);
+                    opacity: 1;
+                }
+            }
+
+            #SecondDropDown {
+                /* transform: translateX(250px);*/
+                transition: all 1s ease;
+            }
+
+            #thirdDropDown {
+                position: absolute;
+                top: 141px;
+            }
+
+            #fourthDropDown {
+                position: absolute;
+                top: 140px;
+            }
+
+            #fifthDropDown {
+                position: absolute;
+                top: 180px;
+            }
+
+            #sixthDropDown {
+                position: absolute;
+                top: 141px;
+            }
+
+            #seventhDropDown {
+                position: absolute;
+                top: 150px;
+            }
+            #eighthDropDown {
+                position: absolute;
+                top: 365px;
+            }
+
+        }
+
+
+        /*----------------- Dropdown menu CSS code ---------------------------*/
+
+        #dropdownMenuButton btn-secondary:hover {
+            background-color: transparent !important;
+            box-shadow: 0px 0px 0px 0px transparent !important;
+        }
+
+        .btn:focus, .btn-check:focus + .btn-secondary, .btn-secondary:focus {
+            box-shadow: 0px 0px 0px 0px transparent !important;
+        }
+
+        .Pop-item:focus {
+            outline: none;
+            border: 1px solid blue;
+            background-color: lightblue;
+        }
+
+        .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+            background-image: none !important;
+        }
+
+
+        #firstdropdown {
+            position: absolute;
+            /*  top: 80%;*/
+           /* top: -5px !important;*/
+            /*left: 0;*/
+            z-index: 1000;
+            /*float: left;*/
+            min-width: 10rem;
+            /*padding: 0.5rem 0;*/
+/*            font-size: 1rem;*/ 
+            margin-top: 0px;
+            color: #212529;
+            text-align: left;
+            list-style: none;
+            background-color: #f4f5f8;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: 0.25rem;
+            animation: fadeInDown 0.4s ease-out backwards;
+        }
+
+        @keyframes fadeInDown {
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            0% {
+                opacity: 0;
+                transform: translateY(100%);
+            }
+        }
+
+
+        .Pop-item {
+            padding: 1rem !important;
+        }
+
+        .Pop-item:hover {
+            animation: fadeOutUpper 0.5s ease-in forwards;
+        }
+
+        @keyframes fadeOutUpper {
+            0% {
+                /* opacity: 1;*/
+                transform: translate(0px,0px);
+                box-shadow: 0rem 0rem 0.1rem 0.1rem #6475ef;
+            }
+
+            100% {
+                /*opacity: 1;*/
+                transform: translate(9px,0px);
+                box-shadow: 3px 3px 8px 8px rgba(0, 0, 255, .2);
+            }
+        }
+
+        .dropdowner {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+
+
+        #dropdownMenuButton {
+            background-color: transparent !important;
+            border-color: transparent !important;
+            position: relative;
+            /* height: 25px;*/
+            font-weight: 700;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            /*top: 8px;*/
+            background-blend-mode: color-dodge !important;
+            box-shadow: 0px 0px 0px 0px transparent !important;
+            font-size: 11pt;
+            /*  line-height: 1.85em;*/
+            padding-left: 0px;
+            padding-right: 0px;
+            color: #6e6f70 !important;
+            /* height: 8px;*/
+            /*  padding: 0;*/
+        }
+
+        .show > .btn-secondary.dropdown-toggle {
+            color: #61656f !important;
+        }
+
+
+
+        /*--------------------------- footer---------------------------------*/
+        /*two*/
+        /*.btn-group-lg > .btn, .btn-lg {
+                    padding: 0.5rem 1rem;
+                    font-size: 1.25rem;*/
+        /*border-radius: 4.3rem;*/
+        /*}*/
+
+        .text-center text-lg-start footer {
+            /*  position: absolute;*/
+            /* top: 100vh;*/
+            bottom: 0px;
+            width: 100%;
+            background-color: #262626;
+        }
+
+        .btn-group-lg > .btn, .btn-lg {
+            font-size: 1rem;
+        }
+
+
+
+
+        /*Mobile responsive Media Query For Footer*/
+
+        @media screen and (min-width:768px) {
+            #foot1 {
+                align-items: center;
+            }
+        }
+
+
+        @media screen and (max-width:768px) {
+            #foot {
+                flex-direction: column;
+            }
+
+            #foot1 {
+                justify-content: center !important;
+            }
+
+            #foot2 {
+                justify-content: center !important;
+            }
+
+            #foot3 {
+                justify-content: center !important;
+            }
+        }
+
+        /*-------------- go-top-btn -----------------*/
+        #go-To-top-btn {
+            display: inline;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            /*  width: 50px;
+                              height: 50px;*/
+            background-color: #333;
+            color: #fff;
+            /*font-size: 24px;*/
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            opacity: 0;
+            z-index: 100000;
+            width: 45px;
+            height: 45px;
+        }
+
+            #go-To-top-btn:hover {
+                background-color: #555;
+            }
+
+        @keyframes popin {
+            0% {
+                transform: translate(0px,-70px);
+            }
+
+            100% {
+                transform: translate(0px,0px);
+            }
+        }
+
+        @keyframes popout {
+            0% {
+                transform: translate(0px,0px);
+            }
+
+            100% {
+                transform: translate(0px,-70px);
+            }
+        }
+
+        #go-To-top-btn > i {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        #bulletinimgdiv > a > img {
+            width: 24vw;
+        }
+
+        .Pop-item img {
+            width: 16px;
+            height: 16px;
+            margin-right: 0.5em;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+/*            width: 100vw;
+*/            z-index: 500;
+            transition: all 0.5s ease;
+        }
+
+        .nav-expand {
+            flex-shrink: inherit;
+            display: flex !important;
+            height: 65px !important;
+            /*transition: all .2s cubic-bezier(.6,-0.28,.74,.05);*/
+            transition: all .5s ease;
+        }
+
+        .nav-shrink {
+            flex-shrink: inherit;
+            display: flex !important;
+            height: 36px !important;
+            /*transition: all .5s cubic-bezier(.6,-0.28,.74,.05);*/
+            transition: all .5s ease;
+        }
+        /*Modal CSS Need To Be Write Here*/
+
+        .modal-title .close {
+            position: relative;
+            bottom: 3px;
+            color: #FF6701;
+        }
+
+        #LoginId {
+            text-align: center;
+            font-size: 1.1rem;
+            right: 35px;
+        }
+
+
+        .bg-black {
+            background-color: #FF6701;
+            color: white;
+        }
+
+            .bg-black:hover {
+                color: white;
+            }
+
+
+
+        .modal-header {
+            color: #FF6701;
+        }
+
+        .cont_grp {
+            color: #FF6701;
+        }
+
+        /*#modal2-dialog {
+                    vertical-align: top;
+                    left: 40%;
+                }*/
+
+
+        #modal2-content {
+            -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            box-shadow: 0 5px 15px rgba(228, 106, 20, 0.5);
+            width: inherit;
+            height: inherit;
+            /* To center horizontally */
+            margin: 0 auto;
+            /*background-color: #f0f4f5f5;*/
+        }
+
+
+
+        .rounded-circle {
+            border-radius: 50% !important
+        }
+
+        .text-success {
+            color: #1cc88a !important
+        }
+
+        .dropdown-itemD {
+            display: block;
+            width: 100%;
+            padding: 0.25rem 1.5rem;
+            clear: both;
+            font-weight: 400;
+            color: #3a3b45;
+            text-align: inherit;
+            white-space: nowrap;
+            background-color: transparent;
+            text-decoration: none;
+            border: 0;
+        }
+
+        .p-image {
+            left: 115px;
+            position: absolute;
+            top: 41px;
+            color: #2e2a2a;
+            transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+        }
+
+
+        #captcha {
+            margin-top: 0.25rem;
+        }
+
+
+
+
+        #visitorC {
+            display: none;
+        }
+
+        legend {
+            color: brown;
+            display: block;
+            font-family: 'Segoe UI' important;
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+            border-image: initial;
+            width: auto;
+            padding: 0px;
+            margin: 0px;
+            font-size: small;
+        }
+
+        @media screen and (max-widht:1440px) {
+            .container1 {
+                height: 10vh !important;
+            }
+        }
+
+
+        #popup {
+            height: auto !important;
+        }
+
+        #popup {
+            padding-bottom: 41px !important;
+        }
+
+        @media (max-width: 576px) {
+
+            .modal-dialog {
+                max-width: var(--bs-modal-width);
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            #LoginBodyId {
+                position: relative;
+                width:100%;
+            }
+
+            #LoginId {
+                color: #5308f5;
+            }
+
+            #LoginImg{
+                width: 50%;
+            }
+
+            #LoginImgHeader {
+                display: flex;
+                justify-content:center;
+                width: 286px;
+                float: left;
+                background: repeating-linear-gradient(45deg, #2b3a4673, transparent 100px);
+            }
+
+            .modal-aligner{
+                display:flex!important;
+                flex-direction:column!important;
+                align-items:center!important;
+
+            }
+
+            .signindiv {
+
+                /*text-align: center;*/
+                /*display: flex;*/
+                flex-direction: row;
+                position: relative;
+/*                left: 285px;
+*/          }
+
+            .captchamid{
+                display:flex;
+                justify-content:center;
+            }
+
+
+        }
+
+        @media (min-width: 576px) {
+
+            #LoginBodyId {
+                width: 200px;
+                display: inline-block;
+                float: right;
+                top: 78px;
+                right: -167px;
+                position: absolute;
+            }
+
+            #LoginId {
+                top: 25px;
+                color: #5308f5;
+                top: -52px;
+                position: absolute
+            }
+
+            #LoginImgHeader {
+                width: 286px;
+                float: left
+            }
+
+            .signindiv {
+                /*text-align: center;*/
+                margin-top: 250px;
+                /*display: flex;*/
+                flex-direction: row;
+                position: absolute;
+                left: 285px;
+            }
+
+
+
+        }
+
+            
+
+            .loader {
+                position: fixed;
+                /* top: 0;
+        left: 0;*/
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(135deg, rgb(102 101 101 / 50%), rgb(122 117 117 / 50%));
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column; /* Ensure content is stacked vertically */
+                z-index: 99999;
+            }
+
+            .spinner {
+                height: 10vh;
+                width: 10vh;
+                border: 6px solid rgba(255, 255, 255, 0.2);
+                border-top-color: white;
+                border-radius: 50%;
+                animation: rotation 0.6s infinite linear 0.10s;
+                box-shadow: 0px 0px 20px rgba(0, 174, 253, 0.6);
+            }
+
+            @keyframes rotation {
+                from {
+                    opacity: 1;
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: rotate(359deg);
+                }
+            }
+
+            .loading-text {
+                margin-top: 20px;
+                font-size: 2.15em;
+                color: black;
+                display: flex;
+                gap: 5px;
+                font-family: Calibri !important;
+            }
+
+                .loading-text span {
+                    display: inline-block;
+                    animation: wave 1.5s infinite;
+                }
+
+            @keyframes wave {
+                0%, 40%, 100% {
+                    transform: translateY(0);
+                }
+
+                20% {
+                    transform: translateY(-10px);
+                }
+            }
+
+            .loading-text span:nth-child(1) {
+                animation-delay: 0s;
+            }
+
+            .loading-text span:nth-child(2) {
+                animation-delay: 0.1s;
+            }
+
+            .loading-text span:nth-child(3) {
+                animation-delay: 0.2s;
+            }
+
+            .loading-text span:nth-child(4) {
+                animation-delay: 0.3s;
+            }
+
+            .loading-text span:nth-child(5) {
+                animation-delay: 0.4s;
+            }
+
+            .loading-text span:nth-child(6) {
+                animation-delay: 0.5s;
+            }
+
+            .loading-text span:nth-child(7) {
+                animation-delay: 0.6s;
+            }
+
+            @media screen and (min-width:1020px) and (max-width:1440px) {
+                #navholder > img {
+                    width: 16% !important;
+                }
+
+                .coller > h3 {
+                    font-size: 1rem !important;
+                }
+
+                #navbarNav {
+                    font-size: 1rem !important;
+                }
+            }
+
+            .datepicker {
+                z-index: 30 !important;
+            }
+
+            .panel-body {
+                display: flex;
+                align-items: center;
+                padding: 0.5rem !important;
+            }
+
+            .panel-group {
+                padding: 0.5rem !important;
+                margin-bottom: 0px !important;
+            }
+
+            .panel {
+                margin: 0px !important;
+            }
+
+            #NavExpand {
+                min-height: 11px !important;
+                padding-top: 0px !important;
+            }
+
+            .nav-shrink {
+                height: 3rem !important;
+            }
+
+            #navholder > img {
+                width: 20% !important;
+            }
+
+            #font-sizer {
+                display: flex;
+            }
+            #font-increase,#font-decrease{
+                display:none;
+            }
+
+        /* Container for the bell icon */
+        .bell-container {
+            position: relative;
+            display: flex;
+            align-items:center;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        /* Bell icon */
+        .bell-icon {
+            /*font-size: 30px;
+            color: #333;*/
+        }
+
+        /* Alert count badge */
+        .alert-count {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            font-size: 0.5rem;
+            padding: 2px 6px;
+            border-radius: 50%;
+            transform: translate(40%, -60%);
+        }
+
+        /* Popup message */
+        .popup-message {
+            position: absolute;
+            /*bottom: -20%;*/ /* Position above the icon */
+            left: 0%;
+            transform: translate(-55%,50%);
+            background-color: ghostwhite;
+            /*color: #fff;*/
+            padding: 8px 12px;
+            border-radius: 6px;
+            white-space: nowrap;
+            font-size: 0.7rem;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+        }
+
+        /* Show popup on hover */
+        .bell-container:hover .popup-message {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Add arrow to the popup */
+       /* .popup-message::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 6px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
+        }*/
+
+        #missingthead {
+            color: black;
+            text-align: center;
+        }
+
+        #popup-place {
+            color: #8e90a1;
+            font-weight: 700;
+        }
+
+
+
+    </style>
+    <script defer>
+     var token = '';
+
+
+    token = 'BuYnhuJNe0jH4BiJnDfY-ROYR0SAeZPy2uj9IVBccDo1u78IskERn-rHo6VZ3RPfBx3BPe7HxCmlqP95z7FBqdQ5BMmdN18O0ZvesZ1nhY01:B2EIv_e0Bj1W84Txmz_VPa75uXpozqAUiJsi8A6gcCheWtRTHSOHKtni5OBcUolnOdRF-hmTBurfSm9dbZBnpRc1AajCW4Iiwu6U3bTI7DM1';
+
+    $(document).ajaxSend(function (event, jqXHR, settings) {
+        // Check if the request is a GET request
+        //if (settings.type === 'GET') {
+                jqXHR.setRequestHeader('RequestVerificationToken', token);
+                //console.log(token)
+       // }
+    });
+
+        const originalFetch = window.fetch;
+
+        window.fetch = async function (url, options = {}) {
+            // Ensure options object exists
+            options.headers = options.headers || {};
+
+            // Add your custom headers
+            options.headers['RequestVerificationToken'] = token;
+
+            // Call the original fetch with updated options
+            return originalFetch(url, options);
+        };
+    </script>
+
+</head>
+
+
+<body>
+
+    <div class="loader">
+        <div class="spinner"></div>
+        <div class="loading-text">
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+            <span>...</span>
+        </div>
+    </div>
+
+    <div class="row row1" id="divoverall" style="background:#cce0ff;margin:0px !important">
+        <div class="row row1 img-wrapper rownew " style="width:100%;display:block">
+            
+            
+
+        </div>
+    </div>
+
+
+    <div class="container1">
+        <div id="navholder" class="col-2 col1">
+            
+            
+            <img src="/Images/DashBoard_Icon/Tamilnadu-Government-Color.png" class="img-fluid img-responsive rounded-circle" alt="Responsive image" style="width:30%;">
+        </div>
+        <div class="coller col-7">
+            
+            <h3 style=" font-size: 1.8rem; font-family: var(--bs-body-font-family) !important;">Real Time Flood Forecasting and Spatial DSS</h3>
+        </div>
+        <div class="coller col-3 col3" style="display:flex;align-items:center;">
+            <span id="HelpDoc" class="nav-link1" style="font-weight:bold;"><i class="fa-solid fa-circle-info"></i></span>
+                <div id="font-sizer">
+                    <span id="font-reset" class="nav-link1" style="font-weight:bold;">A</span>
+                    <span id="font-increase" class="nav-link1" style="font-weight:bold;">A<sup>+</sup></span>
+                    <span id="font-decrease" class="nav-link1" style="font-weight: bold;">A<sup>-</sup></span>
+                </div>
+                <a class="nav-link1 dropdown-toggle" href="#" id="ddllang" role="button" data-bs-toggle="dropdown" data-bs-target="#ddllang" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-language"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="ddllang">
+                    <a href="/Home/ChangeCurrentCulture/0" class="dropdown-itemD">English</a>
+                    <a href="/Home/ChangeCurrentCulture/1" class="dropdown-itemD">தமிழ்</a>
+                </div>
+                    <a class="nav-link1 @*dropdown-toggle collapsed*@" href="javascript:void(0);" id="LoginDropdown" role="button" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i id="loginIcon" class="fa fa-user-circle" aria-hidden="true" style="color: white; font-size: 37.5px;"></i>
+                    </a>
+            </div>
+        
+    </div>
+
+    <div id="navigationBarrow" class="" style=" margin-right: 0px; margin-left: 0px; width: 100%;">
+        <div id="navigationBar" class="row row1 nav-toggle-position" style="margin-left: 0px; margin-right: 0px; width:100%; padding-left:0px; padding-right:0px; ">
+            <nav id="NavExpand" class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul id="navbar1-nav" class="navbar-nav navbar1-nav" style="display:flex;align-items:center;">
+                        <li class="nav-item nav-hover">
+                            <a id="nhome" class="nav-link" href="/">Home </a>
+                        </li>
+
+                        <li class="nav-item nav-hover">
+                            <a id="naboutus" class="nav-link" href="/Master/AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="nnews" class="nav-link" href="/Master/News">News</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="nfaq" class="nav-link" href="/Master/FAQ">FAQ</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="ngallery" class="nav-link" href="/Master/Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="nworkshop" class="nav-link" href="/Master/Workshop">Workshop</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="ncontactus" class="nav-link" href="/Master/ContactUs">Contact Us</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="nfeedback" class="nav-link" href="/Master/Feedback">Feedback</a>
+                        </li>
+                        <li class="nav-item nav-hover">
+                            <a id="nindex" class="nav-link" href="/HomePage/Dashboard">Dashboard</a>
+                        </li>
+
+
+                        <li class="nav-item" style="z-index:200">
+                            <div class="nav-link dropdowner">
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+    
+    <div class="">
+        
+
+
+
+
+
+
+
+
+<meta content="" name="descriptison">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link href="/assets/img/favicon.png" rel="icon">
+<link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+
+<link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+<link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="/assets/vendor/venobox/venobox.css" rel="stylesheet">
+<link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="/assets/css/style.css" rel="stylesheet">
+<style>
+    [data-aos^=fade][data-aos^=fade] {
+        opacity: 1;
+        transition-property: opacity,transform;
+    }
+
+    .icofont-navigation-menu {
+        display: none !important;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .imgcontact {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        text-align: justify !important;
+        color: black !important;
+        font-family: sans-serif !important;
+    }
+
+    .why-us .content {
+        padding: 0px 100px 0 100px;
+    }
+
+    li {
+        color: black;
+    }
+
+    .pricing ul li {
+        padding: 5px 0 10px 30px;
+        position: relative;
+    }
+
+    .pricing ul i {
+        color: black;
+        font-size: xx-small;
+        position: absolute;
+        left: 0;
+        top: 6px;
+    }
+
+    .navbar {
+        padding: 0px !important;
+    }
+
+    .service-box {
+        padding: 10px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 0 0 rgb(31 69 113 / 20%);
+        box-shadow: 0 0 0 0 rgb(31 69 113 / 20%);
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        height: 140px !important;
+        margin-bottom: 20px !important;
+    }
+
+        .service-box:hover {
+            -webkit-box-shadow: 0 0 30px 0 rgba(31, 69, 113, 0.2);
+            box-shadow: 0 0 30px 0 rgba(31, 69, 113, 0.2);
+        }
+
+        .service-box .box-image {
+            position: relative;
+            margin-bottom: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+            .service-box .box-image img {
+                width: 100%;
+            }
+
+            .service-box .box-image .box-plus {
+                position: absolute;
+                right: 20px;
+                bottom: 0;
+                width: 30px;
+                height: 30px;
+                background-color: #ffffff;
+                border-radius: 50%;
+                text-align: center;
+                color: #6b6d6f;
+                line-height: 30px;
+                -webkit-box-shadow: 0 0 30px 0 rgba(31, 69, 113, 0.4);
+                box-shadow: 0 0 30px 0 rgba(31, 69, 113, 0.4);
+            }
+
+            /*.service-box .box-text {
+            padding: 0 20px;
+        }*/
+            .service-box .box-image img {
+                width: 30% !important;
+                margin-left: 35% !important;
+            }
+
+        .service-box .box-text p {
+            padding: 0px 20px;
+            display: none !important;
+        }
+
+        .service-box .box-text h5 {
+            font-weight: bold !important;
+            text-align: center !important;
+        }
+
+    #header.header-scrolled, #header.header-inner-pages {
+        display: block !important;
+        background: rgba(40, 58, 90, 0.9);
+        transition: all 0.5s;
+        z-index: 997;
+        padding: 15px 0;
+    }
+
+    #header {
+        display: none !important;
+        
+    }
+
+    #naboutus {
+        color: rgb(5, 62, 126) !important;
+    }
+    .h5, h5{
+        font-size:14px !important;
+    }
+</style>
+
+
+
+
+
+<div class="row">
+
+    
+
+    <header id="header" style="position:fixed;z-index:9999;width:auto;">
+        <div class="container" style="width: 303px;">
+
+
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    
+
+                    <li> <a id="list-aboutus-list" data-toggle="" href="#about" role="tab" aria-controls="aboutus">About Us</a></li>
+                    <li>  <a class="" id="list-mission-list" data-toggle="" href="#services" role="tab" aria-controls="mission">Mission & Vision</a></li>
+                    <li><a class="" id="list-vision-list" data-toggle="" href="#portfolio" role="tab" aria-controls="vision">Organogram</a></li>
+
+                    <li>   <a class="" id="list-organogram-list" data-toggle="" href="#team" role="tab" aria-controls="organogram">Professionals</a></li>
+                    <li>  <a class="" id="list-professionals-list" data-toggle="" href="#operation" role="tab" aria-controls="professionals">Operation Control Room</a></li>
+
+                    <li>  <a class="" id="list-contributors-list" data-toggle="" href="#contributors" role="tab" aria-controls="contributors">RTDAS Space Sponsors</a></li>
+                    <li>  <a class="" id="list-implinks-list" data-toggle="" href="#implinks" role="tab" aria-controls="implinks">Important Links</a></li>
+
+
+
+
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header>
+</div>
+
+<div id="divAboutUS" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:block;overflow-x:hidden">
+
+
+    <!-- ======= Header ======= -->
+    <!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    
+
+    <main id="main">
+
+        <!-- ======= Cliens Section ======= -->
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Project background</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p style="text-align:justify">
+                            The 2015 Chennai floods caused immeasurable damage to the life and property across the Chennai Metropolitan. In order to manage the frequent extreme floods occurrences in Chennai and neighbouring ULBs, the Government of Tamil Nadu sanctioned the project “Real Time Flood Forecasting and Spatial Decision Support System - Chennai (RTFF & SDSS) funded by World Bank.
+                            RTFF & SDSS is implemented under the Project Development Grand Fund (PDGF) managed by Tamil Nadu Urban Infrastructure Financial Services Limited (TNUIFSL) on behalf of (i) Commissionerate for Revenue Administration (CRA), (ii) Greater Chennai Corporation (GCC) and (iii) Commissionerate of Municipal Administration (CMA).
+                            SECON Private Limited, Bangalore, India and JBA Consulting, United Kingdom Joint Venture (SECON-JBA JV) are the Consultant for the project Planning, Setting-up and Commissioning of the Real Time Flood Forecasting and Spatial Decision Support System under the supervision of
+                            Indian Institute of Technology, Madras (IIT-M) assisted the TNUIFSL in the implementation of the project.
+                        </p>
+                        <h1>Project Objectives</h1>
+                        <p>
+                            The objective of the project is to “Plan, setup and operationalize a Real-Time Flood Forecasting
+                            and Spatial Decision Support System (RTFF & SDSS) for Chennai”.
+                            <br /><br /> To achieve this, following specific objectives have been defined.
+                        </p>
+                        <ul>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> To set up a web-based Real Time Flood Forecasting System.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> To develop a Lake and Reservoirs Operation Guidance System.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> To develop Spatial Decision Support System for dissemination of Warnings.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> To set up a Hydro Modelling cum Flood Monitoring Control Room at State Emergency Operation Centre, Ezhilagam, Chennai.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> To set up Flood Monitoring Control Rooms at Greater Chennai Corporation, Kancheepuram, Tiruvallur Collectorates.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> To enhance the capacity of the officials by providing on-the-job and focused training.  </li>
+                        </ul>
+
+                        <h1>Project Components</h1>
+                        <img style="width:100%" src="/Images/HomePage/ProjectComponent.JPG" />
+                        <h1>Modelling System</h1>
+                        <p>
+                            The modelling area has been delineated into 74 watersheds. The total length of modelled river is 989 km.
+                            A total of 5 Numerical Weather Prediction (NWP) models of rainfall forecasts viz., NCEP-GFS, UKMet, IMD-GFS, NCMRWF and ECMWF are used in the model. The street level inundations forecasts are also provided for the major flood vulnerable areas, identified using the historical flood events. Some of the frequently flooded areas are Nungambakkam, Meenambakkam, Velachery, Saidapet, Mambalam and Mudichur.
+                            The Web-DSS is the interface of the flood forecasting system to the end users, developed by SECON-JBA
+                            The hydro-modelling gives reliable forecasts of water level in rivers, lakes, and tanks. It helps the Water Managers by providing timely/advance information on how to operate the lakes and tanks and to minimize the flood damages.
+                            <br /><br /> The models involved in the project are:
+                        </p>
+                        <ul>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Rainfall Forecast Model</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Rainfall-Runoff (Hydrologic) Model</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Channel Flow (1D Hydraulic) Model</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Lake Operation Guidance System (LOGS)</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Storm Water Drain (SWD) Model</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Flood Inundation Model (2D) </li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Web-based DSS </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <h1 style="margin-top: -7px;">Area of Interest: Chennai Basin </h1>
+                        <p>
+
+                            The Chennai basin is located at the northeast corner of Tamil Nadu, between the latitudes 12°40'N and 13°40'N and longitudes 79°10'E and 80°25'E, covering a total area of 4974 km2. The basin falls under Chennai, Kancheepuram, Thiruvallur and Chegalpattu, Ranipet and Vellore districts of Tamil Nadu. River Adyar, Cooum and Kosasthalayar flows through the basin. The Chennai basin comprises of six subbasins viz., Kosasthalayar, Cooum, Adyar, Kovalam, Nandiyar and Nagariyar.
+                        </p>
+                        <img style="width: 100% !important;" src="/Images/HomePage/Chennai Basin Map.JPG" />
+                        <h1>Real-Time Data Acquisition System (RTDAS)</h1>
+                        <p>
+                            The Realtime Data Acquisition System consists of the following field equipment, which collects the rainfall, weather and water level data and telemetrically transfer to the Control Room at Chennai.
+                        </p>
+                        <ul>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Network of 117 Automatic Rain Gauges (ARG), to collect rainfall data.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Network of 30 Automatic Weather Stations (AWS) to measure weather parameters like temperature, Relative Humidity, Wind Speed, Wind Direction, Sun irradiance, Pan evaporation.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Network of 185 Automatic Water Level Recorders (AWLR) to measure the water level in the lakes, tanks and rivers.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Network of 58 Gate Sensors (GS) to measure the gate openings in the lakes, tanks and rivers.</li>
+
+
+                        </ul>
+
+
+                        <h1>Architecture</h1>
+                        <img style="width:100%" src="/Images/HomePage/RTDAS Architecture.jpg" />
+                        <h1>Flood Modelling Control Rooms</h1>
+                        <p>
+                            Flood control rooms are established at strategic locations to receive the data sent by the field equipment, process the data with Hydrological Modelling and issue Flood Alerts over a Web-DSS. The following controls rooms are established under the project.
+                        </p>
+                        <ul>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Hydro Modelling Control Room (HMCR) at SEOC, Ezhilagam, Chennai.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Nearline Disaster Recovery Centre (NDRC) & Flood Monitoring Centre (FMC) at WRD HQ.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Flood Monitoring Centre at District Collectorate, Kancheepuram.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>Flood Monitoring Centre at District Collectorate, Tiruvallur</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Flood Monitoring Centre at District Collectorate, Chengalpattu</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> Flood Monitoring Centre at District Collectorate, Ranipet.</li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Us Section -->
+        <!-- ======= Why Us Section ======= -->
+        <section id="services" class="why-us section-bg">
+            <div class="container-fluid" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                        <div class="content">
+                            <h3><strong>Mission & Vision</strong></h3>
+                            
+                        </div>
+
+                        <div class="accordion-list">
+                            <ul>
+                                <li>
+                                    <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span> Mission<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
+                                        <p>
+                                            To provide early flood warnings and assist in dissemination of warnings/ information to strengthen the disaster management capacity of state agencies and stakeholders using real-time data, weather forecast information and mathematical models,
+                                            thus enhance the community resilience.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span> Vision <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
+                                        <p>
+                                            State Emergency Operation Canter (SEOC) to generate and disseminate Early Flood Warning System to enable the stakeholders to act appropriately and in sufficient time to reduce the possibility of harm or loss
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 " style="margin-top: 45px;"  ;>
+
+                        <img style="width:100%" src="/Images/HomePage/Warning_Gif.gif" />
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Why Us Section -->
+        <!-- ======= Skills Section ======= -->
+        <section id="portfolio" class="skills">
+            <div class="container" data-aos="fade-up">
+
+
+                <div class="row">
+                    <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                        <h3>Organogram </h3>
+
+                        <p class="font-italic">
+                            To be finalized in consultation with TNUIFSL, IITM and CRA.
+                        </p>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Skills Section -->
+        <!-- ======= Services Section ======= -->
+        <!-- ======= Cta Section ======= -->
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Professionals</h2>
+                    <p class="font-italic">
+                        To be finalized in consultation with TNUIFSL, IITM and CRA.
+                    </p>
+                </div>
+
+                <div class="row" style="display:none">
+
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="pic"><img src="/assets/img/team/team-1.jpg" class="img-fluid imgcontact" alt=""></div>
+                            <div class="member-info">
+                                <h5>Walter White</h5>
+                                <span>Chief Executive Officer</span>
+                                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img src="/assets/img/team/team-2.jpg" class="img-fluid imgcontact" alt=""></div>
+                            <div class="member-info">
+                                <h5>Sarah Jhonson</h5>
+                                <span>Product Manager</span>
+                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pic"><img src="/assets/img/team/team-3.jpg" class="img-fluid imgcontact" alt=""></div>
+                            <div class="member-info">
+                                <h5>William Anderson</h5>
+                                <span>CTO</span>
+                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class=" d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img src="/assets/img/team/team-4.jpg" class="img-fluid imgcontact" alt=""></div>
+                            <div class="member-info">
+                                <h5>Amanda Jepson</h5>
+                                <span>Accountant</span>
+                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Team Section -->
+        <!-- ======= Pricing Section ======= -->
+        <section id="operation" class="pricing">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Operation Control Room</h2>
+                </div>
+                <h1>Hydro Modelling Control Room (HMCR) – State Emergency Operation Centre</h1>
+                <p>
+                    The Hydro Modelling Control Room (HMCR) is proposed to be established in Commissionerate of
+                    Revenue Administration’s Tamil Nadu Disaster Risk Reduction Agency (TNDRRA). The HMCR acts as a central nerve centre for RTFF and SDSS. Receives forecast from NWP models on rainfall, real time data from field equipment like ARG, AWS, AWLR and gate sensors. The HMCR stores the data in Relational Database Management Systems. Operates the hydro models for water level forecasts at river and streets and developing SOPs for Lake Operation Guidance Systems. The flood alerts from the Hydro Modelling Control Room will directly reach the general public without any lag in time. The general public can respond to the emergency flood alerts in time and save themselves. The Integrated Control Command Centre (ICCC) at Ripon Building of GCC, receives feed on flood alerts from HMCR. The HMCR functions as an Integrated Command Control Room from where the Disaster Management Authorities can issue flood alerts and directions to the District Administrators in time to avert flood damages.
+                </p>
+                <h1>Nearline Disaster Recovery Centre (NDRC)</h1>
+                <p>
+                    It is proposed to establish the Nearline Disaster Recovery Centre (NDRC) in the existing Flood Control Room in the Office of the Chief Engineer (Operation & Maintenance), WRD, PWD, Chepauk, Chennai - 5. NDRC at WRD acts as one of the nodal centres for RTFF and SDSS. It also facilitates to be a backup centre for hydro modelling servers and store all the data from the HMCR. When the HMCR is down, the data from RTDAS will switch over to database server in the cloud to NDRC.
+                </p>
+                <h1>Flood Monitoring Centre (FMC)</h1>
+                <p>
+                    FMCs provides flood alerts on water level in major waterbodies, waterways and streets. Collects feedback from local inputs and upgrades the system. Uploading details of gate openings and water level data of minor tanks manually into the system. The four nodal points of FMC are established in District Collectorate of Kancheepuram, Thiruvallur, Chengalpattu and Ranipet.
+                </p>
+                <h1>The RTFF & SDSS Operation</h1>
+
+                <ul>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The equipment and servers with the calibrated model are set-up in the HMFMCR.</li>
+                    <li>
+                        <i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small" ="ri-checkbox-blank-circle-fill"></i>During the rains, the HMFMCR receives the following data in real-time
+                        <ul>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The forecast rainfall in the ensuing 3 days, 2 days, 1 day, 12 hrs, 6 hrs from the Numerical Weather Prediction Models (NWP)</li>
+                            <li>
+                                <i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The actual rainfall from the ARG is received at the HMFMCR from the field.
+
+                            </li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The weather parameters from the AWS.</li>
+                            <li>
+                                <i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The prevailing water levels / storage in the lakes / tanks are received at the HMFMCR from the
+                                AWLRs at field.
+                            </li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> The inflow into the lakes / tanks from the AWLRs in the supply channels.</li>
+                            <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> The gate opening positions of the lakes / tanks are received from the Gate Sensors of the lakes / tanks.</li>
+
+                        </ul>
+                    </li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The Modelling Servers simulate the rainfall-runoff in the terrain, Storm Water Drains (SWD) and Rivers.</li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The consequent flood inundation extent and depth over the streets, wards, zones of the GCC and ULBs are simulated.</li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The WRD officials give optimised manner of Lake Operation as an input scenario and run the models.</li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i> The net potential Flood Inundation and Hazards are disseminated to the flood managers and the general public over Web, TV, email and mobile platforms.</li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The Revenue authorities take flood mitigation measures like evacuating the people in advance from potential flood inundation areas, as disseminated from the system.</li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>People can give useful feedback to HMFMCR for fine-tuning the system, like actual depth of floods in their localities.</li>
+                    <li><i class="ri-checkbox-blank-circle-fill" style="color:black;font-size:xx-small"></i>The flood damages are minimised, using the RTFF & SDSS.</li>
+
+
+                </ul>
+
+                <div class="row" style="display:none">
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                        <img src="/assets/img/skills.png" class="img-fluid" alt="">
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section><!-- End Pricing Section -->
+
+
+        <section id="contributors" class="team section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>RTDAS Space Sponsors <br /></h2>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L1.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>YMCA College of Physical Education</h5>
+                                <p>Nandanam, Chennai – 600 035.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L2.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>KCG College of Technology</h5>
+                                <p>KCG Nagar, Rajiv Gandhi Salai,Karapakkam, Chennai – 600 097.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L3.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Jerusalem College of Engineering</h5>
+                                <p>Velachery main road, Narayanapuram, Pallikaranai, Chennai – 600 100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L4.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Jeppiaar Engineering College</h5>
+                                <p>Jeppiaar Nagar, Rajiv Gandhi Salai, Chennai - 600 119.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L5.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Mohammad Sathak College Campus</h5>
+                                <p>Sholinganallur Main Rd, Medavakkam, Chennai, Tamil Nadu 600100.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Boomi Bricks</h5>
+                                <p>Perathur, Tiruvallur – 602 021.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>GH India Auto Parts</h5>
+                                <p>No.12, Othappai Taluk, Uthukkottai,Tiruvallur – 602 023.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Suncity Apartments</h5>
+                                <p>VGP Sun City, Agaram, Tiruvallur – 631 203.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L9.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Saveetha School of Management</h5>
+                                <p>Numbal, Thiruverkadu, Chennai – 600 056.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L10.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology</h5>
+                                <p>
+                                    No.42, Avadi-Vel Tech Road, Poonamallee - Avadi High Rd, Vel Nagar,
+                                    Chennai - 600 062
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L11.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Caterpillar India Pvt Ltd</h5>
+                                <p>Melnallathur Post, Tiruvallur – 602 004</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Adani Kattupalli Port Private Limited</h5>
+                                <p>Kattupalli Road, Kattupalli, Tiruvallur – 600 120</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Siddharth Industries</h5>
+                                <p>Goonipalayam, Tiruvallur - 602 026.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L14.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>GRD College of Education</h5>
+                                <p>Pudur Village, Tiruvallur - 631210</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L15.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Sevalaya Campus</h5>
+                                <p>Kasuva Village, Pakkam PO, Near Thiruninravur, Tiruvallur – 602 024.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L16.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Jaya Agricultural College (JAC)</h5>
+                                <p>Arakkonam to Thiruvalangadu High Road, Vyasapuramn Tiruvallur - 631 210</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Vedamaharishi Polytechnic College</h5>
+                                <p>Athimanjeripet, Tiruvallur – 631 202</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Pipe line Bridge near L&T transit house</h5>
+                                <p>Ennore Kattupalli, Tiruvallur – 600 120</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Sabi Foods Project by Laksh Infras</h5>
+                                <p>Sabi Foods Project by Laksh Infras, Pallur,Kancheepuram – 631 502</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>International Institute of Biotechnology & Toxicology</h5>
+                                <p>Shanmuga Nagar, Padappai, Kancheepuram – 601 301.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/NG.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Little Flower Hr. Sec. School</h5>
+                                <p>Theresapuram, Kancheepuram – 602 105.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L22.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Saveetha Institute of Medical and Technical Sciences</h5>
+                                <p>Saveetha Nagar, Sriperumbadur Taluk, Kanchipuram – 602 105.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L23.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Sri Venkateshwara Engineering College</h5>
+                                <p>
+                                    Post Bag No.1, Pennalur Village, Sriperumbudur,
+                                    Kancheepuram – 602 117
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L24.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Ocean Healthcare Private Limited</h5>
+                                <p>SH58, Orathur,Chengalpattu - 603003.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L25.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Hindustan Institute of Technology & Science</h5>
+                                <p>Rajiv Gandhi Salai (OMR), Padur, Kelambakkam, Chengalpattu - 603 103</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/26.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Vellore Institute of Technology - VIT Chennai</h5>
+                                <p>Kelambakkam - Vandalur Rd, Rajan Nagar,Chengalpattu – 600 127</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L27.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>B. S. Abdur Rahman Crescent Institute of Science and Technology</h5>
+                                <p>GST Road, Vandalur, Chengalpattu - 600 048.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L28.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Saraswathi Velu College of Engineering</h5>
+                                <p>Jambukulam Road, Melvenkatapuram, Sholinghur, Ranipet -  631 102</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L29.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Sri Vidhya Mandir Matric. School</h5>
+                                <p>
+                                    Gandhi Nagar, Padmapuram, Sholinghur, Ranipet – 631 102
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L30.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Vedavalli Vidyalaya,</h5>
+                                <p>Anaicut St, Walajapet, Tamil Nadu 632513.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L31.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Indian Institute of Technology Madras</h5>
+                                <p>IIT P.O., Chennai - 600 036.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L32.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Chennai Metropolitan Water Supply and Sewerage Board</h5>
+                                <p>No. 1, Pumping Station Rd, Chintadripet, Chennai, Tamil Nadu 600031</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L33.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Forest Department</h5>
+                                <p>No. 1, Panagal Building, Jenis Rd, Saidapet, Chennai, Tamil Nadu 600015.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L34.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>National Highways Authority of Indiag</h5>
+                                <p>No. D P 34, Sri Towers South Phase, 3rd Floor, Guindy, Chennai, Tamil Nadu 600032.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L35.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Southern Railways</h5>
+                                <p>NGO Annexe, George Town, Chennai, Tamil Nadu 600003.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L36.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Department of School Education</h5>
+                                <p>
+                                    Secretary to Government, School Education Department, Government of Tamil Nadu, Fort St. George, Chennai-9.
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L37.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Revenue and Disaster Management Department</h5>
+                                <p>Kamarajar Promenade, PWD Estate, Chepauk, Triplicane, Chennai, Tamil Nadu 600005.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L38.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>State Highways Department</h5>
+                                <p>HRS Campus, 76 Sardar Patel Road, Guindy, Chennai - 600 025.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L39.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Water Resources Department</h5>
+                                <p>P.W.D.,CHEPAUK, CHENNAI-600005.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L40.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Directorate of Medical and Rural Health Services</h5>
+                                <p>359, Anna Salai, Chokkalingam Nagar, Teynampet, Chennai, Tamil Nadu 600006</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L41.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Directorate of Rural Development & Panchayat Raj Department</h5>
+                                <p>Panagal Maligai, 4th & 5th floor, Abdul Razzak St, Saidapet, Chennai, Tamil Nadu 600015.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L42.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Tamil Nadu Agricultural University</h5>
+                                <p>10th St, Block U, Anna Nagar, Chennai, Tamil Nadu 600040.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L43.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Tamil Nadu Veterinary Animal Sciences Universitys</h5>
+                                <p>Madhavaram Milk Colony Rd, Madhavaram Milk Colony, Chennai, Tamil Nadu 600051.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L44.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Tamil Nadu Electricity Board Limited</h5>
+                                <p>No 825, Link Rd, Anna Salai, Triplicane, Chennai, Tamil Nadu 600002</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L45.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>CSIR-Structural Engineering Research Centre</h5>
+                                <p>CSIR Road, CSIR Campus, Chennai, Tamil Nadu 600113.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L46.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>Tamil Nadu State Biodiversity Board</h5>
+                                <p>TBGP Campus, II Floor Velacherry-Tambaram Main Road, Post, Nanmangalam, Medavakkam, Chennai, Tamil Nadu 600100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L47.jpg" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>National Disaster Response Force</h5>
+                                <p>Indira Nagar, Adyar, Chennai, Tamil Nadu 600020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="service-box">
+                            <div class="box-image">
+                                <img src="/Images/images/L48.JPG" alt="">
+                            </div>
+                            <div class="box-text">
+                                <h5>State Industries Promotion Corporation of Tamil Nadu Ltd (SIPCOT)</h5>
+                                <p>No 19 A, Rukmani Lakshmipathi Rd, Egmore, Chennai, Tamil Nadu 600008</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- End Team Section -->
+
+
+        <section id="implinks" class="team section-bg" style="background-color:white!important">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Important Links <br /></h2>
+
+                </div>
+                <ul style="text-decoration:none !important">
+                    <li>IMD - <a href="https://mausam.imd.gov.in/ "> https://mausam.imd.gov.in/ </a></li>
+                    <li>WRD TN - <a href="http://www.wrd.tn.gov.in/  "> http://www.wrd.tn.gov.in/  </a></li>
+                    <li>Groundwater department - <a href="http://www.groundwatertnpwd.org.in/  "> http://www.groundwatertnpwd.org.in/  </a></li>
+                    <li>CRA DMA - <a href="https://www.tn.gov.in/detail_contact/7443/4/  "> https://www.tn.gov.in/detail_contact/7443/4/  </a></li>
+                    <li>Kancheepuram district - <a href="https://kancheepuram.nic.in/  "> https://kancheepuram.nic.in/  </a></li>
+                    <li>Thiruvallur district - <a href="https://tiruvallur.nic.in/  "> https://tiruvallur.nic.in/  </a></li>
+                    <li>Chegalpattur district - <a href="https://chengalpattu.nic.in/  "> https://chengalpattu.nic.in/  </a></li>
+                    <li>Ranipet district - <a href="https://ranipet.nic.in/  "> https://ranipet.nic.in/  </a></li>
+                    <li>National remote sensing centre - <a href="https://www.nrsc.gov.in/ "> https://www.nrsc.gov.in/ </a></li>
+                    <li>India WRIS - <a href="http://www.india-wris.nrsc.gov.in/  "> http://www.india-wris.nrsc.gov.in/  </a></li>
+                    <li>Central Water Commission - <a href="http://www.cwc.gov.in  "> http://www.cwc.gov.in  </a></li>
+                </ul>
+            </div>
+
+
+        </section>
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <section id="faq" class="faq section-bg" style="display:none">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Soil erosion threatens agriculture in India <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                                <p>
+                                    Soil erosion is major environmental problem in India. What is soil erosion and what are the factors affecting it? Read these FAQs to know more..
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Everything you want to know about drinking water <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    What is safe drinking water? What is the state of drinking water in India?.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Embankments in Bihar: The inapt and futile defence against floods <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Embankments in Bihar have failed miserably against flood protection. Take a look on these frequently asked questions (FAQs) on why they failed and what are the possible solutions to floods in Bihar?
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Controlling epidemics, in the midst of a pandemic! <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    While the monsoon threatens to trigger vector borne diseases in the midst of the Covid-19 pandemic, what should we know about vector borne diseases?.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Watershed Management Compendium <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    This compendium by Dr Mihir Kumar Maitra answers all questions that will be of great use to practitioners engaged in both engineering and management aspects of watershed management in the field.
+
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section><!-- End Frequently Asked Questions Section -->
+        <!-- ======= Contact Section ======= -->
+
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    
+
+    <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  HeaderThird" style="background-color:yellow !important;display:block">
+
+        <nav id="HeaderThird" class="navbar  navbar-inverse navbar-fixed-bottom " style="min-height:0px !important; margin-bottom:0px !important;margin-right: 0px !important;">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border-color:transparent!important;border:0 !important; background-color:#2e2456">
+                <ul class="navbar-nav col-lg-10 col-md-10 col-sm-8 col-xs-12" style="display: inline-block;">
+
+                        <li style="list-style-type:none">
+                            <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/'" id="btnHomee"><span>Home</span></button>
+                        </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/AboutUs'" id="btnAboutUS"><span>About Us</span></button>
+                    </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/News'"><span>News</span></button>
+                    </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/FAQ'"><span>FAQ</span></button>
+                    </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/Gallery'"><span>Gallery</span></button>
+                    </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/Workshop'"><span>Workshop</span></button>
+                    </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/ContactUs'"><span>Contact Us</span></button>
+                    </li>
+                    <li style="list-style-type:none">
+                        <button type="button" class="btn btnWidhSetFooter" onclick="location.href='/Master/Feedback'"><span>Feedback</span></button>
+                    </li>
+
+                </ul>
+                <div class="col-xs-4 visible-xs"></div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-top:5px">
+
+                    <a href="http://www.facebook.com/" class="fab fa-facebook"></a>
+
+
+                    <a href="http://www.twitter.com/" class="fab fa-twitter"></a>
+
+
+                    <a href="http://www.linkedin.com/" class="fab fa-linkedin"></a>-->
+                    
+
+                <!--</div>-->
+                
+            <!--</div>
+            <div class="footer-copyright text-center py-3" style=" margin-bottom:0px;color:white;background-color:#4e5bc6">
+                <div class="col-xs-1" style="margin-top:0px">
+                    <button type="button" class="navbar-toggle navbarFooter" data-toggle="collapse" data-target="#navbarSupportedContent" style="right:0%">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                Developed and Maintained by <a target="_blank" style="color: white" href="http://www.secon.in">SECON</a> & JBA
+                <br />
+            </div>
+        </nav>
+
+
+    </div>-->
+
+
+    
+    
+
+</div>
+
+
+
+
+<script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+<script src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/venobox/venobox.min.js"></script>
+<script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="/assets/vendor/aos/aos.js"></script>
+<script src="/assets/js/main.js"></script>
+    </div>
+
+    <button id="go-To-top-btn"><i class="fas fa-arrow-up"></i></button>
+
+
+    
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div id="modal2-dialog" class="modal-dialog logindiv" role="document" style="transform: translate(0%, 11%); margin-right: 0; left: 0px; ">
+            
+            <div id="modal2-content" class="modal-content" style="">
+
+<form action="/HomePage/Login" enctype="multipart/form-data" id="loginform" method="post" style="background-color:white !important">                    <div class="modal-body modal-aligner" style="display:inline-block">
+                        <div id="LoginImgHeader">
+                            <img id="LoginImg" src="/Images/login_bk.jpg" />
+                        </div>
+                        <div id="LoginBodyId">
+                            <h4 id="LoginId" class="modal-title"><i class="fa fa-lock" aria-hidden="true"></i> Login Account</h4>
+
+                            <input name="__RequestVerificationToken" type="hidden" value="kHyIHsmOtPH4IiRo9YQuWJ0nsAFb6a7R6cjAAaVvv-Vf0ZQ7nh-hcYMLks5n0yX1Rde4dRdx-eVxW64YQ6slbNX_rb_ebcm_WvOYQaEbZSY1" />
+                            <div class="form-group has-feedback" style="padding-bottom:0.5rem;" >
+                                <input type="text" class="form-control" placeholder="Username" name="Username" id="Username" autocomplete="off">
+
+                                <span style="background: linear-gradient(to top, #5308f5 0%, #3c07b0 100%);" color:white!important" class="glyphicon glyphicon-user form-control-feedback cc"></span>
+                            </div>
+
+
+                            <div class="form-group has-feedback" style="padding-top:0.5rem;">
+                                <input type="password" class="form-control" placeholder="Password" name="Password" id="Password" autocomplete="off">
+                                <span style="background: linear-gradient(to top, #5308f5 0%, #3c07b0 100%);" color:white!important" class="glyphicon glyphicon-lock form-control-feedback cc"></span>
+                            </div>
+
+                            <div class="captchamid" onload="createCaptcha()">
+                                
+                                <div style="display:flex;align-items:center">
+                                    <div id="captcha-refresher" style="margin:0.5rem;">
+                                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                                    </div>
+                                    <div id="captcha"></div>
+                                    <input style="width:6rem" type="text" placeholder="Captcha" id="cpatchaTextBox" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <input type="hidden" id="userip" class="form-control" name="UserIP.IP">
+                            </div>
+
+                            <div style="text-align:center">
+                                    <span class="text-danger" id="errorMessage"></span>
+                            </div>
+
+
+                        </div>
+                        
+
+                        <div class="row row1" style="display:none">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:center;">
+                                <div class="checkbox">
+                                    <label class="cc" style="color:#6475ef">
+                                        <input type="checkbox"> Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row1">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 signindiv" style="">
+                                <button id="SignIn" type="submit" onclick="return validateCaptcha();" style="background: linear-gradient(to top, #5308f5 0%, #3c07b0 100%);" class="btn bg-black"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</button>
+                                <button type="button" style="background: linear-gradient(to top, #5308f5 0%, #3c07b0 100%);" id="btnHideModal" data-bs-dismiss="modal" data-bs-target="#loginModal" class="btn bg-black"><i class="fa fa-ban" aria-hidden="true"></i> Hide</button>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group" style="display:none">
+                            <div class="row row1">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="text-center">
+                                        <a href="http://phpoll.com/recover" style="color:#6475ef!important" tabindex="5" class="forgot-password">Forgot Password?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <label style="color:red;"></label>
+                    </div>
+</form>            </div>
+        </div>
+    </div>
+
+
+    <!-- Profile Modal -->
+    <div class="modal fade" id="ProfileModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="top:0px;left:30%;">
+            <div class="modal-content" style="width:300px!important;background: linear-gradient(to top, #2f397d 0%, #eeecf2 100%);color:white;z-index:9999999">
+
+<form action="/User/UpdatePhoto" class="form-horizontal" enctype="multipart/form-data" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="YcD9B2uLnOC9qqjqRIn6gbyjqlea6hOCfMUl0J1DfqQOieCdLGmGQTYTCzyQAtt5wCHjOLefwLyf8bu6j5VcfyclTLCSqW08ie7buYDIYpc1" />                    <div class="modal-body" style="text-align:center">
+                        <button id="Profilecamhide" class="close" type="button" data-bs-dismiss="modal" aria-label="Close" style="display:none">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <div class="circle">
+                            <img src="/Content/UserImages/" width="50" height="50" class="fa-2x img-profile rounded-circle" alt="Logged User img" />
+
+                        </div>
+
+
+                        <div class="p-image" style="">
+                            <i class="fa fa-camera upload-button" title="Choose File"></i>
+                            <input style="display:none" class="file-upload file-uploadProfile" type="file" id="picture" name="UserPhoto" accept=".jpg, .jpeg, .png, .gif" />
+
+                            <input type="submit" id="btnUpdate" class="btn btn-link" style="display:none" value="Update" />
+
+                        </div>
+                        <input type="text" name="ControllerName" value="Master" style="display:none" />
+                        <input type="text" name="ActionName" value="AboutUs" style="display:none" />
+                        <br />
+                        <span>User Name:</span> <span style="font-size:15px;font-weight:200;color:white">  </span>
+                        <span id="FileError"></span>
+                        <br />
+                        <span id="spnSuccess"></span>
+
+                    </div>
+</form>                <div class="modal-footer" style="text-align: center">
+                    <table class="ProfileDetails">
+                        <tr>
+                            <td>
+                                *Image Size Must be Less than 2MB<br />
+                                *Image Format Must Be JPG, JPEG, PNG or GIF.!!!
+                            </td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="master-footer" class="bottom-footer" style="position: relative; bottom: 0; left: 0; width: 100%;">
+        <footer class="text-center text-lg-start" style="background-color: #262626;">
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <div id="foot" class="d-flex justify-content-between flex-wrap">
+                    
+                    <div id="foot2" class="d-flex justify-content-center align-items-center flex-grow-1">
+                        <div class="footer-copyright text-center py-6">
+                            Developed and Maintained by <a target="_blank" style="color: white" href="http://www.secon.in">SECON</a> &amp; JBA
+
+                            <br>
+                        </div>
+                    </div>
+                    <div id="foot3" class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="border-radius:25px;" onclick="window.location.href='https://www.facebook.com/'">
+                            <i class="fab fa-facebook-f rounded-circle"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #FF0000; padding-left: 12px; padding-right: 12px; border-radius: 25px;" onclick="window.location.href='https://www.youtube.com/'">
+                            <i class="fab fa-youtube"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); padding-left: 12px; padding-right: 12px; border-radius: 25px;" onclick="window.location.href='https://example.com'">
+                            <i class="fab fa-instagram"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #00acee; padding-left: 12px; padding-right: 12px; border-radius: 25px;" onclick="window.location.href='https://twitter.com/'">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+
+        var reset_font = document.getElementById('font-sizer');
+        var increase_font = document.getElementById('font-increase')
+        var decrese_font = document.getElementById('font-decrease')
+
+        reset_font.addEventListener('mouseenter', () => {
+            increase_font.style.display = 'inline-block';
+            decrese_font.style.display = 'inline-block';
+        });
+
+        reset_font.addEventListener('mouseleave', () => {
+            increase_font.style.display = 'none';
+            decrese_font.style.display = 'none';
+        });
+
+
+        function encryptPassword(password) {
+            const secretKey = 'xKMHW7Xlc4/YX14l+W8c1gFwRJQE6mzczrgFKctwRxA='; // Replace with key from your config securely
+            const key = CryptoJS.enc.Base64.parse(secretKey); // Parse the key
+            //console.log('secretKey: ' + secretKey)
+
+            // Encrypt with AES, including IV
+            const iv = CryptoJS.lib.WordArray.random(16); // Generates random IV
+            const encrypted = CryptoJS.AES.encrypt(password, key, { iv: iv });
+
+            // Combine IV and encrypted data, encoded as Base64
+            const encryptedDataWithIV = iv.concat(encrypted.ciphertext).toString(CryptoJS.enc.Base64);
+            return encryptedDataWithIV;
+        }
+
+        document.getElementById('SignIn').addEventListener('click', function (e) {
+
+            e.preventDefault();
+
+            var passworddom = document.getElementById('Password');
+            password = encryptPassword(passworddom.value);
+            passworddom.value = password;
+
+            //console.log(password);
+
+            document.getElementById('loginform').submit();
+
+        })
+
+        //$(document).ready(function () {
+        //    $.ajaxSetup({
+        //        beforeSend: function (xhr) {
+        //            xhr.setRequestHeader("__RequestVerificationToken", token);
+        //        }
+        //    });
+
+        //});
+
+    hideLoader = () => {
+        $('.loader').hide();
+    }
+
+        const auth = 'False';
+
+        if (JSON.parse(auth.toLowerCase())) {
+
+            fetch('/Master/MissingTableDateRun', {
+                method: 'GET', // Specify the HTTP method
+                headers: {
+                    'Accept': 'application/json', // Ensure the server responds with JSON
+                    'Content-Type': 'application/json' // Specify the type of content you're sending (if needed)
+                }
+
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`)
+                }
+
+                return response.json();
+            }).then(data => {
+
+                var missingdata = JSON.parse(data);
+
+                var distinctcount = [...new Set(missingdata.map(x => x.source))]
+                document.querySelector('.alert-count').textContent = distinctcount.length;
+
+
+                var tableBody = document.getElementById('popup-place');
+
+                for (var i = 0; i < missingdata.length; i++) {
+                    var row = document.createElement('tr'); // Create a new table row
+
+                    // Create a cell for 'source' and append it to the row
+                    var cell1 = document.createElement('td');
+                    cell1.textContent = missingdata[i].source; // Use textContent to add text to the cell
+                    cell1.style.padding = '2px';
+                    row.appendChild(cell1);
+
+                    // Create a cell for 'tablename' and append it to the row
+                    var cell2 = document.createElement('td');
+                    cell2.textContent = missingdata[i].tablename;
+                    cell2.style.padding = '2px';
+                    row.appendChild(cell2);
+
+                    // Create a cell for 'date' and append it to the row
+                    var cell3 = document.createElement('td');
+                    cell3.textContent = missingdata[i].date;
+                    cell3.style.padding = '2px';
+                    row.appendChild(cell3);
+
+                    // Create a cell for 'run' and append it to the row
+                    var cell4 = document.createElement('td');
+                    cell4.textContent = missingdata[i].run;
+                    cell4.style.padding = '2px';
+                    row.appendChild(cell4);
+
+                    // Append the created row to the tblrows string (or array)
+                    tableBody.appendChild(row);
+
+                }
+
+            })
+
+        }
+
+
+    var mikeAPI = "https://chennaifloodmonitor.tn.gov.in/mikeoperation/";
+
+    toastr.options = {
+        'closeButton': true,
+        'debug': false,
+        'newestOnTop': false,
+        'progressBar': true,
+        'positionClass': 'toast-top-right',
+        'preventDuplicates': false,
+        'showDuration': '2000',
+        'hideDuration': '2000',
+        'timeOut': '2000',
+        'extendedTimeOut': '2000',
+        'showEasing': 'swing',
+        'hideEasing': 'linear',
+        'showMethod': 'fadeIn',
+        'hideMethod': 'fadeOut',
+    }
+
+
+
+    var code;
+
+    document.getElementById('captcha-refresher').addEventListener('click', function () {
+        createCaptcha();
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Your code here
+        console.log('DOM fully loaded and parsed');
+        createCaptcha(); // Call your function here
+    });
+
+
+        $("#loginIcon").on('click', function () {
+
+            document.getElementById('captcha').innerHTML = "";
+            var charsArray = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";//!#$%^&*
+            var lengthOtp = 4;
+            var captcha = [];
+            for (var i = 0; i < lengthOtp; i++) {
+                //below code will not allow Repetition of Characters
+                var index = Math.floor(Math.random() * charsArray.length + 1); //get the next character from the array
+                if (captcha.indexOf(charsArray[index]) == -1)
+                    captcha.push(charsArray[index]);
+                else i--;
+            }
+            var canv = document.createElement("canvas");
+            canv.id = "captcha";
+            canv.width = 70;
+            canv.height = 50;
+            var ctx = canv.getContext("2d");
+            ctx.font = "25px Georgia";
+            ctx.strokeText(captcha.join(""), 0, 30);
+            //storing captcha so that can validate you can save it somewhere else according to your specific requirements
+            code = captcha.join("");
+            document.getElementById("captcha").appendChild(canv);
+
+        $("#loginModal").modal('show');
+
+    });
+
+         function createCaptcha() {
+            //clear the contents of captcha div first
+            document.getElementById('captcha').innerHTML = "";
+             var charsArray = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; //!#$%^&*
+            var lengthOtp = 4;
+            var captcha = [];
+            for (var i = 0; i < lengthOtp; i++) {
+                //below code will not allow Repetition of Characters
+                var index = Math.floor(Math.random() * charsArray.length + 1); //get the next character from the array
+                if (captcha.indexOf(charsArray[index]) == -1)
+                    captcha.push(charsArray[index]);
+                else i--;
+            }
+            var canv = document.createElement("canvas");
+            canv.id = "captcha";
+            canv.width = 70;
+            canv.height = 50;
+            var ctx = canv.getContext("2d");
+            ctx.font = "25px Georgia";
+            ctx.strokeText(captcha.join(""), 0, 30);
+            //storing captcha so that can validate you can save it somewhere else according to your specific requirements
+            code = captcha.join("");
+            document.getElementById("captcha").appendChild(canv); // adds the canvas to the body element
+         }
+
+        function validateCaptcha() {
+
+            if (document.getElementById("cpatchaTextBox").value == code) {
+
+                return true; // CAPTCHA is valid
+            } else {
+                document.getElementById('Password').value = "";
+                alert("Invalid Captcha. Try Again");
+                createCaptcha(); // Generate a new CAPTCHA
+                return false; // CAPTCHA is invalid
+            }
+        }
+
+
+        var UserLoginId = '';
+        //$('#SignIn').click(function () {
+        $.ajax({
+            url: '/User/AdminAccess',
+            Type: "GET",
+            data: { 'UserIdName': UserLoginId },
+            //header: {
+            //    __RequestVerificationToken: token
+            //},
+            contentType: "application/json; charset=utf-8",
+            success: function (result) {
+                //console.log(result);
+                //if (result = "null") {
+                //    //alert('Invalid credentials. Please try again.');
+                //    $('#loginerror').text("Invalid credentials. Please try again.").show();
+                //    $('#loginModal').modal('show');
+                //}
+                var split = result.split(',');
+
+                for (var i = 0; i < split.length; i++) {
+                    if (split[i] == 1) {
+                        $('#AdministrationId').css('display', 'block');
+                        //$('#sixthDropDown').css('display', 'block');
+                        $('#sixthDropDown > li > a').css('display', 'block');
+
+                        break;
+                    }
+
+                    $('#AdministrationId').css('display', 'none');
+                    $('#sixthDropDown').css('display', 'none');
+                }
+
+            },
+
+        });
+    //});
+        
+        
+        
+        $("#dropdownMenuButton").hover(function () {
+        $(this).css("color", "#49494a!important");
+    });
+
+
+    $(".upload-button").on('click', function () {
+
+        $(".file-upload").click();
+
+    });
+
+
+    $(document).ready(function () {
+        $.fn.bootstrapBtn = $.fn.button.noConflict();
+
+        setTimeout(hideLoader, 1000);
+
+        $.ajax({
+            //url: '../Master/GetVisitorsCount',
+            url: '/Master/GetVisitorsCount',
+            Type: 'GET',
+            
+            contentType: "application/json; charset=utf-8",
+            data: {},
+            success: function (response) {
+                $('#visitorC').text(response).fadeIn(2500);
+            }
+
+        });
+
+
+    });
+
+
+    $('.nav-link.dropdowner').hover(function () {
+        $(this).find('#firstdropdown').css("display", 'block');
+    });
+
+
+    $('.nav-link.dropdowner').mouseleave(function () {
+        $(this).find('#firstdropdown').css("display", 'none');
+        $('#SecondDropDown').css("display", 'none');
+        $('#foreDropDown').css("display", 'none');
+        $('#thirdDropDown').css("display", 'none');
+        $('#fourthDropDown').css("display", 'none');
+        $('#fifthDropDown').css("display", 'none');
+        $('#sixthDropDown').css("display", 'none');
+        $('#seventhDropDown').css("display", 'none');
+        $('#eighthDropDown').css("display", 'none');
+
+    });
+
+
+    $('#firstdropdown > a').hover(function () {
+        if ($(this).attr('id') == 'Second-one') {
+            //$('#SecondDropDown').css("transition", 'all 1s ease');
+            $('#SecondDropDown').css("display", 'block');
+            //$('#SecondDropDown').css("transition", 'all 1s ease');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#SecondDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+        }
+        else if ($(this).attr('id') == 'forecaster') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'block');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#foreDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else if ($(this).attr('id') == 'LakeOperation') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'block');
+            $('#fourthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#thirdDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else if ($(this).attr('id') == 'InformationDissemination') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'block');
+            $('#fourthDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else if ($(this).attr('id') == 'Rainfalldata') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'block');
+            $('#fifthDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else if ($(this).attr('id') == 'bulletinDD') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'block');
+            $('#seventhDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else if ($(this).attr('id') == 'AdministrationId') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'block');
+            $('#sixthDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else if ($(this).attr('id') == 'FileOperationId') {
+            $('#SecondDropDown').css("display", 'none');
+            $('#foreDropDown').css("display", 'none');
+            $('#thirdDropDown').css("display", 'none');
+            $('#fourthDropDown').css("display", 'none');
+            $('#fifthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#sixthDropDown').css("display", 'none');
+            $('#seventhDropDown').css("display", 'none');
+            $('#eighthDropDown').css("display", 'block');
+            $('#eighthDropDown').css("animation", "second-dd-animation 0.5s ease-in-out backwards");
+
+        }
+        else {
+            $('.dropdown-menu .dropdown-submenu').hide();
+        }
+    });
+
+    setLanguage = (code) => {
+        let url = "/User/ChangeLanguage";
+        langcode = code;
+        $('#langModal').modal({
+            backdrop: 'static',
+            keyboard: false
+        });
+        $.ajax({
+            type: "GET",
+            url: url + "?lang=" + code,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            //headers: {
+            //    'RequestVerificationToken': headers
+            //},
+            success: function (response) {
+
+                window.location.replace(response.v);
+                //console.log(response);
+            },
+            error: function (xhr) {
+                console.log(xhr.statusText);
+            }
+        });
+    }
+
+    const goTopBtn = document.getElementById('go-To-top-btn');
+
+    goTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            goTopBtn.style.opacity = "1";
+            goTopBtn.style.transition = "opacity 0.5s linear";
+            goTopBtn.style.animation = "popin 0.8s ease-out forwards";
+        }
+        else {
+            goTopBtn.style.opacity = "0";
+            goTopBtn.style.transition = "opacity 0.5s linear";
+            goTopBtn.style.animation = 'popout 0.8s ease-out backwards'
+        }
+    });
+
+    $(".navbar1-nav").find('.nav-item').hover(
+        function () {
+            $(this).css('transform', 'scale(0.9)');
+            $(this).css('font-weight', 'bold');
+
+        }, function () {
+            $(this).css('transform', 'scale(1)');
+    });
+
+    //Navebar Animation
+    window.onscroll = function () { myFunction() };
+
+        //Get the navbar
+
+    var navbar = document.getElementById("navigationBarrow");
+    //
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        //
+        //if (document.body.scrollTop > sticky || document.documentElement.scrollTop > sticky) {
+        if (screen.width > 992) {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+                // setTimeout(function () {
+                    NavExpand.classList.add("nav-expand");
+                    NavExpand.classList.remove("nav-shrink");
+                // },500)
+
+            } else {
+                navbar.classList.remove("sticky");
+                //  setTimeout(function () {
+                    NavExpand.classList.remove("nav-expand");
+                    NavExpand.classList.add("nav-shrink");
+                // },500)
+
+            }
+        }
+    }
+
+    function IsReport(id) {
+
+        $("#loginModal").modal('show');
+        if (id == 1) {
+            document.getElementById("LoginBodyId").style.display = "none";
+            document.getElementById("LoginId").style.display = "none";
+            document.getElementById("LogOutId").style.display = "block";
+            document.getElementById("IDRoleName").style.display = "block";
+        }
+        else {
+            document.getElementById("LoginBodyId").style.display = "inline-block";
+            document.getElementById("LoginId").style.display = "inline-block";
+            document.getElementById("LogOutId").style.display = "none";
+            document.getElementById("IDRoleName").style.display = "none";
+
+        }
+    }
+
+    $(document).ready(function () {
+
+        //var date = new Date();
+        //date.setDate(date.getDate() + 1);
+        //document.cookie = "font-size=16; expires=" + date + ";path=/";
+        changeFont();
+        document.querySelector('#HelpDoc').addEventListener('click', function () {
+            window.location.href = '/User/Help';
+        })
+
+
+        $("#font-increase").click(function () {
+            increaseFontSize();
+        });
+        $("#font-decrease").click(function () {
+            decreaseFontSize();
+        });
+        $("#font-reset").click(function () {
+            resetFontSize();
+        });
+
+    });
+    async function increaseFontSize() {
+            var currentsize = await GetFontSize();
+        if (currentsize < 20) {
+            setFontSize(parseInt(currentsize) + 2);
+        }
+        }
+        async function decreaseFontSize() {
+        var currentsize = await GetFontSize();
+        if (currentsize > 12) {
+            setFontSize(parseInt(currentsize) - 2);
+        }
+    }
+    resetFontSize = () => {
+        setFontSize(16);
+    }
+    GetFontSize = () => {
+        //var cookie = document.cookie.split(';');
+        //var size = 0;
+        //for (var i = 0; i < cookie.length; i++) {
+        //    if ((document.cookie.split(';')[i].split('=')[0]).trim() == 'font-size') {
+        //        size = document.cookie.split(';')[i].split('=')[1];
+        //        return size;
+        //    }
+        //}
+        //return size;
+        return $.ajax({
+            url: '/HomePage/GetFontSize',
+            Type: "GET",
+            //async: false,
+            contentType: "application/json; charset=utf-8"
+        });
+
+    //                success: function (result) {
+    //                    return result;
+
+    //},
+
+
+      //  });
+    }
+    setFontSize = (size) => {
+        //var date = new Date();
+        //date.setDate(date.getDate() - 1);
+        //document.cookie = "font-size=;Secure; HttpOnly;expires=" + date + ";path=/";
+        //date.setDate(date.getDate() + 2);
+        //document.cookie = "font-size=" + size + ";Secure; HttpOnly;expires=" + date + ";path=/";
+        $.ajax({
+        url: '/HomePage/SetFontSize',
+        Type: "POST",
+        data: { 'fontsize': size },
+            //contentType: "application/json; charset=utf-8",
+            success: function (result) {
+                changeFont();
+            },
+
+        });
+
+    }
+       function changeFont() {
+                var size =  GetFontSize();
+
+            if (size == 16) {
+                $('body').contents().find("*").not("h1,h2,h3,h4,h5,h6,.sidebar-heading").css('font-size', '');
+            }
+            else {
+                $('body').contents().find("*").not("h1,h2,h3,h4,h5,h6,.sidebar-heading").css('font-size', parseInt(size));
+
+            }
+      }
+
+        ReloadCurrentPage = () =>
+        {
+            window.location.reload();
+        }
+
+    //Check the code.
+ 
+
+
+
+
+
+
+        $(document).ready(function () {
+            // Function to validate inputs
+            //function validateInput(element) {
+            //    var string = element.val();
+            //    var invalidChars = /[*|":<>[\]{}`\\()'@+);&$!]/;
+
+            //    // Check for invalid characters
+            //    if (string !== "" && invalidChars.test(string)) {
+            //        alert('Invalid input, special characters not allowed. Kindly check the values of input fields.');
+            //        element.val(string.replace(invalidChars, '')); // Remove invalid characters
+            //        element.focus();
+            //        return false;
+            //    }
+
+            //    return true;
+            //}
+
+            //// Validate text areas
+            //$("textarea").each(function () {
+            //    if (!$(this).prop('readonly')) {
+            //        $(this).on('input', function () {
+            //            validateInput($(this));
+            //        });
+            //    }
+            //});
+
+            //// Validate text inputs
+            //$("input[type='text']").not('input[name="Date"], .email, .flatpickr-input').each(function () {
+            //    if (!$(this).prop('readonly')) {
+            //        $(this).on('input', function () {
+            //            validateInput($(this));
+            //        });
+            //    }
+            //});
+
+            //// Validate email inputs
+            //$("input[type='email']").each(function () {
+            //    if (!$(this).prop('readonly')) {
+            //        $(this).on('input', function () {
+            //            validateInput($(this));
+            //        });
+            //    }
+            //});
+            //$("input[type='password']").each(function () {
+            //    if (!$(this).prop('readonly')) {
+            //        $(this).on('input', function () {
+            //            validateInput($(this));
+            //        });
+            //    }
+            //});
+        });
+
+
+
+    </script>
+
+
+</body>
+</html>

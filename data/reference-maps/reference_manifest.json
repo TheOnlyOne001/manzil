@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "cmrl-line-map-2023.pdf",
+    "url": "https://chennaimetrorail.org/wp-content/uploads/2023/11/Line-Map.pdf",
+    "fetched_at_utc": "2026-11-05T14:36:28.898813+00:00",
+    "source_date": "2023-11 URL path; content date not yet verified",
+    "license": "No explicit redistribution license verified; official CMRL reference download",
+    "caveat": "Static reference/planning map; not proof of currently operating stations or timetable.",
+    "status": "downloaded",
+    "bytes": 1889457,
+    "sha256": "e1b70568c38a3fbbf430d46c2619174dfd971b52af8fd83fa58982f157fce5c6",
+    "pages": 1,
+    "page1_preview": "cmrl-line-map-2023.pdf.page1.png",
+    "page1_text_excerpt": ""
+  },
+  {
+    "filename": "cmrl-phase-I-II-plan-2024-12-18.pdf",
+    "url": "https://chennaimetrorail.org/wp-content/uploads/2025/02/Phase-I-II-Map-Updated-Map-18.12.2024-PHASE-1-2-MAP.pdf",
+    "fetched_at_utc": "2026-11-05T14:36:30.022202+00:00",
+    "source_date": "2024-12-18 filename; uploaded path 2025-02",
+    "license": "No explicit redistribution license verified; official CMRL reference download",
+    "caveat": "Static reference/planning map; not proof of currently operating stations or timetable.",
+    "status": "downloaded",
+    "bytes": 3130214,
+    "sha256": "87ae226f2f6e05723fd193f31c62cd4e2dbbbc50995ddaaa13df115445e28a3b",
+    "pages": 1,
+    "page1_preview": "cmrl-phase-I-II-plan-2024-12-18.pdf.page1.png",
+    "page1_text_excerpt": "CHENNAI METRO RAIL PHASE I & II MAP\nWASHERMANPET METRO\nPURATCHI THALAIVAR\nDR.M.G.RAMACHANDRAN CENTRAL\nMETRO\nTHOUSAND LIGHTS METRO (C1& C3)\nCHENNAI AIRPORT METRO\nTHIRUVOTRIYUR THERADI METRO\nKALADIPET METRO\nNEW WASHERMENPET METRO\nTONDIARPET METRO\nSIR THIYAGARAYA COLLEGE\nMETRO\nMANNADI METRO\nHIGH COURT METRO\nGOVERNMENT ESTATE METRO\nLITTLE MOUNT METRO\nLIC METRO\nMEENAMBAKKAM METRO\nOTA-NANGANALLUR ROAD METRO\nGUINDY METRO\nSAIDAPET METRO\nNANDANAM (C1 & C4)\nAG-DMS METRO\nTEYNAMPET\n METRO\nTHIRUVOTRIYUR  METRO\nTOLL GATE METRO\nWIMCO NAGAR METRO\nWIMCO NAGAR DEPOT METRO\nST.THOMAS MOUNT (C2 & C5)\nKOYAMBEDU (C2 & C5)\nTHIRUMANGALAM\nMETRO\nPURATCHI THALAIVI\nDR.J.JAYALALITHA CMBT METRO\nANNA NAGAR TOWER\nMETRO\nANNA NAGAR EAST\nMETRO\nEKKATTUTHANGAL\nMETRO\nASHOK NAGAR METRO\nARUMBAKKAM METRO\nSHENOY NAGAR METRO\nPACHAIYAPPA'S\nCOLLEGE METRO\nNEHRU PARK METRO\nEGMORE METRO\nDEPOT & OCC (C2)\nWIMCO NAGAR DEPOT\nMADHAVARAM MILK COLONY METRO\nMADHAVARAM HIGH ROAD METRO\nMOOLAKKADAI METRO\nSEMBIYAM METRO\nPERAMBUR MARKET METRO\nPER"
+  },
+  {
+    "filename": "gcc-flood-hotspots-2020.kml",
+    "url": "https://data.opencity.in/dataset/3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa/resource/068cfdae-652d-47c9-9722-7c49396d8a05/download/3a141c21-2b9d-4fc0-bd96-d71650a8a15a.kml",
+    "dataset_url": "https://data.opencity.in/dataset/3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa",
+    "fetched_at_utc": "2026-11-05T14:37:03.520435+00:00",
+    "source_date": "2020 historical event; catalog metadata_modified 2025-11-25T13:11:47.087820",
+    "license": "Other (Public Domain)",
+    "license_note": "Catalog declares Other (Public Domain); retain original agency provenance; this is not a live hazard feed.",
+    "bytes": 25619,
+    "sha256": "46d76eda7fec9a6aa56fa2c7d16a9eec7a669d8fbe5c37442eba5dd38a15a28a",
+    "status": "downloaded",
+    "derived_geojson": {
+      "filename": "gcc-flood-hotspots-2020.geojson",
+      "bytes": 20066,
+      "sha256": "2d06196c2cfaf7496ef5d84e064beafda0244e015a6f7f63f6564ce1c821e0e0",
+      "point_features": 53,
+      "transformation": "KML Point longitude/latitude only; no coordinate simplification; excludes descriptive text/other properties. All points counted."
+    },
+    "caveat": "Historic 2020 locations; cannot indicate present water depth, road closure or current passability."
+  }
+]

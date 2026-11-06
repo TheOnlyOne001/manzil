@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="police_station" id="police_station">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="GID" type="float"></SimpleField>
+	<SimpleField name="STATION" type="string"></SimpleField>
+	<SimpleField name="PSCODE" type="string"></SimpleField>
+	<SimpleField name="AWPS" type="string"></SimpleField>
+</Schema>
+<Folder><name>police_station</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="GID">102</SimpleData>
+		<SimpleData name="STATION">W26 AWPS</SimpleData>
+		<SimpleData name="PSCODE">R3</SimpleData>
+		<SimpleData name="AWPS">W26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2172293065508,13.0439623149541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="GID">103</SimpleData>
+		<SimpleData name="STATION">W20 AWPS</SimpleData>
+		<SimpleData name="PSCODE">J1</SimpleData>
+		<SimpleData name="AWPS">W20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2262683509235,13.0224302546973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="GID">104</SimpleData>
+		<SimpleData name="STATION">W23 AWPS</SimpleData>
+		<SimpleData name="PSCODE">E2</SimpleData>
+		<SimpleData name="AWPS">W23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2649585011958,13.0516104489857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">105</SimpleData>
+		<SimpleData name="GID">105</SimpleData>
+		<SimpleData name="STATION">W24 AWPS</SimpleData>
+		<SimpleData name="PSCODE">E3</SimpleData>
+		<SimpleData name="AWPS">W24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2494285109831,13.0487309948911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">106</SimpleData>
+		<SimpleData name="GID">106</SimpleData>
+		<SimpleData name="STATION">W21 AWPS</SimpleData>
+		<SimpleData name="PSCODE">J3</SimpleData>
+		<SimpleData name="AWPS">W21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2147294882474,13.0086503217346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">107</SimpleData>
+		<SimpleData name="GID">107</SimpleData>
+		<SimpleData name="STATION">W19 AWPS</SimpleData>
+		<SimpleData name="PSCODE">J2</SimpleData>
+		<SimpleData name="AWPS">W19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2556083199248,12.997799358857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="GID">108</SimpleData>
+		<SimpleData name="STATION">W14 AWPS</SimpleData>
+		<SimpleData name="PSCODE">H8</SimpleData>
+		<SimpleData name="AWPS">W14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.3007016178655,13.1539111493194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="GID">109</SimpleData>
+		<SimpleData name="STATION">W22 AWPS</SimpleData>
+		<SimpleData name="PSCODE">E1</SimpleData>
+		<SimpleData name="AWPS">W22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.269927382679,13.0357704227196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="GID">110</SimpleData>
+		<SimpleData name="STATION">W1 AWPS</SimpleData>
+		<SimpleData name="PSCODE">F4</SimpleData>
+		<SimpleData name="AWPS">W1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2544925215171,13.0601127428078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">111</SimpleData>
+		<SimpleData name="GID">141</SimpleData>
+		<SimpleData name="STATION">M4 Red Hills</SimpleData>
+		<SimpleData name="PSCODE">M4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1852006817161,13.1914503597068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">112</SimpleData>
+		<SimpleData name="GID">142</SimpleData>
+		<SimpleData name="STATION">M7 Manali New Town</SimpleData>
+		<SimpleData name="PSCODE">M7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.278810349435,13.2038109118766</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">113</SimpleData>
+		<SimpleData name="GID">143</SimpleData>
+		<SimpleData name="STATION">M2 MM Colony</SimpleData>
+		<SimpleData name="PSCODE">M2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2413289838462,13.1536559470806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">114</SimpleData>
+		<SimpleData name="GID">145</SimpleData>
+		<SimpleData name="STATION">M8 Sathankadu</SimpleData>
+		<SimpleData name="PSCODE">M8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2850990765027,13.174584343147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">115</SimpleData>
+		<SimpleData name="GID">144</SimpleData>
+		<SimpleData name="STATION">M6 Mananli</SimpleData>
+		<SimpleData name="PSCODE">M6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2640341218682,13.163690775927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">116</SimpleData>
+		<SimpleData name="GID">146</SimpleData>
+		<SimpleData name="STATION">M5 Ennore</SimpleData>
+		<SimpleData name="PSCODE">M5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.3164084423953,13.2089736191825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">117</SimpleData>
+		<SimpleData name="GID">147</SimpleData>
+		<SimpleData name="STATION">M1 Madhavaram</SimpleData>
+		<SimpleData name="PSCODE">M1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2269698212252,13.1524279156673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">118</SimpleData>
+		<SimpleData name="GID">148</SimpleData>
+		<SimpleData name="STATION">S3 Meenambakkam</SimpleData>
+		<SimpleData name="PSCODE">S3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1750437432738,12.9864069806357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">119</SimpleData>
+		<SimpleData name="GID">149</SimpleData>
+		<SimpleData name="STATION">S2 Air Port</SimpleData>
+		<SimpleData name="PSCODE">S2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.16379112214,12.9807528400862</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">120</SimpleData>
+		<SimpleData name="GID">121</SimpleData>
+		<SimpleData name="STATION">T14 Mankadu</SimpleData>
+		<SimpleData name="PSCODE">T14</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1101364123487,13.032867416681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">121</SimpleData>
+		<SimpleData name="GID">122</SimpleData>
+		<SimpleData name="STATION">T13 Kundrathur</SimpleData>
+		<SimpleData name="PSCODE">T13</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.0918204039467,12.997223209723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">122</SimpleData>
+		<SimpleData name="GID">124</SimpleData>
+		<SimpleData name="STATION">S5 Pallavaram</SimpleData>
+		<SimpleData name="PSCODE">S5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1490115035286,12.9678745713404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">123</SimpleData>
+		<SimpleData name="GID">125</SimpleData>
+		<SimpleData name="STATION">T15 SRMC</SimpleData>
+		<SimpleData name="PSCODE">T15</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1606088058955,13.0340843860187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">124</SimpleData>
+		<SimpleData name="GID">123</SimpleData>
+		<SimpleData name="STATION">S6 Sankar Nagar</SimpleData>
+		<SimpleData name="PSCODE">S6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1259384356301,12.9696856218106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">125</SimpleData>
+		<SimpleData name="GID">126</SimpleData>
+		<SimpleData name="STATION">S4 Nanthampakkam</SimpleData>
+		<SimpleData name="PSCODE">S4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1893794459099,13.0161033928266</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">126</SimpleData>
+		<SimpleData name="GID">127</SimpleData>
+		<SimpleData name="STATION">S1 St. Thomas Mount</SimpleData>
+		<SimpleData name="PSCODE">S1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2001765503232,12.9992155027537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">127</SimpleData>
+		<SimpleData name="GID">128</SimpleData>
+		<SimpleData name="STATION">S8 Adambakkam</SimpleData>
+		<SimpleData name="PSCODE">S8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2020121682535,12.9893256790469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">128</SimpleData>
+		<SimpleData name="GID">129</SimpleData>
+		<SimpleData name="STATION">S9 Palavanthangal</SimpleData>
+		<SimpleData name="PSCODE">S9</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1916637197238,12.9817741531727</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">129</SimpleData>
+		<SimpleData name="GID">130</SimpleData>
+		<SimpleData name="STATION">S7 Madipakkam</SimpleData>
+		<SimpleData name="PSCODE">S7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.185216614511,12.9560368473874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">130</SimpleData>
+		<SimpleData name="GID">131</SimpleData>
+		<SimpleData name="STATION">S13 Chromepet</SimpleData>
+		<SimpleData name="PSCODE">S13</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1411691793935,12.9532843218161</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">131</SimpleData>
+		<SimpleData name="GID">111</SimpleData>
+		<SimpleData name="STATION">T8 Muthapudupet</SimpleData>
+		<SimpleData name="PSCODE">T8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.0607397752262,13.1446735767406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">132</SimpleData>
+		<SimpleData name="GID">112</SimpleData>
+		<SimpleData name="STATION">T11 Thiruninravur</SimpleData>
+		<SimpleData name="PSCODE">T11</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.0284616637754,13.1250415301812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">133</SimpleData>
+		<SimpleData name="GID">113</SimpleData>
+		<SimpleData name="STATION">T7 Avadi Tank Factory</SimpleData>
+		<SimpleData name="PSCODE">T7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1074451743532,13.1291030697052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">134</SimpleData>
+		<SimpleData name="GID">114</SimpleData>
+		<SimpleData name="STATION">T9 Pattabiram</SimpleData>
+		<SimpleData name="PSCODE">T9</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.062616044575,13.1221554578571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">135</SimpleData>
+		<SimpleData name="GID">115</SimpleData>
+		<SimpleData name="STATION">T6 Avadi</SimpleData>
+		<SimpleData name="PSCODE">T6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1027327142603,13.1173125103511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">136</SimpleData>
+		<SimpleData name="GID">116</SimpleData>
+		<SimpleData name="STATION">T10 Thirumullaivoyal</SimpleData>
+		<SimpleData name="PSCODE">T10</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.127312304385,13.1311409975484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">137</SimpleData>
+		<SimpleData name="GID">117</SimpleData>
+		<SimpleData name="STATION">T5 Thiruverkadu</SimpleData>
+		<SimpleData name="PSCODE">T5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1249386267153,13.068920111783</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">138</SimpleData>
+		<SimpleData name="GID">118</SimpleData>
+		<SimpleData name="STATION">T12 Poonamalli</SimpleData>
+		<SimpleData name="PSCODE">T12</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.0906183709336,13.0507573093446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">139</SimpleData>
+		<SimpleData name="GID">119</SimpleData>
+		<SimpleData name="STATION">T4 Maduravoyal</SimpleData>
+		<SimpleData name="PSCODE">T4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1764105339188,13.0672435326658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">140</SimpleData>
+		<SimpleData name="GID">120</SimpleData>
+		<SimpleData name="STATION">T16 Nazarathpet</SimpleData>
+		<SimpleData name="PSCODE">T16</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.0775344593784,13.0464306387724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">141</SimpleData>
+		<SimpleData name="GID">132</SimpleData>
+		<SimpleData name="STATION">S10 Pallikaranai</SimpleData>
+		<SimpleData name="PSCODE">S10</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2004960546946,12.9286258779261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">142</SimpleData>
+		<SimpleData name="GID">133</SimpleData>
+		<SimpleData name="STATION">S11 Tambaram</SimpleData>
+		<SimpleData name="PSCODE">S11</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1144556302126,12.9256505871158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">143</SimpleData>
+		<SimpleData name="GID">134</SimpleData>
+		<SimpleData name="STATION">S15 Selaiyur</SimpleData>
+		<SimpleData name="PSCODE">S15</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1352401668708,12.9227895603704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">144</SimpleData>
+		<SimpleData name="GID">135</SimpleData>
+		<SimpleData name="STATION">S14 Peerkankaranai</SimpleData>
+		<SimpleData name="PSCODE">S14</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.095624346078,12.9051052436225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">145</SimpleData>
+		<SimpleData name="GID">136</SimpleData>
+		<SimpleData name="STATION">S12 Chittlapakkam</SimpleData>
+		<SimpleData name="PSCODE">S12</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1381945297936,12.9366826745016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">146</SimpleData>
+		<SimpleData name="GID">137</SimpleData>
+		<SimpleData name="STATION">T1 Ambattur</SimpleData>
+		<SimpleData name="PSCODE">T1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1526455253765,13.1073004956947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">147</SimpleData>
+		<SimpleData name="GID">138</SimpleData>
+		<SimpleData name="STATION">T2 Ambattur Estate</SimpleData>
+		<SimpleData name="PSCODE">T2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1638902274725,13.0954118608746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">148</SimpleData>
+		<SimpleData name="GID">139</SimpleData>
+		<SimpleData name="STATION">T3 Korattur</SimpleData>
+		<SimpleData name="PSCODE">T3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1868481816005,13.107803381263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">149</SimpleData>
+		<SimpleData name="GID">140</SimpleData>
+		<SimpleData name="STATION">M3 Puzhal</SimpleData>
+		<SimpleData name="PSCODE">M3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2028046218434,13.1601867161143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="GID">2</SimpleData>
+		<SimpleData name="STATION">J2 Adayar</SimpleData>
+		<SimpleData name="PSCODE">J2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2524065860726,13.0043744941445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="GID">3</SimpleData>
+		<SimpleData name="STATION">J6 Thiruvanmiyur</SimpleData>
+		<SimpleData name="PSCODE">J6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.260591613313,12.9869923364597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="GID">4</SimpleData>
+		<SimpleData name="STATION">J8 Neelangarai</SimpleData>
+		<SimpleData name="PSCODE">J8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2524670172839,12.9316260382402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="GID">5</SimpleData>
+		<SimpleData name="STATION">J7 Velachery</SimpleData>
+		<SimpleData name="PSCODE">J7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2270290935552,12.9801362304012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="GID">6</SimpleData>
+		<SimpleData name="STATION">J3 Guindy</SimpleData>
+		<SimpleData name="PSCODE">J3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2215272133088,13.0016444236698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="GID">7</SimpleData>
+		<SimpleData name="STATION">J1 Saidapet</SimpleData>
+		<SimpleData name="PSCODE">J1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2302034422843,13.0240490450663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="GID">8</SimpleData>
+		<SimpleData name="STATION">J4 Kotturpuram</SimpleData>
+		<SimpleData name="PSCODE">J4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.239445845445,13.009863223854</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="GID">9</SimpleData>
+		<SimpleData name="STATION">J9 Thuraipakkam</SimpleData>
+		<SimpleData name="PSCODE">J9</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2373443285987,12.9677643526564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="GID">10</SimpleData>
+		<SimpleData name="STATION">D5 Marina</SimpleData>
+		<SimpleData name="PSCODE">D5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2801764349626,13.0477894336276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="GID">11</SimpleData>
+		<SimpleData name="STATION">D3 Ice House</SimpleData>
+		<SimpleData name="PSCODE">D3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2746225869225,13.0535236579429</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="GID">12</SimpleData>
+		<SimpleData name="STATION">E3 Teynampet</SimpleData>
+		<SimpleData name="PSCODE">E3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2507900092887,13.041936368617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="GID">13</SimpleData>
+		<SimpleData name="STATION">J10 Chemmencheri</SimpleData>
+		<SimpleData name="PSCODE">J10</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2219240817722,12.8752380132124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="GID">14</SimpleData>
+		<SimpleData name="STATION">E5 Foreshore Estate</SimpleData>
+		<SimpleData name="PSCODE">E5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2716056743116,13.0233071149987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="GID">15</SimpleData>
+		<SimpleData name="STATION">E4 Abhiramapuram</SimpleData>
+		<SimpleData name="PSCODE">E4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2556015367674,13.0240597888798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="GID">16</SimpleData>
+		<SimpleData name="STATION">E1 Mylapore</SimpleData>
+		<SimpleData name="PSCODE">E1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2673780026123,13.0384488113164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="GID">17</SimpleData>
+		<SimpleData name="STATION">R4 Soundara Pandian</SimpleData>
+		<SimpleData name="PSCODE">R4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2356880968502,13.0472559792839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="GID">18</SimpleData>
+		<SimpleData name="STATION">R1 Mambalam</SimpleData>
+		<SimpleData name="PSCODE">R1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2341221761362,13.0360452968113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="GID">19</SimpleData>
+		<SimpleData name="STATION">R2 Kodambakkam</SimpleData>
+		<SimpleData name="PSCODE">R2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2256494390029,13.0524610045016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="GID">20</SimpleData>
+		<SimpleData name="STATION">R3 Ashok Nagar</SimpleData>
+		<SimpleData name="PSCODE">R3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2194045614701,13.0421157409584</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="GID">21</SimpleData>
+		<SimpleData name="STATION">K8 Arumbakkam</SimpleData>
+		<SimpleData name="PSCODE">K8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2113417573213,13.0736291925855</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="GID">22</SimpleData>
+		<SimpleData name="STATION">K10 Koyambedu</SimpleData>
+		<SimpleData name="PSCODE">K10</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2004246661839,13.0667913077544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="GID">23</SimpleData>
+		<SimpleData name="STATION">R5 Virugambakkam</SimpleData>
+		<SimpleData name="PSCODE">R5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1972207324292,13.0546794850477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="GID">24</SimpleData>
+		<SimpleData name="STATION">K4 Anna Nagar</SimpleData>
+		<SimpleData name="PSCODE">K4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2146857423592,13.0863885966563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="GID">25</SimpleData>
+		<SimpleData name="STATION">R10 MGR Nagar</SimpleData>
+		<SimpleData name="PSCODE">R10</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1965564845713,13.0332550246114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="GID">26</SimpleData>
+		<SimpleData name="STATION">R9 Valasaravakkam</SimpleData>
+		<SimpleData name="PSCODE">R9</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1791199768585,13.0404509793285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="GID">27</SimpleData>
+		<SimpleData name="STATION">K3 Aminjikarai</SimpleData>
+		<SimpleData name="PSCODE">K3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2220577295606,13.0741987469295</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="GID">28</SimpleData>
+		<SimpleData name="STATION">R7 KK Nagar</SimpleData>
+		<SimpleData name="PSCODE">R7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.198163200855,13.0421015125014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="GID">29</SimpleData>
+		<SimpleData name="STATION">R6 Kumaran Nagar</SimpleData>
+		<SimpleData name="PSCODE">R6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2161344686341,13.0296438489029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="GID">30</SimpleData>
+		<SimpleData name="STATION">R8 Vadapalani</SimpleData>
+		<SimpleData name="PSCODE">R8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2135548783849,13.0527304099995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="GID">31</SimpleData>
+		<SimpleData name="STATION">V5 Thirumangalam</SimpleData>
+		<SimpleData name="PSCODE">V5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1985844868688,13.0878555545856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="GID">32</SimpleData>
+		<SimpleData name="STATION">F3 Nungambakkam</SimpleData>
+		<SimpleData name="PSCODE">F3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2423134007581,13.0614338158569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="GID">33</SimpleData>
+		<SimpleData name="STATION">F2 Egmore</SimpleData>
+		<SimpleData name="PSCODE">F2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2604649952933,13.0735241296601</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="GID">34</SimpleData>
+		<SimpleData name="STATION">F5 Choolaimedu Police Station</SimpleData>
+		<SimpleData name="PSCODE">F5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2233541980139,13.06406463944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="GID">35</SimpleData>
+		<SimpleData name="STATION">D1 Triplicane</SimpleData>
+		<SimpleData name="PSCODE">D1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2790179070928,13.0732430829884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="GID">36</SimpleData>
+		<SimpleData name="STATION">D6 Anna Square</SimpleData>
+		<SimpleData name="PSCODE">D6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2837958259282,13.0623282937436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="GID">37</SimpleData>
+		<SimpleData name="STATION">F4 Thousand Light</SimpleData>
+		<SimpleData name="PSCODE">F4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.254006981651,13.0603003020313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="GID">38</SimpleData>
+		<SimpleData name="STATION">G1 Vepery</SimpleData>
+		<SimpleData name="PSCODE">G1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2598764721776,13.0871321393762</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="GID">39</SimpleData>
+		<SimpleData name="STATION">V1 Villivakkam</SimpleData>
+		<SimpleData name="PSCODE">V1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2034048290142,13.1063553897027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="GID">40</SimpleData>
+		<SimpleData name="STATION">V6 Kolattur</SimpleData>
+		<SimpleData name="PSCODE">V6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2178090235122,13.1212460341843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="GID">41</SimpleData>
+		<SimpleData name="STATION">V3 JJ Nagar</SimpleData>
+		<SimpleData name="PSCODE">V3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1861703298027,13.0831986578469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="GID">42</SimpleData>
+		<SimpleData name="STATION">V7 Nolambur</SimpleData>
+		<SimpleData name="PSCODE">V7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1710427056003,13.0779239869643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="GID">43</SimpleData>
+		<SimpleData name="STATION">G2 Periyamet</SimpleData>
+		<SimpleData name="PSCODE">G2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2702279035923,13.087431074568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="GID">44</SimpleData>
+		<SimpleData name="STATION">D1 Triplicane</SimpleData>
+		<SimpleData name="PSCODE">D1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2760305323949,13.0631209596975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="GID">45</SimpleData>
+		<SimpleData name="STATION">D7 Government Estate</SimpleData>
+		<SimpleData name="PSCODE">D7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2770038554474,13.0676070289347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="GID">46</SimpleData>
+		<SimpleData name="STATION">F1 Chindadaripet</SimpleData>
+		<SimpleData name="PSCODE">F1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2708870967879,13.0740950830015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="GID">47</SimpleData>
+		<SimpleData name="STATION">D2 Anna Salai</SimpleData>
+		<SimpleData name="PSCODE">D2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2651035535266,13.0587826130075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="GID">48</SimpleData>
+		<SimpleData name="STATION">D4 Zambazaar</SimpleData>
+		<SimpleData name="PSCODE">D4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2721263431978,13.0587047442247</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="GID">49</SimpleData>
+		<SimpleData name="STATION">E2 Royapettah</SimpleData>
+		<SimpleData name="PSCODE">E2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2613240977517,13.0497579665147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="GID">50</SimpleData>
+		<SimpleData name="STATION">R9 Valasaravakkam</SimpleData>
+		<SimpleData name="PSCODE">R9</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1548465702363,13.0386006146804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="GID">51</SimpleData>
+		<SimpleData name="STATION">V4 Rajamangalam</SimpleData>
+		<SimpleData name="PSCODE">V4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2034403879666,13.1205883410642</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="GID">52</SimpleData>
+		<SimpleData name="STATION">G3 Kilpauk</SimpleData>
+		<SimpleData name="PSCODE">G3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2441124194215,13.0799713010479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="GID">53</SimpleData>
+		<SimpleData name="STATION">K6 T P Chatram</SimpleData>
+		<SimpleData name="PSCODE">K6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2296095449422,13.0832728630927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="GID">54</SimpleData>
+		<SimpleData name="STATION">G7 Chetpet</SimpleData>
+		<SimpleData name="PSCODE">G7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2415314924872,13.0706350092617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="GID">55</SimpleData>
+		<SimpleData name="STATION">G5 Secretriat Colony</SimpleData>
+		<SimpleData name="PSCODE">G5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2461084581976,13.0911744287593</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="GID">56</SimpleData>
+		<SimpleData name="STATION">K2 Ayanavaram</SimpleData>
+		<SimpleData name="PSCODE">K2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.232645234212,13.0974077476388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="GID">57</SimpleData>
+		<SimpleData name="STATION">B1 North Beach</SimpleData>
+		<SimpleData name="PSCODE">B1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2911480598292,13.0955119321413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="GID">58</SimpleData>
+		<SimpleData name="STATION">B2 Esplanade</SimpleData>
+		<SimpleData name="PSCODE">B2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2870403581748,13.0930063522935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="GID">59</SimpleData>
+		<SimpleData name="STATION">B4 High Court</SimpleData>
+		<SimpleData name="PSCODE">B4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2871935699302,13.086949007952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="GID">60</SimpleData>
+		<SimpleData name="STATION">B3 Fort</SimpleData>
+		<SimpleData name="PSCODE">B3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2854936521857,13.0782315765226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="GID">61</SimpleData>
+		<SimpleData name="STATION">B5 Harbour</SimpleData>
+		<SimpleData name="PSCODE">B5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2973563745544,13.0912252307786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="GID">62</SimpleData>
+		<SimpleData name="STATION">C1 Flower Bazaar</SimpleData>
+		<SimpleData name="PSCODE">C1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2810907313717,13.0864109617984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="GID">63</SimpleData>
+		<SimpleData name="STATION">C2 Elephant Gate</SimpleData>
+		<SimpleData name="PSCODE">C2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2771457646149,13.0926536417755</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="GID">64</SimpleData>
+		<SimpleData name="STATION">C3 Seven Wells</SimpleData>
+		<SimpleData name="PSCODE">C3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2783078419214,13.1011196066746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="GID">65</SimpleData>
+		<SimpleData name="STATION">C5 Kothavalchavadi</SimpleData>
+		<SimpleData name="PSCODE">C5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2819640329088,13.0952482348037</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="GID">66</SimpleData>
+		<SimpleData name="STATION">H1 Washermenpet</SimpleData>
+		<SimpleData name="PSCODE">H1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2812043267519,13.1084937223173</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="GID">67</SimpleData>
+		<SimpleData name="STATION">H3 Tondiarpet</SimpleData>
+		<SimpleData name="PSCODE">H3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2877419619057,13.1220754648005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="GID">68</SimpleData>
+		<SimpleData name="STATION">H4 Korukkupet</SimpleData>
+		<SimpleData name="PSCODE">H4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2808555496553,13.1194689941182</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="GID">69</SimpleData>
+		<SimpleData name="STATION">H5 New Washermenpet</SimpleData>
+		<SimpleData name="PSCODE">H5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2921950004553,13.1355117612508</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="GID">70</SimpleData>
+		<SimpleData name="STATION">H6 R.K Nagar</SimpleData>
+		<SimpleData name="PSCODE">H6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2779640447688,13.1301118032568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="GID">71</SimpleData>
+		<SimpleData name="STATION">H8 Thiruvottiyur</SimpleData>
+		<SimpleData name="PSCODE">H8</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2995748537271,13.1526501458874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="GID">72</SimpleData>
+		<SimpleData name="STATION">N4 Fishing Harbour</SimpleData>
+		<SimpleData name="PSCODE">N4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2993848675851,13.1313586869987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="GID">73</SimpleData>
+		<SimpleData name="STATION">N3 Muthialpet</SimpleData>
+		<SimpleData name="PSCODE">N3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2869284961282,13.1014538128363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="GID">74</SimpleData>
+		<SimpleData name="STATION">N2 Kasimedu</SimpleData>
+		<SimpleData name="PSCODE">N2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2933881979248,13.1231005902521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="GID">75</SimpleData>
+		<SimpleData name="STATION">N1 Royapuram</SimpleData>
+		<SimpleData name="PSCODE">N1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2936341144005,13.1121977244013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="GID">76</SimpleData>
+		<SimpleData name="STATION">K1 Sembium</SimpleData>
+		<SimpleData name="PSCODE">K1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2474568675935,13.1155476504216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="GID">77</SimpleData>
+		<SimpleData name="STATION">K5 Peravallur</SimpleData>
+		<SimpleData name="PSCODE">K5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2255562179401,13.1136586067828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="GID">78</SimpleData>
+		<SimpleData name="STATION">K9 Thiru_Vi_Ka_Nagar</SimpleData>
+		<SimpleData name="PSCODE">K9</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2339739380127,13.1217881904839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="GID">79</SimpleData>
+		<SimpleData name="STATION">P1 Pulianthope</SimpleData>
+		<SimpleData name="PSCODE">P1</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2620958063291,13.0995907893813</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="GID">80</SimpleData>
+		<SimpleData name="STATION">P2 Otteri</SimpleData>
+		<SimpleData name="PSCODE">P2</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.252378857417,13.102056512773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="GID">81</SimpleData>
+		<SimpleData name="STATION">P3 Vyasarpadi</SimpleData>
+		<SimpleData name="PSCODE">P3</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2622673101901,13.1128931373168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="GID">82</SimpleData>
+		<SimpleData name="STATION">P5 MKB Nagar</SimpleData>
+		<SimpleData name="PSCODE">P5</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2602371998044,13.1221746783102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="GID">83</SimpleData>
+		<SimpleData name="STATION">P4 Basin Bridge</SimpleData>
+		<SimpleData name="PSCODE">P4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2687506245681,13.0992770434086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="GID">84</SimpleData>
+		<SimpleData name="STATION">K7 ICF</SimpleData>
+		<SimpleData name="PSCODE">K7</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2192172478858,13.1036723235376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="GID">85</SimpleData>
+		<SimpleData name="STATION">B6 Port Marine</SimpleData>
+		<SimpleData name="PSCODE">B6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.3130998492182,13.0986959908051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="GID">86</SimpleData>
+		<SimpleData name="STATION">C4 Government General Hospital</SimpleData>
+		<SimpleData name="PSCODE">C4</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2770446552604,13.0806406619459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="GID">87</SimpleData>
+		<SimpleData name="STATION">P6 Kodungiyur</SimpleData>
+		<SimpleData name="PSCODE">P6</SimpleData>
+		<SimpleData name="AWPS"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.252154253584,13.1318986384772</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="GID">88</SimpleData>
+		<SimpleData name="STATION">W9 AWPS</SimpleData>
+		<SimpleData name="PSCODE">V1</SimpleData>
+		<SimpleData name="AWPS">W9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2061644792908,13.1037535898839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="GID">89</SimpleData>
+		<SimpleData name="STATION">W8 AWPS</SimpleData>
+		<SimpleData name="PSCODE">V5</SimpleData>
+		<SimpleData name="AWPS">W8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1978564261629,13.093241200257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="GID">90</SimpleData>
+		<SimpleData name="STATION">W6 AWPS</SimpleData>
+		<SimpleData name="PSCODE">K2</SimpleData>
+		<SimpleData name="AWPS">W6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.23221945771,13.0990251596731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="GID">91</SimpleData>
+		<SimpleData name="STATION">AWPS</SimpleData>
+		<SimpleData name="PSCODE">G1</SimpleData>
+		<SimpleData name="AWPS">AWPS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2604856489079,13.0871488236414</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="GID">92</SimpleData>
+		<SimpleData name="STATION">AWPS</SimpleData>
+		<SimpleData name="PSCODE">H3</SimpleData>
+		<SimpleData name="AWPS">AWPS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2868356702305,13.1233037702232</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="GID">93</SimpleData>
+		<SimpleData name="STATION">AWPS</SimpleData>
+		<SimpleData name="PSCODE">B1</SimpleData>
+		<SimpleData name="AWPS">AWPS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2902638916604,13.0888286836636</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="GID">94</SimpleData>
+		<SimpleData name="STATION">W16 AWPS</SimpleData>
+		<SimpleData name="PSCODE">P1</SimpleData>
+		<SimpleData name="AWPS">W16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2598315474954,13.099902930547</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="GID">95</SimpleData>
+		<SimpleData name="STATION">W10 AWPS</SimpleData>
+		<SimpleData name="PSCODE">C1</SimpleData>
+		<SimpleData name="AWPS">W10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2817491294835,13.088334916112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="GID">96</SimpleData>
+		<SimpleData name="STATION">W15 AWPS</SimpleData>
+		<SimpleData name="PSCODE">N1</SimpleData>
+		<SimpleData name="AWPS">W15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2938230041522,13.1073481813304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="GID">97</SimpleData>
+		<SimpleData name="STATION">W7 AWPS</SimpleData>
+		<SimpleData name="PSCODE">K7</SimpleData>
+		<SimpleData name="AWPS">W7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2180130484237,13.0924679053178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="GID">98</SimpleData>
+		<SimpleData name="STATION">W17 AWPS</SimpleData>
+		<SimpleData name="PSCODE">K5</SimpleData>
+		<SimpleData name="AWPS">W17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2264995572489,13.1114756270278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="GID">99</SimpleData>
+		<SimpleData name="STATION">W18 AWPS</SimpleData>
+		<SimpleData name="PSCODE">P5</SimpleData>
+		<SimpleData name="AWPS">W18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2544989589159,13.1237008184064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="GID">100</SimpleData>
+		<SimpleData name="STATION">W11 AWPS</SimpleData>
+		<SimpleData name="PSCODE">B2</SimpleData>
+		<SimpleData name="AWPS">W11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2852393980413,13.0865636132058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#police_station">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="GID">101</SimpleData>
+		<SimpleData name="STATION">W27 AWPS</SimpleData>
+		<SimpleData name="PSCODE">R8</SimpleData>
+		<SimpleData name="AWPS">W27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.21182465511,13.0496376865094</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

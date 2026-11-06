@@ -1,0 +1,756 @@
+{
+  "fetched_at_utc": "2026-11-05T15:46:57.580301+00:00",
+  "icon_family": "Lucide",
+  "icon_count": 32,
+  "icon_names": [
+    "navigation",
+    "route",
+    "map-pin",
+    "clock",
+    "wallet",
+    "mic",
+    "volume-2",
+    "accessibility",
+    "bus",
+    "train-front",
+    "footprints",
+    "cloud-rain",
+    "triangle-exclamation-point",
+    "wifi-off",
+    "arrow-left",
+    "chevron-right",
+    "check",
+    "x",
+    "sliders-horizontal",
+    "bookmark",
+    "locate-fixed",
+    "users",
+    "shield",
+    "info",
+    "undo-2",
+    "pause",
+    "play",
+    "search",
+    "menu",
+    "chevron-down",
+    "circle-question-mark",
+    "download"
+  ],
+  "total_bytes": 530541,
+  "assets": [
+    {
+      "path": "design\\assets\\icons\\navigation.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/navigation.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 258,
+      "sha256": "3c1adf655f06c733013ddf00848c3efe905ed70d7b3eba7a6be5e60e65880503",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "polygon",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\route.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/route.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 344,
+      "sha256": "fc169fd38a9963b016ad6d60fd72baa2b0ea8e0cec085bbc53287297c3d8121a",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\map-pin.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/map-pin.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 359,
+      "sha256": "16f1042a62f1bda20ebab8bfc1cb79c0be285c980dea6c2c733a17902631405b",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\clock.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/clock.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 271,
+      "sha256": "e9d3e3acf4d1c280fcf8092293439dc0a4756a908ceb859de144b12451cd1cb9",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\wallet.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/wallet.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 387,
+      "sha256": "76c9596f629a2abf9cfabb573452f3113ed7e9502c699aa811e630f156eb7556",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\mic.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/mic.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 326,
+      "sha256": "9b940cd735d1ffa270ba670c4e677d9a09400f3fa81d6b3f405b12a3b67a59a8",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "rect",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\volume-2.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/volume-2.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 476,
+      "sha256": "fb404f9c128a0579de67b399177631e5edb3502fdc247ceb30e8b15754b46071",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\accessibility.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/accessibility.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 398,
+      "sha256": "114a9b6983ee20c43d76556bbb5633085a0e082b19464dfa36f1e27768c8f3ea",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\bus.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/bus.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 492,
+      "sha256": "653d2c106ea719f34aa1c703fda450367d536477d61dab42723256c001d267bc",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\train-front.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/train-front.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 427,
+      "sha256": "27757ea510a6d1d6258cb838a72a7b239c96f3724923adb5d529a25c3ee8e2eb",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\footprints.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/footprints.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 520,
+      "sha256": "09ddd9fd4ac7cebfdc91e1096f7b75db019a42fffc493c4adb128a49e1dba04f",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\cloud-rain.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/cloud-rain.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 351,
+      "sha256": "4230ba9d28d0a02c088ec0b21079b63aed9f2b7ee8493588adf34ee144bc307b",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\triangle-exclamation-point.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/triangle-exclamation-point.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 345,
+      "sha256": "4866f38b8560d410f21e3226413e0b77997b6dfbb6931fadfe0a0d5aef9ffeb4",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\wifi-off.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/wifi-off.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 494,
+      "sha256": "318b290106e55c3505933f434d3663524206c7a44165a89508774fba4fdbaadd",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\arrow-left.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/arrow-left.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 262,
+      "sha256": "c5f4b88076108eb1a0d95336e1aa7e7bb1419a3a92af96f6247d88cd3456f933",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\chevron-right.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/chevron-right.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 237,
+      "sha256": "2758143d7b2434e4aa7307dfd34405c87909ff4052f21b5f3f40d45224b4f19b",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\check.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/check.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 239,
+      "sha256": "7f33acc9a77a61659531044525fc008edebe215bf4dcf1c789c8674ad3277db0",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\x.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/x.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 260,
+      "sha256": "4a9cdab38fbb96162e7dace28e33f4ca0e49d8963a6162abc3d4691b7d675117",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\sliders-horizontal.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/sliders-horizontal.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 422,
+      "sha256": "e43a00e5eb684e6cbb61083bed2528d7a3fa5f265693eb2b5f314cd432aa65f4",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\bookmark.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/bookmark.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 342,
+      "sha256": "1d5023760db81f21c3b5a63f012ef540acc01932731c733e4645012a876d39f4",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\locate-fixed.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/locate-fixed.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 446,
+      "sha256": "3a10953374c6e811d8da564f87943cf52f47e284c6173ff211ffedc083b90430",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "line",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\users.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/users.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 383,
+      "sha256": "eeed488a1ec95ba730dd69996536fb65061d6ea273afb2429ae47e65eebf401c",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\shield.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/shield.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 386,
+      "sha256": "be32f6a86df7cbe43a83c439dd8849e5bcf5145e484d23420c20d8b98a78e82b",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\info.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/info.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 294,
+      "sha256": "bc977a64eb96f3e9c1041ffd09a3fceb70e3e65c02b571f76064062ed31f3cb9",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\undo-2.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/undo-2.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 309,
+      "sha256": "efad2edbbd2be6038cc23fd64df2d012fad5cc6460dfbf227cfa3d990e9e897f",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\pause.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/pause.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 313,
+      "sha256": "f122ec4ea7f5693a0b1baafa9c708b53980dc87b4aacb297c6e6f71c1a4c115c",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "rect",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\play.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/play.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 306,
+      "sha256": "d7c34786135922a92b6896f6c2384ceeb0346afbf6041dc79982011411409833",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\search.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/search.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 275,
+      "sha256": "283d371c2e433817bb9c0c8310caa6c77fa4177c0f4f1168d9c83b97af7389dc",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\menu.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/menu.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 279,
+      "sha256": "af6491988ac1ba30dc5414f485bc48713e957e1edb0fbef4a0dd8691c3c21598",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\chevron-down.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/chevron-down.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 236,
+      "sha256": "66ea878e72ed3488bb3b464c39dfdccee8d1f78e560dccea40e5e12da0e87e87",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\circle-question-mark.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/circle-question-mark.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 322,
+      "sha256": "975db087da041530dbf59ba1e61a7b99c3519fad43dae6375e42ccc74ba63924",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "circle",
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\icons\\download.svg",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/icons/download.svg",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 318,
+      "sha256": "3daeee13ded5a3afa2198b1bb4e2262d163922f97d96ac6ff9953e8ed4fe039d",
+      "license": "Lucide ISC; some Feather-derived icons also covered by included MIT notice",
+      "svg_validation": {
+        "xml_valid": true,
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "stroke_width": "2",
+        "elements": [
+          "path",
+          "svg"
+        ]
+      }
+    },
+    {
+      "path": "design\\assets\\licenses\\LUCIDE-LICENSE",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/ee8e10d746a10907205366cfd984922f0c58939a/LICENSE",
+      "repository": "lucide-icons/lucide",
+      "commit": "ee8e10d746a10907205366cfd984922f0c58939a",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "license": "ISC and included Feather MIT notices"
+    },
+    {
+      "path": "design\\assets\\fonts\\manrope\\Manrope[wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/eb20e9cf19d97cf579fa3867d729d4222d6c59e1/ofl/manrope/Manrope%5Bwght%5D.ttf",
+      "repository": "google/fonts",
+      "commit": "eb20e9cf19d97cf579fa3867d729d4222d6c59e1",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "license": "SIL Open Font License 1.1; see adjacent OFL.txt"
+    },
+    {
+      "path": "design\\assets\\fonts\\manrope\\OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/eb20e9cf19d97cf579fa3867d729d4222d6c59e1/ofl/manrope/OFL.txt",
+      "repository": "google/fonts",
+      "commit": "eb20e9cf19d97cf579fa3867d729d4222d6c59e1",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "license": "SIL Open Font License 1.1; see adjacent OFL.txt"
+    },
+    {
+      "path": "design\\assets\\fonts\\manrope\\METADATA.pb",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/eb20e9cf19d97cf579fa3867d729d4222d6c59e1/ofl/manrope/METADATA.pb",
+      "repository": "google/fonts",
+      "commit": "eb20e9cf19d97cf579fa3867d729d4222d6c59e1",
+      "bytes": 732,
+      "sha256": "fb204147a7c16d009d4fa53248b6075bc941d7adfa450a825bc5d4cef2f9ded9",
+      "license": "SIL Open Font License 1.1; see adjacent OFL.txt"
+    },
+    {
+      "path": "design\\assets\\fonts\\notosanstamil\\NotoSansTamil[wdth,wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/eb20e9cf19d97cf579fa3867d729d4222d6c59e1/ofl/notosanstamil/NotoSansTamil%5Bwdth%2Cwght%5D.ttf",
+      "repository": "google/fonts",
+      "commit": "eb20e9cf19d97cf579fa3867d729d4222d6c59e1",
+      "bytes": 340668,
+      "sha256": "aa3a9b321f4b0bb2c40203ffbde9af89713227866e0e13f76e5b9eeea727cf88",
+      "license": "SIL Open Font License 1.1; see adjacent OFL.txt"
+    },
+    {
+      "path": "design\\assets\\fonts\\notosanstamil\\OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/eb20e9cf19d97cf579fa3867d729d4222d6c59e1/ofl/notosanstamil/OFL.txt",
+      "repository": "google/fonts",
+      "commit": "eb20e9cf19d97cf579fa3867d729d4222d6c59e1",
+      "bytes": 4381,
+      "sha256": "f8ff8ce7d0a81bf8d5e121c635ef027250c531f2fd37d5988b8dd6e45f19d7f1",
+      "license": "SIL Open Font License 1.1; see adjacent OFL.txt"
+    },
+    {
+      "path": "design\\assets\\fonts\\notosanstamil\\METADATA.pb",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/eb20e9cf19d97cf579fa3867d729d4222d6c59e1/ofl/notosanstamil/METADATA.pb",
+      "repository": "google/fonts",
+      "commit": "eb20e9cf19d97cf579fa3867d729d4222d6c59e1",
+      "bytes": 1388,
+      "sha256": "96b844b50b8e48e43c1e2e2fcf9c5ab9fa0a71bed2a26dc898bb456723c9fd6f",
+      "license": "SIL Open Font License 1.1; see adjacent OFL.txt"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Connectivity status only; offline navigation uses the packaged map and routing graph. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Optional floating panda bubble, granted by the user in system Settings. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- Android 13+: lets the ongoing "bubble is showing" notification appear. Optional. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Push-to-talk panda voice input; requested at runtime only when the user taps the mic. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <queries>
+        <package android:name="com.google.android.apps.maps" />
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+        <!-- API 30+ package visibility so SpeechRecognizer can find the installed service. -->
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:name=".ManzilApplication"
+        android:allowBackup="false"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Manzil">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="${GOOGLE_MAPS_API_KEY}" />
+
+        <activity
+            android:name=".offline.OfflineActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+
+        <service
+            android:name=".offline.location.OfflineNavigationLocationService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+
+        <service
+            android:name=".overlay.OverlayService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="User-started floating journey companion: a draggable bubble that shows the user's own saved journey step with next/repeat controls over a navigation app. Started only from the visible app; stopped by the bubble's close control or the notification." />
+        </service>
+
+        <!-- Live mode: active only after the user grants Notification access in system Settings.
+             Code ignores every package except com.google.android.apps.maps. Bind permission means
+             only the system can connect to it. -->
+        <service
+            android:name=".live.MapsNotificationListener"
+            android:exported="true"
+            android:label="@string/live_listener_label"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+            <!-- API 31+: Maps navigation is an ongoing/silent notification; conversations are not needed. -->
+            <meta-data
+                android:name="android.service.notification.default_filter_types"
+                android:value="ongoing|alerting|silent" />
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "design\\assets\\fonts\\manrope\\Manrope[wght].ttf",
+    "family": "Manrope ExtraLight",
+    "axes": [
+      [
+        "wght",
+        200.0,
+        200.0,
+        800.0
+      ]
+    ],
+    "tamil_codepoints": 0
+  },
+  {
+    "file": "design\\assets\\fonts\\notosanstamil\\NotoSansTamil[wdth,wght].ttf",
+    "family": "Noto Sans Tamil",
+    "axes": [
+      [
+        "wght",
+        100.0,
+        400.0,
+        900.0
+      ],
+      [
+        "wdth",
+        62.5,
+        100.0,
+        100.0
+      ]
+    ],
+    "tamil_codepoints": 72
+  }
+]

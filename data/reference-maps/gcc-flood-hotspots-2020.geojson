@@ -1,0 +1,853 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2988860164322,
+          13.1801492269906
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.292376135353,
+          13.1730089153228
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2136819518661,
+          13.1713506087741
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.214804049789,
+          13.1388320396574
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2082342092789,
+          13.1404029767493
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1706105228947,
+          13.1171404306512
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1897427207609,
+          13.1139197526435
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.199086113236,
+          13.1284402137032
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1913359284987,
+          13.1147694634371
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1634325224416,
+          13.0863075781085
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1761884631035,
+          13.0865816783644
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.18780346145,
+          13.0815039711227
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2061101533344,
+          13.1038512881096
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2543618931246,
+          13.081737247874
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2518325042467,
+          13.0873922709933
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1712397504688,
+          13.0608803702491
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1460112337267,
+          13.0437151798641
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2111745860969,
+          12.9662926525799
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2111745860969,
+          12.9667826025977
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2112788307816,
+          12.9673142504895
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2112371329077,
+          12.9683462728674
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2112788307816,
+          12.9694408420561
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2112475573761,
+          12.9699724899478
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.206551334333,
+          12.9727480046765
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2053681571623,
+          12.9742048241443
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2035438751811,
+          12.9708598728259
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2050554231085,
+          12.9687541301961
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2046149893158,
+          12.9723349351136
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2080003354496,
+          12.9706227161683
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2068223705132,
+          12.9709354502222
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2103093552144,
+          12.9658691585486
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2020557823078,
+          12.9744954062028
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2590124718795,
+          12.9741279436895
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1954961855267,
+          12.9655277572064
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2543879170571,
+          12.9479768614882
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2503849211667,
+          12.9482726557809
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2465786871188,
+          12.9376383948888
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2469090124632,
+          12.9376950779361
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2477846678143,
+          12.9376742289992
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2481182508051,
+          12.9376221066568
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2486498986968,
+          12.937512649738
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.247847214625,
+          12.9364545661888
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.240358537092,
+          12.9358864326575
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2396548854706,
+          12.9372520380263
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2306846303571,
+          12.9317531309114
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2513669838001,
+          12.9193573679071
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2491878976798,
+          12.9323147145362
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2290854186911,
+          12.910769186797
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2149997313392,
+          12.896351714739
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2286132096122,
+          12.8831880489165
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2306871333456,
+          12.8757546137602
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2137146595338,
+          12.8627556071345
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2107187577684,
+          12.8794898584241
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "source_year": 2020,
+        "classification": "historical flood hotspot",
+        "source_dataset": "3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa"
+      }
+    }
+  ]
+}

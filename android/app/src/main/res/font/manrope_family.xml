@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manrope variable font (SIL OFL 1.1, see assets/licenses/MANROPE-OFL.txt).
+     The variable file's default weight is 200; Compose and the overlay set 'wght' explicitly. -->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/manrope"
+        android:fontStyle="normal"
+        android:fontWeight="500" />
+</font-family>

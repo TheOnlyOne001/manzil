@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "fetched_at": "2026-11-06T01:42:04.355651Z",
+ "weather_time": "2026-11-06T01:30:00Z",
+ "request": {
+  "latitude": 13.0827,
+  "longitude": 80.2707,
+  "current": "precipitation",
+  "hourly": "precipitation",
+  "past_hours": 4,
+  "forecast_hours": 5,
+  "timezone": "GMT",
+  "timeformat": "unixtime",
+  "precipitation_unit": "mm"
+ },
+ "summary": {
+  "source": "Open-Meteo forecast API (https://api.open-meteo.com/v1/forecast), single city-centre grid point",
+  "latitude": 13.0827,
+  "longitude": 80.2707,
+  "fetched_at": "2026-11-06T01:42:04.355651Z",
+  "weather_time": "2026-11-06T01:30:00Z",
+  "current_interval_seconds": 900,
+  "current_precipitation_mm_over_interval": 0.0,
+  "past_3h_window": [
+   "2026-11-05T22:00:00Z",
+   "2026-11-06T01:00:00Z"
+  ],
+  "next_3h_window": [
+   "2026-11-06T01:00:00Z",
+   "2026-11-06T04:00:00Z"
+  ],
+  "past_3h_mm": 0.6,
+  "next_3h_mm": 0.4,
+  "max_hourly_mm": 0.4,
+  "hourly_mm": [
+   {
+    "end": "2026-11-05T23:00:00Z",
+    "mm": 0.1
+   },
+   {
+    "end": "2026-11-06T00:00:00Z",
+    "mm": 0.4
+   },
+   {
+    "end": "2026-11-06T01:00:00Z",
+    "mm": 0.1
+   },
+   {
+    "end": "2026-11-06T02:00:00Z",
+    "mm": 0.1
+   },
+   {
+    "end": "2026-11-06T03:00:00Z",
+    "mm": 0.2
+   },
+   {
+    "end": "2026-11-06T04:00:00Z",
+    "mm": 0.1
+   }
+  ]
+ },
+ "response": {
+  "latitude": 13.110721,
+  "longitude": 80.2459,
+  "generationtime_ms": 0.040531158447265625,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 12.0,
+  "current_units": {
+   "time": "unixtime",
+   "interval": "seconds",
+   "precipitation": "mm"
+  },
+  "current": {
+   "time": 1793928600,
+   "interval": 900,
+   "precipitation": 0.0
+  },
+  "hourly_units": {
+   "time": "unixtime",
+   "precipitation": "mm"
+  },
+  "hourly": {
+   "time": [
+    1793912400,
+    1793916000,
+    1793919600,
+    1793923200,
+    1793926800,
+    1793930400,
+    1793934000,
+    1793937600,
+    1793941200
+   ],
+   "precipitation": [
+    0.0,
+    0.2,
+    0.1,
+    0.4,
+    0.1,
+    0.1,
+    0.2,
+    0.1,
+    0.0
+   ]
+  }
+ }
+}

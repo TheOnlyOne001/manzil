@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1010" viewBox="0 0 1240 1010"><title>Manzil offline companion flow</title><desc>Prepare a saved journey, open a conceptual companion over an external map, and use manual saved steps when location is unavailable. Readiness is simulated, not live Google Maps control.</desc>
+<rect x="0" y="0" width="1240" height="1010" rx="0" fill="#F5F7FA" stroke="none" stroke-width="1"/>
+<text x="40" y="49" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#142D4E" text-anchor="start">Manzil</text>
+<text x="150" y="49" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#142D4E" text-anchor="start">Your journey, still with you.</text>
+<text x="40" y="76" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#586B82" text-anchor="start">Feature 1 · Offline companion · Native Android direction</text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#142D4E" text-anchor="start">1  Prepare before leaving</text>
+<rect x="40" y="130" width="360" height="780" rx="32" fill="white" stroke="#DCE3ED" stroke-width="1.5"/>
+<text x="64" y="162" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#142D4E" text-anchor="start">6:20</text>
+<rect x="340" y="151" width="22" height="10" rx="3" fill="#142D4E" stroke="none" stroke-width="1"/>
+<rect x="364" y="154" width="2" height="4" rx="1" fill="#142D4E" stroke="none" stroke-width="1"/>
+<rect x="176" y="890" width="88" height="4" rx="2" fill="#142D4E" stroke="none" stroke-width="1"/>
+<text x="440" y="108" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#142D4E" text-anchor="start">2  Keep Panda beside you</text>
+<rect x="440" y="130" width="360" height="780" rx="32" fill="white" stroke="#DCE3ED" stroke-width="1.5"/>
+<text x="464" y="162" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#142D4E" text-anchor="start">6:20</text>
+<rect x="740" y="151" width="22" height="10" rx="3" fill="#142D4E" stroke="none" stroke-width="1"/>
+<rect x="764" y="154" width="2" height="4" rx="1" fill="#142D4E" stroke="none" stroke-width="1"/>
+<rect x="576" y="890" width="88" height="4" rx="2" fill="#142D4E" stroke="none" stroke-width="1"/>
+<text x="840" y="108" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#142D4E" text-anchor="start">3  Continue with saved steps</text>
+<rect x="840" y="130" width="360" height="780" rx="32" fill="white" stroke="#DCE3ED" stroke-width="1.5"/>
+<text x="864" y="162" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#142D4E" text-anchor="start">6:20</text>
+<rect x="1140" y="151" width="22" height="10" rx="3" fill="#142D4E" stroke="none" stroke-width="1"/>
+<rect x="1164" y="154" width="2" height="4" rx="1" fill="#142D4E" stroke="none" stroke-width="1"/>
+<rect x="976" y="890" width="88" height="4" rx="2" fill="#142D4E" stroke="none" stroke-width="1"/>
+<g transform="translate(78 207) scale(0.57)">
+<circle cx="-20" cy="-19" r="11" fill="#142D4E" stroke="none" stroke-width="1"/>
+<circle cx="20" cy="-19" r="11" fill="#142D4E" stroke="none" stroke-width="1"/>
+<ellipse cx="0" cy="0" rx="32" ry="27" fill="white" stroke="#142D4E" stroke-width="1.6"/>
+<ellipse cx="-12" cy="-2" rx="8" ry="10" transform="rotate(28 -12 -2)" fill="#142D4E"/><ellipse cx="12" cy="-2" rx="8" ry="10" transform="rotate(-28 12 -2)" fill="#142D4E"/>
+<circle cx="-10" cy="-4" r="2.4" fill="white" stroke="none" stroke-width="1"/>
+<circle cx="10" cy="-4" r="2.4" fill="white" stroke="none" stroke-width="1"/>
+<path d="M-4 9 Q0 5 4 9 Q0 15 -4 9 M-7 17 Q0 22 7 17" fill="#142D4E" stroke="#142D4E" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<text x="108" y="213" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#142D4E" text-anchor="start">Panda</text>
+<g transform="translate(342 193) scale(0.9166666666666666)" fill="none" stroke="#142D4E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</g>
+<text x="64" y="269" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#142D4E" text-anchor="start">Ready for</text>
+<text x="64" y="306" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#142D4E" text-anchor="start">patchy signal.</text>
+<text x="64" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#586B82" text-anchor="start">Prepare your journey before you leave.</text>
+<rect x="64" y="366" width="312" height="87" rx="17" fill="#EEF3FC" stroke="none" stroke-width="1"/>
+<g transform="translate(80 386) scale(0.9166666666666666)" fill="none" stroke="#2457D6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" />
+</g>
+<text x="114" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Journey to</text>
+<text x="114" y="418" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#142D4E" text-anchor="start">Chennai Central</text>
+<g transform="translate(64 476) scale(0.9166666666666666)" fill="none" stroke="#586B82" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="19" r="3" />
+  <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" />
+  <circle cx="18" cy="5" r="3" />
+</g>
+<text x="98" y="492" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#142D4E" text-anchor="start">Saved journey steps</text>
+<text x="98" y="515" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Directions and transfer notes</text>
+<text x="98" y="540" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#087E83" text-anchor="start">Ready</text>
+<path d="M98 556L376 556" fill="none" stroke="#DCE3ED" stroke-width="1"/>
+<g transform="translate(64 564) scale(0.9166666666666666)" fill="none" stroke="#586B82" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" />
+</g>
+<text x="98" y="580" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#142D4E" text-anchor="start">Google Maps offline area</text>
+<text x="98" y="603" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Managed in Google Maps</text>
+<text x="98" y="628" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#2457D6" text-anchor="start">Check in Maps</text>
+<path d="M98 644L376 644" fill="none" stroke="#DCE3ED" stroke-width="1"/>
+<g transform="translate(64 652) scale(0.9166666666666666)" fill="none" stroke="#586B82" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 19v3" />
+  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+  <rect x="9" y="2" width="6" height="13" rx="3" />
+</g>
+<text x="98" y="668" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#142D4E" text-anchor="start">Offline AI / voice pack</text>
+<text x="98" y="691" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Download before travelling</text>
+<text x="98" y="716" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#586B82" text-anchor="start">Not downloaded</text>
+<text x="64" y="774" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#586B82" text-anchor="start">You can always read your saved steps.</text>
+<rect x="64" y="818" width="312" height="54" rx="16" fill="#2457D6" stroke="none" stroke-width="1"/>
+<text x="220.0" y="852" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Prepare journey</text>
+<text x="464" y="210" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#142D4E" text-anchor="start">External map</text>
+<text x="464" y="236" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#586B82" text-anchor="start">Conceptual overlay</text>
+<rect x="456" y="254" width="328" height="535" rx="18" fill="#EDF2F5" stroke="none" stroke-width="1"/>
+<path d="M464 295L776 270" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 348L776 323" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 405L776 380" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 460L776 435" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 516L776 491" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 580L776 555" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 640L776 615" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 711L776 686" fill="none" stroke="white" stroke-width="9"/>
+<path d="M464 760L776 735" fill="none" stroke="white" stroke-width="9"/>
+<path d="M488 265L512 775" fill="none" stroke="white" stroke-width="8"/>
+<path d="M545 265L569 775" fill="none" stroke="white" stroke-width="8"/>
+<path d="M618 265L642 775" fill="none" stroke="white" stroke-width="8"/>
+<path d="M696 265L720 775" fill="none" stroke="white" stroke-width="8"/>
+<path d="M493 675 L552 610 L552 405 L705 340" fill="none" stroke="#A6B7CC" stroke-width="5" stroke-linecap="round"/>
+<circle cx="493" cy="675" r="6" fill="white" stroke="#586B82" stroke-width="2"/>
+<circle cx="705" cy="340" r="6" fill="#586B82" stroke="none" stroke-width="1"/>
+<circle cx="735" cy="438" r="34" fill="white" stroke="#DCE3ED" stroke-width="1"/>
+<g transform="translate(735 440) scale(0.75)">
+<circle cx="-20" cy="-19" r="11" fill="#142D4E" stroke="none" stroke-width="1"/>
+<circle cx="20" cy="-19" r="11" fill="#142D4E" stroke="none" stroke-width="1"/>
+<ellipse cx="0" cy="0" rx="32" ry="27" fill="white" stroke="#142D4E" stroke-width="1.6"/>
+<ellipse cx="-12" cy="-2" rx="8" ry="10" transform="rotate(28 -12 -2)" fill="#142D4E"/><ellipse cx="12" cy="-2" rx="8" ry="10" transform="rotate(-28 12 -2)" fill="#142D4E"/>
+<circle cx="-10" cy="-4" r="2.4" fill="white" stroke="none" stroke-width="1"/>
+<circle cx="10" cy="-4" r="2.4" fill="white" stroke="none" stroke-width="1"/>
+<path d="M-4 9 Q0 5 4 9 Q0 15 -4 9 M-7 17 Q0 22 7 17" fill="#142D4E" stroke="#142D4E" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<rect x="468" y="478" width="304" height="239" rx="20" fill="white" stroke="#DCE3ED" stroke-width="1"/>
+<g transform="translate(485 499) scale(0.75)" fill="none" stroke="#087E83" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 20h.01" />
+  <path d="M8.5 16.429a5 5 0 0 1 7 0" />
+  <path d="M5 12.859a10 10 0 0 1 5.17-2.69" />
+  <path d="M19 12.859a10 10 0 0 0-2.007-1.523" />
+  <path d="M2 8.82a15 15 0 0 1 4.177-2.643" />
+  <path d="M22 8.82a15 15 0 0 0-11.288-3.764" />
+  <path d="m2 2 20 20" />
+</g>
+<text x="513" y="514" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#087E83" text-anchor="start">Offline · saved 6:10 pm</text>
+<text x="485" y="551" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Next saved step</text>
+<text x="485" y="580" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#142D4E" text-anchor="start">Guindy station entrance</text>
+<text x="485" y="609" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#087E83" text-anchor="start">Offline voice ready</text>
+<text x="485" y="631" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">No live traffic or route updates</text>
+<rect x="485" y="649" width="270" height="54" rx="16" fill="#2457D6" stroke="none" stroke-width="1"/>
+<text x="620.0" y="683" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">View saved steps</text>
+<text x="464" y="770" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Map position and route are schematic.</text>
+<rect x="464" y="812" width="312" height="59" rx="16" fill="#F5F7FA" stroke="none" stroke-width="1"/>
+<g transform="translate(482 829) scale(0.9583333333333334)" fill="none" stroke="#2457D6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 19v3" />
+  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+  <rect x="9" y="2" width="6" height="13" rx="3" />
+</g>
+<text x="518" y="839" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#142D4E" text-anchor="start">Ask about this saved journey</text>
+<g transform="translate(862 194) scale(1.0)" fill="none" stroke="#142D4E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m12 19-7-7 7-7" />
+  <path d="M19 12H5" />
+</g>
+<text x="902" y="213" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#142D4E" text-anchor="start">Saved journey</text>
+<rect x="864" y="244" width="312" height="69" rx="14" fill="#FFF2E9" stroke="none" stroke-width="1"/>
+<g transform="translate(879 262) scale(0.875)" fill="none" stroke="#9B431F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="2" x2="5" y1="12" y2="12" />
+  <line x1="19" x2="22" y1="12" y2="12" />
+  <line x1="12" x2="12" y1="2" y2="5" />
+  <line x1="12" x2="12" y1="19" y2="22" />
+  <circle cx="12" cy="12" r="7" />
+  <circle cx="12" cy="12" r="3" />
+</g>
+<text x="914" y="271" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#9B431F" text-anchor="start">Location unavailable</text>
+<text x="914" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#9B431F" text-anchor="start">Choose your current step below.</text>
+<text x="864" y="355" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#142D4E" text-anchor="start">You can still</text>
+<text x="864" y="390" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#142D4E" text-anchor="start">follow your plan.</text>
+<text x="864" y="423" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#586B82" text-anchor="start">Saved at 6:10 pm · No live updates</text>
+<path d="M880 476L880 722" fill="none" stroke="#DCE3ED" stroke-width="2"/>
+<circle cx="880" cy="479" r="16" fill="#2457D6" stroke="none" stroke-width="1"/>
+<text x="880" y="484" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">1</text>
+<text x="910" y="479" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#142D4E" text-anchor="start">Walk to the saved entrance</text>
+<text x="910" y="506" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#586B82" text-anchor="start">Guindy station entrance</text>
+<rect x="910" y="525" width="232" height="44" rx="12" fill="#EEF3FC" stroke="none" stroke-width="1"/>
+<text x="1026" y="553" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#2457D6" text-anchor="middle">I’m at this step</text>
+<circle cx="880" cy="609" r="16" fill="#F5F7FA" stroke="#DCE3ED" stroke-width="1"/>
+<text x="880" y="614" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#142D4E" text-anchor="middle">2</text>
+<text x="910" y="608" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#142D4E" text-anchor="start">Check the saved train leg</text>
+<text x="910" y="635" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#586B82" text-anchor="start">Follow the platform signs.</text>
+<text x="910" y="658" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#9B431F" text-anchor="start">Service times are unverified.</text>
+<circle cx="880" cy="714" r="16" fill="#F5F7FA" stroke="#DCE3ED" stroke-width="1"/>
+<text x="880" y="719" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#142D4E" text-anchor="middle">3</text>
+<text x="910" y="714" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#142D4E" text-anchor="start">Continue to Chennai Central</text>
+<text x="910" y="741" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#586B82" text-anchor="start">Read your saved exit instructions.</text>
+<rect x="864" y="818" width="312" height="54" rx="16" fill="#2457D6" stroke="none" stroke-width="1"/>
+<text x="1020.0" y="852" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Read saved instructions</text>
+<g transform="translate(884 833) scale(1.0)" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+  <path d="M16 9a5 5 0 0 1 0 6" />
+  <path d="M19.364 18.364a9 9 0 0 0 0-12.728" />
+</g>
+<text x="40" y="952" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#586B82" text-anchor="start">Offline-first concept · Simulated readiness · No live Google Maps control</text>
+<text x="40" y="978" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#586B82" text-anchor="start">Source icons: Lucide (ISC). Original vector panda study. Map shown is a schematic, not a Google Maps screenshot.</text>
+</svg>

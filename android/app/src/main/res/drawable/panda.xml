@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original Manzil panda, converted from design/assets/panda-study.svg (80x80 study).
+     Same silhouette is used in-app, in the overlay bubble and in the launcher icon. Decorative. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    <!-- ears -->
+    <path
+        android:fillColor="#FF142D4E"
+        android:pathData="M9,24a11,11 0,1 0,22 0a11,11 0,1 0,-22 0M49,24a11,11 0,1 0,22 0a11,11 0,1 0,-22 0" />
+    <!-- face -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M8,43a32,27 0,1 0,64 0a32,27 0,1 0,-64 0"
+        android:strokeWidth="1.6"
+        android:strokeColor="#FF142D4E" />
+    <!-- eye patches -->
+    <group
+        android:pivotX="28"
+        android:pivotY="41"
+        android:rotation="28">
+        <path
+            android:fillColor="#FF142D4E"
+            android:pathData="M20,41a8,10 0,1 0,16 0a8,10 0,1 0,-16 0" />
+    </group>
+    <group
+        android:pivotX="52"
+        android:pivotY="41"
+        android:rotation="-28">
+        <path
+            android:fillColor="#FF142D4E"
+            android:pathData="M44,41a8,10 0,1 0,16 0a8,10 0,1 0,-16 0" />
+    </group>
+    <!-- eye highlights -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M27.6,39a2.4,2.4 0,1 0,4.8 0a2.4,2.4 0,1 0,-4.8 0M47.6,39a2.4,2.4 0,1 0,4.8 0a2.4,2.4 0,1 0,-4.8 0" />
+    <!-- nose -->
+    <path
+        android:fillColor="#FF142D4E"
+        android:pathData="M36,52Q40,48 44,52Q40,58 36,52Z" />
+    <!-- mouth -->
+    <path
+        android:pathData="M33,60Q40,65 47,60"
+        android:strokeWidth="1.6"
+        android:strokeColor="#FF142D4E"
+        android:strokeLineCap="round" />
+</vector>

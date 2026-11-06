@@ -1,0 +1,1074 @@
+[
+  {
+    "file": "data\\transit\\chennai-unified-gtfs.zip",
+    "inspection_date": "2026-11-05",
+    "tables": {
+      "agency.txt": {
+        "columns": [
+          "agency_id",
+          "agency_name",
+          "agency_url",
+          "agency_timezone",
+          "agency_phone",
+          "agency_lang",
+          "agency_fare_url",
+          "agency_email"
+        ],
+        "rows": 3,
+        "field_counts": {
+          "agency_id": {
+            "69": 1,
+            "CMRL": 1,
+            "SR": 1
+          }
+        },
+        "records": [
+          {
+            "agency_id": "69",
+            "agency_name": "MTC",
+            "agency_url": "https://mtcbus.tn.gov.in",
+            "agency_timezone": "Asia/Kolkata",
+            "agency_phone": "9445030516",
+            "agency_lang": "en",
+            "agency_fare_url": "",
+            "agency_email": ""
+          },
+          {
+            "agency_id": "CMRL",
+            "agency_name": "Chennai Metro Rail Limited",
+            "agency_url": "http://chennaimetrorail.org/",
+            "agency_timezone": "Asia/Kolkata",
+            "agency_phone": "1860-425-1515",
+            "agency_lang": "en",
+            "agency_fare_url": "https://chennaimetrorail.org/wp-content/uploads/2021/02/Fare-Chart-22.2.2021.pdf",
+            "agency_email": "chennaimetrorail@cmrl.in"
+          },
+          {
+            "agency_id": "SR",
+            "agency_name": "Southern Railway",
+            "agency_url": "https://sr.indianrailways.gov.in",
+            "agency_timezone": "Asia/Kolkata",
+            "agency_phone": "",
+            "agency_lang": "",
+            "agency_fare_url": "",
+            "agency_email": ""
+          }
+        ]
+      },
+      "calendar.txt": {
+        "columns": [
+          "service_id",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday",
+          "sunday",
+          "start_date",
+          "end_date"
+        ],
+        "rows": 12,
+        "field_counts": {
+          "start_date": {
+            "20240501": 6,
+            "20210420": 1,
+            "20250806": 1,
+            "20250908": 4
+          },
+          "end_date": {
+            "20300501": 6,
+            "20211231": 1,
+            "21700820": 5
+          }
+        },
+        "records": [
+          {
+            "service_id": "MTC-Regular",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "1",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "MTC-Weekend",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "1",
+            "sunday": "1",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "MTC-Hybrid",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "0",
+            "sunday": "1",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "MTC-HSC",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "MTC-test ",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "0",
+            "sunday": "0",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "MTC-'/><script>alert(1)</script>",
+            "monday": "1",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "0",
+            "sunday": "0",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "CMRL-WD",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20210420",
+            "end_date": "20211231"
+          },
+          {
+            "service_id": "SRR-service_1111111",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "1",
+            "start_date": "20250806",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "SRR-service_1111110",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "SRR-service_0000001",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "0",
+            "sunday": "1",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "SRR-service_1111101",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "0",
+            "sunday": "1",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "SRR-service_0000010",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          }
+        ]
+      },
+      "calendar_dates.txt": {
+        "columns": [
+          "date",
+          "service_id",
+          "exception_type"
+        ],
+        "rows": 4,
+        "field_counts": {},
+        "records": [
+          {
+            "date": "20251001",
+            "service_id": "SRR-service_0000001",
+            "exception_type": "1"
+          },
+          {
+            "date": "20251001",
+            "service_id": "SRR-service_1111110",
+            "exception_type": "2"
+          },
+          {
+            "date": "20251002",
+            "service_id": "SRR-service_0000001",
+            "exception_type": "1"
+          },
+          {
+            "date": "20251002",
+            "service_id": "SRR-service_1111110",
+            "exception_type": "2"
+          }
+        ]
+      },
+      "fare_attributes.txt": {
+        "columns": [
+          "fare_id",
+          "price",
+          "currency_type",
+          "payment_method",
+          "transfers",
+          "transfer_duration"
+        ],
+        "rows": 7,
+        "field_counts": {}
+      },
+      "fare_rules.txt": {
+        "columns": [
+          "fare_id",
+          "route_id",
+          "origin_id",
+          "destination_id"
+        ],
+        "rows": 1600,
+        "field_counts": {}
+      },
+      "feed_info.txt": {
+        "columns": [
+          "feed_publisher_name",
+          "feed_publisher_url",
+          "feed_lang",
+          "feed_start_date",
+          "feed_end_date",
+          "feed_version",
+          "feed_contact_email",
+          "feed_contact_url"
+        ],
+        "rows": 1,
+        "field_counts": {},
+        "records": [
+          {
+            "feed_publisher_name": "Ithu Ungal Soththu",
+            "feed_publisher_url": "https://github.com/ungalsoththu/ChennaiGTFS",
+            "feed_lang": "en",
+            "feed_start_date": "",
+            "feed_end_date": "",
+            "feed_version": "0.2.0",
+            "feed_contact_email": "ithuungalsoththu.tn@gmail.com",
+            "feed_contact_url": "https://github.com/ungalsoththu/ChennaiGTFS"
+          }
+        ]
+      },
+      "pathways.txt": {
+        "columns": [
+          "pathway_id",
+          "from_stop_id",
+          "to_stop_id",
+          "pathway_mode",
+          "is_bidirectional"
+        ],
+        "rows": 2076,
+        "field_counts": {
+          "pathway_mode": {
+            "1": 2076
+          }
+        }
+      },
+      "routes.txt": {
+        "columns": [
+          "route_id",
+          "route_short_name",
+          "route_long_name",
+          "route_type",
+          "agency_id",
+          "route_desc",
+          "route_color",
+          "route_text_color"
+        ],
+        "rows": 5402,
+        "field_counts": {
+          "route_type": {
+            "3": 4611,
+            "1": 791
+          },
+          "agency_id": {
+            "69": 4611,
+            "": 28,
+            "SR": 763
+          }
+        }
+      },
+      "shapes.txt": {
+        "columns": [
+          "shape_id",
+          "shape_pt_lat",
+          "shape_pt_lon",
+          "shape_pt_sequence"
+        ],
+        "rows": 4231,
+        "field_counts": {}
+      },
+      "stop_times.txt": {
+        "columns": [
+          "trip_id",
+          "arrival_time",
+          "departure_time",
+          "stop_id",
+          "stop_sequence"
+        ],
+        "rows": 1389081,
+        "field_counts": {}
+      },
+      "stops.txt": {
+        "columns": [
+          "stop_id",
+          "stop_name",
+          "stop_lat",
+          "stop_lon",
+          "stop_desc",
+          "zone_id",
+          "location_type",
+          "parent_station",
+          "platform_code",
+          "stop_code"
+        ],
+        "rows": 6542,
+        "field_counts": {
+          "location_type": {
+            "": 5580,
+            "0": 638,
+            "1": 145,
+            "2": 179
+          }
+        },
+        "bbox_wgs84": [
+          79.66410927,
+          12.6148,
+          80.33584,
+          13.53316845
+        ]
+      },
+      "transfers.txt": {
+        "columns": [
+          "from_stop_id",
+          "to_stop_id",
+          "from_route_id",
+          "to_route_id",
+          "transfer_type"
+        ],
+        "rows": 50,
+        "field_counts": {}
+      },
+      "trips.txt": {
+        "columns": [
+          "trip_id",
+          "route_id",
+          "service_id",
+          "direction_id",
+          "trip_headsign",
+          "shape_id"
+        ],
+        "rows": 48435,
+        "field_counts": {}
+      }
+    },
+    "zip_crc_error": null,
+    "uncompressed_bytes": 58518038
+  },
+  {
+    "file": "data\\transit\\cmrl-gtfs.zip",
+    "inspection_date": "2026-11-05",
+    "tables": {
+      "agency.txt": {
+        "columns": [
+          "agency_id",
+          "agency_name",
+          "agency_url",
+          "agency_timezone",
+          "agency_lang",
+          "agency_phone",
+          "agency_fare_url",
+          "agency_email"
+        ],
+        "rows": 1,
+        "field_counts": {
+          "agency_id": {
+            "CMRL": 1
+          }
+        },
+        "records": [
+          {
+            "agency_id": "CMRL",
+            "agency_name": "Chennai Metro Rail Limited",
+            "agency_url": "http://chennaimetrorail.org/",
+            "agency_timezone": "Asia/Kolkata",
+            "agency_lang": "en",
+            "agency_phone": "1860-425-1515",
+            "agency_fare_url": "https://chennaimetrorail.org/wp-content/uploads/2021/02/Fare-Chart-22.2.2021.pdf",
+            "agency_email": "chennaimetrorail@cmrl.in"
+          }
+        ]
+      },
+      "calendar.txt": {
+        "columns": [
+          "service_id",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday",
+          "sunday",
+          "start_date",
+          "end_date"
+        ],
+        "rows": 1,
+        "field_counts": {
+          "start_date": {
+            "20210420": 1
+          },
+          "end_date": {
+            "20211231": 1
+          }
+        },
+        "records": [
+          {
+            "service_id": "WD",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20210420",
+            "end_date": "20211231"
+          }
+        ]
+      },
+      "fare_attributes.txt": {
+        "columns": [
+          "fare_id",
+          "price",
+          "currency_type",
+          "payment_method",
+          "transfers",
+          "transfer_duration"
+        ],
+        "rows": 7,
+        "field_counts": {}
+      },
+      "fare_rules.txt": {
+        "columns": [
+          "fare_id",
+          "route_id",
+          "origin_id",
+          "destination_id"
+        ],
+        "rows": 1600,
+        "field_counts": {}
+      },
+      "routes.txt": {
+        "columns": [
+          "route_id",
+          "route_short_name",
+          "route_long_name",
+          "route_desc",
+          "route_type",
+          "route_color",
+          "route_text_color"
+        ],
+        "rows": 28,
+        "field_counts": {
+          "route_type": {
+            "1": 28
+          }
+        }
+      },
+      "shapes.txt": {
+        "columns": [
+          "shape_id",
+          "shape_pt_lat",
+          "shape_pt_lon",
+          "shape_pt_sequence"
+        ],
+        "rows": 4231,
+        "field_counts": {}
+      },
+      "stop_times.txt": {
+        "columns": [
+          "trip_id",
+          "arrival_time",
+          "departure_time",
+          "stop_id",
+          "stop_sequence"
+        ],
+        "rows": 12503,
+        "field_counts": {}
+      },
+      "stops.txt": {
+        "columns": [
+          "stop_id",
+          "stop_name",
+          "stop_desc",
+          "stop_lat",
+          "stop_lon",
+          "zone_id",
+          "location_type",
+          "parent_station",
+          "platform_code"
+        ],
+        "rows": 254,
+        "field_counts": {
+          "location_type": {
+            "0": 213,
+            "1": 41
+          }
+        },
+        "bbox_wgs84": [
+          80.1639009,
+          12.9806582111111,
+          80.3091081576299,
+          13.184303925
+        ]
+      },
+      "transfers.txt": {
+        "columns": [
+          "from_stop_id",
+          "to_stop_id",
+          "from_route_id",
+          "to_route_id",
+          "transfer_type"
+        ],
+        "rows": 50,
+        "field_counts": {}
+      },
+      "trips.txt": {
+        "columns": [
+          "route_id",
+          "service_id",
+          "trip_id",
+          "trip_headsign",
+          "shape_id"
+        ],
+        "rows": 625,
+        "field_counts": {}
+      }
+    },
+    "zip_crc_error": null,
+    "uncompressed_bytes": 716157
+  },
+  {
+    "file": "data\\transit\\srr-gtfs.zip",
+    "inspection_date": "2026-11-05",
+    "tables": {
+      "agency.txt": {
+        "columns": [
+          "agency_id",
+          "agency_name",
+          "agency_url",
+          "agency_timezone"
+        ],
+        "rows": 1,
+        "field_counts": {
+          "agency_id": {
+            "SR": 1
+          }
+        },
+        "records": [
+          {
+            "agency_id": "SR",
+            "agency_name": "Southern Railway",
+            "agency_url": "https://sr.indianrailways.gov.in",
+            "agency_timezone": "Asia/Kolkata"
+          }
+        ]
+      },
+      "calendar.txt": {
+        "columns": [
+          "service_id",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday",
+          "sunday",
+          "start_date",
+          "end_date"
+        ],
+        "rows": 5,
+        "field_counts": {
+          "start_date": {
+            "20250806": 1,
+            "20250908": 4
+          },
+          "end_date": {
+            "21700820": 5
+          }
+        },
+        "records": [
+          {
+            "service_id": "service_1111111",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "1",
+            "start_date": "20250806",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "service_1111110",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "service_0000001",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "0",
+            "sunday": "1",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "service_1111101",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "0",
+            "sunday": "1",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          },
+          {
+            "service_id": "service_0000010",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20250908",
+            "end_date": "21700820"
+          }
+        ]
+      },
+      "calendar_dates.txt": {
+        "columns": [
+          "date",
+          "service_id",
+          "exception_type"
+        ],
+        "rows": 4,
+        "field_counts": {},
+        "records": [
+          {
+            "date": "20251001",
+            "service_id": "service_0000001",
+            "exception_type": "1"
+          },
+          {
+            "date": "20251001",
+            "service_id": "service_1111110",
+            "exception_type": "2"
+          },
+          {
+            "date": "20251002",
+            "service_id": "service_0000001",
+            "exception_type": "1"
+          },
+          {
+            "date": "20251002",
+            "service_id": "service_1111110",
+            "exception_type": "2"
+          }
+        ]
+      },
+      "feed_info.txt": {
+        "columns": [
+          "feed_publisher_name",
+          "feed_publisher_url",
+          "feed_lang",
+          "feed_version",
+          "feed_id",
+          "feed_start_date",
+          "feed_end_date"
+        ],
+        "rows": 1,
+        "field_counts": {},
+        "records": [
+          {
+            "feed_publisher_name": "SR",
+            "feed_publisher_url": "https://sr.indianrailways.gov.in",
+            "feed_lang": "en",
+            "feed_version": "1.0",
+            "feed_id": "chennai_suburban",
+            "feed_start_date": "20250722",
+            "feed_end_date": "21700822"
+          }
+        ]
+      },
+      "pathways.txt": {
+        "columns": [
+          "pathway_id",
+          "from_stop_id",
+          "to_stop_id",
+          "pathway_mode",
+          "is_bidirectional"
+        ],
+        "rows": 2076,
+        "field_counts": {
+          "pathway_mode": {
+            "1": 2076
+          }
+        }
+      },
+      "routes.txt": {
+        "columns": [
+          "route_id",
+          "route_short_name",
+          "route_long_name",
+          "route_desc",
+          "route_type",
+          "agency_id"
+        ],
+        "rows": 763,
+        "field_counts": {
+          "route_type": {
+            "1": 763
+          },
+          "agency_id": {
+            "SR": 763
+          }
+        }
+      },
+      "stop_times.txt": {
+        "columns": [
+          "trip_id",
+          "stop_id",
+          "stop_sequence",
+          "arrival_time",
+          "departure_time"
+        ],
+        "rows": 16135,
+        "field_counts": {}
+      },
+      "stops.txt": {
+        "columns": [
+          "stop_id",
+          "stop_name",
+          "stop_lat",
+          "stop_lon",
+          "stop_code",
+          "parent_station",
+          "location_type",
+          "platform_code"
+        ],
+        "rows": 708,
+        "field_counts": {
+          "location_type": {
+            "1": 104,
+            "2": 179,
+            "0": 425
+          }
+        },
+        "bbox_wgs84": [
+          79.66410927,
+          12.69357649,
+          80.321748,
+          13.53316845
+        ]
+      },
+      "trips.txt": {
+        "columns": [
+          "route_id",
+          "service_id",
+          "trip_id",
+          "trip_headsign"
+        ],
+        "rows": 763,
+        "field_counts": {}
+      }
+    },
+    "zip_crc_error": null,
+    "uncompressed_bytes": 763258
+  },
+  {
+    "file": "data\\transit\\mtc-gtfs.zip",
+    "inspection_date": "2026-11-05",
+    "tables": {
+      "agency.txt": {
+        "columns": [
+          "agency_id",
+          "agency_name",
+          "agency_url",
+          "agency_timezone",
+          "agency_phone",
+          "agency_lang"
+        ],
+        "rows": 1,
+        "field_counts": {
+          "agency_id": {
+            "69": 1
+          }
+        },
+        "records": [
+          {
+            "agency_id": "69",
+            "agency_name": "MTC",
+            "agency_url": "https://mtcbus.tn.gov.in",
+            "agency_timezone": "Asia/Kolkata",
+            "agency_phone": "9445030516",
+            "agency_lang": "en"
+          }
+        ]
+      },
+      "calendar.txt": {
+        "columns": [
+          "service_id",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday",
+          "sunday",
+          "start_date",
+          "end_date"
+        ],
+        "rows": 6,
+        "field_counts": {
+          "start_date": {
+            "20240501": 6
+          },
+          "end_date": {
+            "20300501": 6
+          }
+        },
+        "records": [
+          {
+            "service_id": "Regular",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "1",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "Weekend",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "1",
+            "sunday": "1",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "Hybrid",
+            "monday": "0",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "0",
+            "sunday": "1",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "HSC",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "1",
+            "friday": "1",
+            "saturday": "1",
+            "sunday": "0",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "test ",
+            "monday": "1",
+            "tuesday": "1",
+            "wednesday": "1",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "0",
+            "sunday": "0",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          },
+          {
+            "service_id": "'/><script>alert(1)</script>",
+            "monday": "1",
+            "tuesday": "0",
+            "wednesday": "0",
+            "thursday": "0",
+            "friday": "0",
+            "saturday": "0",
+            "sunday": "0",
+            "start_date": "20240501",
+            "end_date": "20300501"
+          }
+        ]
+      },
+      "feed_info.txt": {
+        "columns": [
+          "feed_publisher_name",
+          "feed_publisher_url",
+          "feed_lang",
+          "feed_start_date",
+          "feed_end_date",
+          "feed_version",
+          "feed_contact_email",
+          "feed_contact_url"
+        ],
+        "rows": 1,
+        "field_counts": {},
+        "records": [
+          {
+            "feed_publisher_name": "IthuUngalSoththu",
+            "feed_publisher_url": "https://ithuungalsoththu.vercel.app/",
+            "feed_lang": "en",
+            "feed_start_date": "",
+            "feed_end_date": "",
+            "feed_version": "0.1",
+            "feed_contact_email": "ithuungalsoththu.tn+gtfs@gmail.com",
+            "feed_contact_url": "https://github.com/ungalsoththu/ChennaiGTFS"
+          }
+        ]
+      },
+      "routes.txt": {
+        "columns": [
+          "route_id",
+          "route_short_name",
+          "route_long_name",
+          "route_type",
+          "agency_id"
+        ],
+        "rows": 4611,
+        "field_counts": {
+          "route_type": {
+            "3": 4611
+          },
+          "agency_id": {
+            "69": 4611
+          }
+        }
+      },
+      "stop_times.txt": {
+        "columns": [
+          "trip_id",
+          "arrival_time",
+          "departure_time",
+          "stop_id",
+          "stop_sequence"
+        ],
+        "rows": 1360443,
+        "field_counts": {}
+      },
+      "stops.txt": {
+        "columns": [
+          "stop_id",
+          "stop_name",
+          "stop_lat",
+          "stop_lon"
+        ],
+        "rows": 5580,
+        "field_counts": {},
+        "bbox_wgs84": [
+          79.80188,
+          12.6148,
+          80.33584,
+          13.49042
+        ]
+      },
+      "trips.txt": {
+        "columns": [
+          "trip_id",
+          "route_id",
+          "service_id",
+          "direction_id"
+        ],
+        "rows": 47047,
+        "field_counts": {}
+      }
+    },
+    "zip_crc_error": null,
+    "uncompressed_bytes": 45044883
+  }
+]

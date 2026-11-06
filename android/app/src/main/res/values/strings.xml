@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manzil</string>
+
+    <!-- Shared -->
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="sample_tag">SAMPLE · NOT VERIFIED</string>
+    <string name="journey_to">Journey to</string>
+    <string name="sample_disclaimer">Demo steps written for this app. They are not verified transit directions, timings or platforms.</string>
+    <string name="mode_walk">walk</string>
+    <string name="mode_train">train</string>
+    <string name="mode_other">other</string>
+    <string name="route_line_cd">Route summary: from %1$s, %2$s, to %3$s. Schematic, not a map.</string>
+    <string name="net_offline">Offline</string>
+    <string name="net_no_internet">No internet</string>
+    <string name="net_online">Online</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_done">Done</string>
+    <string name="action_ask">Ask</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_repeat">Repeat</string>
+    <string name="action_explain">Explain</string>
+    <string name="cd_back">Back to home</string>
+    <string name="cd_read_aloud">Read this step aloud</string>
+    <string name="cd_send_command">Send command</string>
+    <string name="cd_remove_saved">Remove saved journey to %1$s</string>
+
+    <!-- Home -->
+    <string name="home_headline">Ready for patchy signal.</string>
+    <string name="home_subhead">Save your journey on this phone before you leave. It stays readable with no signal.</string>
+    <string name="home_before_you_leave">Before you leave</string>
+    <string name="home_on_this_phone">On this phone</string>
+    <string name="home_footer">You can always read your saved steps, even with no signal. Manzil shows no live updates.</string>
+    <string name="home_credits">Icons: Lucide (ISC). Type: Manrope (SIL OFL 1.1). Licences are bundled in the app.</string>
+    <string name="cta_save_journey">Save journey to this phone</string>
+    <string name="cta_start_journey">Start journey</string>
+    <string name="cta_continue_step">Continue · step %1$d of %2$d</string>
+    <string name="cta_start_again">Start again</string>
+
+    <string name="ready_steps_title">Saved journey steps</string>
+    <string name="ready_steps_detail">%1$d steps with notes, stored on this phone</string>
+    <string name="ready_steps_not_saved">Not saved yet</string>
+    <string name="ready_steps_saved">Saved %1$s</string>
+    <string name="ready_maps_title">Google Maps offline area</string>
+    <string name="ready_maps_detail">Downloaded and managed inside Google Maps</string>
+    <string name="ready_maps_status">Not checked by Manzil. Manzil can\'t see Google Maps\' downloads.</string>
+    <string name="ready_maps_action">Open Google Maps</string>
+    <string name="ready_voice_title">Read-aloud voice</string>
+    <string name="ready_voice_detail">Uses a voice already installed on this phone</string>
+    <string name="ready_voice_ready">Installed offline voice: %1$s</string>
+    <string name="ready_voice_unavailable">No installed offline voice found. Steps stay as text.</string>
+    <string name="ready_voice_checking">Checking installed voices…</string>
+    <string name="ready_commands_title">Typed commands</string>
+    <string name="ready_commands_detail">Next, repeat, explain, step 3. Speech input and AI models are not included in this build.</string>
+    <string name="ready_commands_status">Works offline</string>
+
+    <string name="empty_title">No journeys saved yet</string>
+    <string name="empty_body">Save the sample above to try Manzil offline. Saved journeys appear here.</string>
+    <string name="saved_row_title">%1$s → %2$s</string>
+    <string name="saved_row_meta">Saved %1$s · %2$s</string>
+    <string name="saved_row_in_progress">step %1$d of %2$d in progress</string>
+    <string name="saved_row_finished">finished</string>
+    <string name="saved_row_not_started">%1$d steps, not started</string>
+    <string name="saved_row_open">Open saved journey</string>
+
+    <string name="remove_title">Remove this saved journey?</string>
+    <string name="remove_body">Its steps and progress will be deleted from this phone. You can save the sample again any time.</string>
+    <string name="remove_confirm">Remove</string>
+
+    <string name="notice_save_failed">Couldn\'t save the journey on this phone. Please try again.</string>
+    <string name="notice_remove_failed">Couldn\'t remove the journey. Please try again.</string>
+    <string name="notice_maps_missing">Google Maps isn\'t installed on this phone. Your saved steps still work.</string>
+    <string name="notice_corrupt_reset">Saved data on this phone couldn\'t be read, so it was reset. A backup copy was kept.</string>
+    <string name="notice_newer_schema">Saved data was written by a newer version of Manzil. This version won\'t change it.</string>
+
+    <!-- Journey -->
+    <string name="journey_title">Saved journey</string>
+    <string name="journey_sample_notice">Sample journey for this demo. Steps are illustrative, not verified transit directions.</string>
+    <string name="journey_to_destination">To %1$s</string>
+    <string name="journey_saved_meta">Saved %1$s · No live updates</string>
+    <string name="journey_steps_heading">Your %1$d saved steps</string>
+    <string name="journey_steps_hint">Tap a step to say you\'re there. Manzil doesn\'t use your location.</string>
+    <string name="journey_more_heading">More</string>
+    <string name="cta_next_step">Next step</string>
+    <string name="cta_finish">Finish journey</string>
+    <string name="cta_back_home">Back to home</string>
+    <string name="finished_title">Journey finished</string>
+    <string name="finished_body">Your %1$d saved steps stay on this phone.</string>
+    <string name="step_state_done">done</string>
+    <string name="step_state_current">current step</string>
+    <string name="step_state_upcoming">upcoming</string>
+    <string name="step_select_label">Set as current step</string>
+
+    <string name="more_maps_title">Open %1$s in Google Maps</string>
+    <string name="more_maps_subtitle">Google Maps chooses its own route. Manzil can\'t see that route or your offline area.</string>
+    <string name="more_bubble_title">Panda bubble over other apps</string>
+    <string name="more_bubble_on">Showing. Next and repeat stay on top of Maps.</string>
+    <string name="more_bubble_off">Off. Keeps next and repeat on top of Maps.</string>
+    <string name="more_bubble_needs_permission">Needs your \"Display over other apps\" permission</string>
+    <string name="more_speak_title">Read steps aloud</string>
+    <string name="more_speak_ready">Uses %1$s, installed on this phone</string>
+    <string name="more_speak_unavailable">No installed offline voice found. Steps stay as text.</string>
+    <string name="more_voice_title">Voice</string>
+    <string name="more_age_title">How old is this?</string>
+    <string name="more_age_subtitle">When it was saved and where it came from</string>
+    <string name="more_finish_title">Finish journey</string>
+    <string name="more_finish_subtitle">Keeps the saved steps; stops the journey</string>
+
+    <string name="overlay_explainer_title">Let Panda float over Maps</string>
+    <string name="overlay_explainer_body">Android asks for the \"Display over other apps\" permission before Manzil can show its panda bubble. The bubble only shows your saved steps. It does not read, record or tap anything in other apps, and you can close it any time.</string>
+    <string name="overlay_explainer_open_settings">Open settings</string>
+
+    <string name="voice_picker_title">Read-aloud voice</string>
+    <string name="voice_picker_body">Only voices your phone reports as installed and usable without a network are listed.</string>
+
+    <string name="reply_maps_opened">Opened %1$s in Google Maps. Google Maps picks its own route; Manzil can\'t see it. Your saved steps are still here.</string>
+    <string name="reply_maps_other_app">Google Maps isn\'t available, so %1$s opened in another map app. Your saved steps are still here.</string>
+    <string name="reply_maps_unavailable">No map app could open %1$s. Your saved steps are still here.</string>
+    <string name="reply_no_voice">No installed offline voice is available. The step is still shown as text.</string>
+
+    <!-- Command sheet -->
+    <string name="sheet_title">Ask Panda</string>
+    <string name="sheet_subtitle">Runs on this phone using only your saved journey.</string>
+    <string name="sheet_try">TRY</string>
+    <string name="sheet_input_label">Type a command</string>
+    <string name="sheet_input_placeholder">e.g. step 3, explain, how old is this?</string>
+    <string name="sheet_footnote">Typed keywords only. No speech input or AI model in this build. Panda can\'t see Google Maps, your location or live data.</string>
+    <string name="chip_next">Next step</string>
+    <string name="chip_repeat">Repeat</string>
+    <string name="chip_explain">Explain this step</string>
+    <string name="chip_previous">Previous step</string>
+    <string name="chip_age">How old is this?</string>
+    <string name="chip_maps">Open in Maps</string>
+    <string name="chip_finish">Finish journey</string>
+
+    <!-- Overlay -->
+    <string name="overlay_next">Next</string>
+    <string name="overlay_repeat">Repeat</string>
+    <string name="overlay_open_app">Open Manzil</string>
+    <string name="overlay_close">Close</string>
+    <string name="overlay_bubble_cd">Manzil panda. Shows your saved step controls.</string>
+    <string name="overlay_state_expanded">expanded</string>
+    <string name="overlay_state_collapsed">collapsed</string>
+    <string name="overlay_no_journey_label">NO JOURNEY</string>
+    <string name="overlay_no_journey_title">No saved journey in progress</string>
+    <string name="overlay_status_none">Open Manzil to start a saved journey</string>
+    <string name="overlay_status_sample">Sample · saved %1$s · no live updates</string>
+    <string name="overlay_status_saved">Saved %1$s · no live updates</string>
+    <string name="overlay_finished_label">FINISHED</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Panda bubble</string>
+    <string name="notif_channel_description">Shown while the floating panda bubble is on.</string>
+    <string name="notif_title">Panda bubble is on</string>
+    <string name="notif_text">Your saved steps work offline. Tap to open Manzil.</string>
+    <string name="notif_stop">Hide bubble</string>
+</resources>

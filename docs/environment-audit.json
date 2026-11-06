@@ -1,0 +1,90 @@
+﻿{
+    "checked_at_utc":  "2026-11-05T15:43:57.2227638Z",
+    "commands":  {
+                     "kotlinc":  {
+                                     "found":  false
+                                 },
+                     "javac":  {
+                                   "found":  true,
+                                   "path":  "C:\\Users\\shaya\\scoop\\apps\\openjdk17\\current\\bin\\javac.exe",
+                                   "version":  "javac 17.0.2"
+                               },
+                     "java":  {
+                                  "found":  true,
+                                  "path":  "C:\\Users\\shaya\\scoop\\apps\\openjdk17\\current\\bin\\java.exe",
+                                  "version":  "java.exe : openjdk version \"17.0.2\" 2022-01-18\r\nAt C:\\Users\\shaya\\Desktop\\Projects\\manzil-research\\scripts\\check_environment.ps1:17 char:21\r\n+     $taskVersion = (\u0026 $taskCommand.Source @taskArguments 2\u003e\u00261 | Out-S ...\r\n+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (openjdk version \"17.0.2\" 2022-01-18:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nOpenJDK Runtime Environment (build 17.0.2+8-86)\r\nOpenJDK 64-Bit Server VM (build 17.0.2+8-86, mixed mode, sharing)"
+                              },
+                     "uv":  {
+                                "found":  true,
+                                "path":  "C:\\Users\\shaya\\.local\\bin\\uv.exe",
+                                "version":  "uv 0.11.2 (02036a8ba 2026-03-26 x86_64-pc-windows-msvc)"
+                            },
+                     "node":  {
+                                  "found":  true,
+                                  "path":  "C:\\Program Files\\nodejs\\node.exe",
+                                  "version":  "v22.17.1"
+                              },
+                     "adb":  {
+                                 "found":  true,
+                                 "path":  "C:\\Users\\shaya\\android-sdk\\platform-tools\\adb.exe",
+                                 "version":  "Android Debug Bridge version 1.0.41\r\nVersion 37.0.1-15733141\r\nInstalled as C:\\Users\\shaya\\android-sdk\\platform-tools\\adb.exe\r\nRunning on Windows 10.0.26200"
+                             },
+                     "python":  {
+                                    "found":  true,
+                                    "path":  "C:\\Python313\\python.exe",
+                                    "version":  "Python 3.13.5"
+                                },
+                     "emulator":  {
+                                      "found":  false
+                                  },
+                     "docker":  {
+                                    "found":  true,
+                                    "path":  "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe",
+                                    "version":  "Docker version 27.4.0, build bde2b89"
+                                },
+                     "gradle":  {
+                                    "found":  false
+                                },
+                     "npm":  {
+                                 "found":  true,
+                                 "path":  "C:\\Program Files\\nodejs\\npm.ps1",
+                                 "version":  "10.9.2"
+                             },
+                     "git":  {
+                                 "found":  true,
+                                 "path":  "C:\\Program Files\\Git\\cmd\\git.exe",
+                                 "version":  "git version 2.50.1.windows.1"
+                             }
+                 },
+    "known_paths":  [
+                        {
+                            "exists":  false,
+                            "path":  "C:\\Users\\shaya\\AppData\\Local\\Android\\Sdk"
+                        },
+                        {
+                            "exists":  true,
+                            "path":  "C:\\Users\\shaya\\android-sdk"
+                        },
+                        {
+                            "exists":  false,
+                            "path":  "C:\\Program Files\\Android\\Android Studio"
+                        },
+                        {
+                            "exists":  false,
+                            "path":  "C:\\Users\\shaya\\AppData\\Local\\Programs\\Android Studio"
+                        },
+                        {
+                            "exists":  false,
+                            "path":  "C:\\Users\\shaya\\.android\\avd"
+                        }
+                    ],
+    "environment":  {
+                        "JAVA_HOME":  "C:\\Users\\shaya\\scoop\\apps\\openjdk17\\current",
+                        "ANDROID_HOME":  null,
+                        "ANDROID_SDK_ROOT":  null
+                    },
+    "docker_engine_reachable":  false,
+    "ram_gb":  13.9,
+    "hypervisor_present":  true,
+    "disk_c_free_gb":  53.9
+}
